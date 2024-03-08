@@ -1,0 +1,2 @@
+DEFAULT_FILE atom i2cEeprom_fast.vhd
+DEFAULT_ARCHITECTURE atom fast

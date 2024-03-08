@@ -1,0 +1,523 @@
+KEY LIBERO "11.8"
+KEY CAPTURE "11.8.3.6"
+KEY DEFAULT_IMPORT_LOC "U:\Lab_install\Test\ELN_kart_prc\01-StepperMotor\Board\concat"
+KEY DEFAULT_OPEN_LOC ""
+KEY ProjectID "0"
+KEY HDLTechnology "VHDL"
+KEY VERILOGMODE "VERILOG2001"
+KEY VHDLMODE "VHDL2008"
+KEY UseConstraintFlowTechnology "FALSE"
+KEY VendorTechnology_Family "IGLOO"
+KEY VendorTechnology_Die "UM4X4M1NLP"
+KEY VendorTechnology_Package "vq100"
+KEY VendorTechnology_Speed "STD"
+KEY VendorTechnology_DieVoltage "1.5"
+KEY VendorTechnology_PART_RANGE "COM"
+KEY VendorTechnology_DSW_VCCA_VOLTAGE_RAMP_RATE ""
+KEY VendorTechnology_IO_DEFT_STD "LVCMOS33"
+KEY VendorTechnology_OPCONR ""
+KEY VendorTechnology_PLL_SUPPLY ""
+KEY VendorTechnology_RAD_EXPOSURE ""
+KEY VendorTechnology_RESERVEMIGRATIONPINS "1"
+KEY VendorTechnology_RESTRICTPROBEPINS "1"
+KEY VendorTechnology_RESTRICTSPIPINS "0"
+KEY VendorTechnology_SYSTEM_CONTROLLER_SUSPEND_MODE ""
+KEY VendorTechnology_TARGETDEVICESFORMIGRATION "UM4X4M1NLP"
+KEY VendorTechnology_TEMPR "COM"
+KEY VendorTechnology_UNUSED_MSS_IO_RESISTOR_PULL "None"
+KEY VendorTechnology_VCCI_1.5_VOLTR "COM"
+KEY VendorTechnology_VCCI_1.8_VOLTR "COM"
+KEY VendorTechnology_VCCI_2.5_VOLTR "COM"
+KEY VendorTechnology_VCCI_3.3_VOLTR "COM"
+KEY VendorTechnology_VOLTR "COM"
+KEY ProjectLocation "C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\libero"
+KEY ProjectDescription "Summer School 1 - Kart project - EBS3 version"
+KEY Pa4PeripheralNewSeq "GOOD"
+KEY SimulationType "VHDL"
+KEY Vendor "Actel"
+KEY ActiveRoot "Kart_Board::work"
+LIST REVISIONS
+VALUE="Impl1",NUM=1
+CURREV=1
+ENDLIST
+LIST FileManager
+VALUE "<project>\designer\impl1\Kart_Board.adb,adb"
+STATE="ood"
+TIME="1661170150"
+SIZE="2726400"
+ENDFILE
+VALUE "<project>\designer\impl1\Kart_Board.ide_des,ide_des"
+STATE="utd"
+TIME="1661170150"
+SIZE="1012"
+ENDFILE
+VALUE "<project>\designer\impl1\Kart_Board.pdb,pdb"
+STATE="ood"
+TIME="1661170150"
+SIZE="121544"
+ENDFILE
+VALUE "<project>\designer\impl1\Kart_Board_1.adb,adb"
+STATE="utd"
+TIME="1661174415"
+SIZE="880128"
+ENDFILE
+VALUE "<project>\designer\impl1\Kart_Board_1.ide_des,ide_des"
+STATE="utd"
+TIME="1661174415"
+SIZE="1215"
+ENDFILE
+VALUE "<project>\designer\impl1\Kart_Board_1.pdb,pdb"
+STATE="utd"
+TIME="1661179890"
+SIZE="130939"
+ENDFILE
+VALUE "<project>\designer\impl1\Kart_Board_1_fp\Kart_Board_1.pro,pro"
+STATE="utd"
+TIME="1661174660"
+SIZE="2470"
+ENDFILE
+VALUE "<project>\designer\impl1\Kart_Board_1_fp\projectData\Kart_Board_1.pdb,pdb"
+STATE="utd"
+TIME="1661173141"
+SIZE="129980"
+ENDFILE
+VALUE "<project>\designer\impl1\Kart_Board_compile_log.rpt,log"
+STATE="utd"
+TIME="1661175072"
+SIZE="11605"
+ENDFILE
+VALUE "<project>\designer\impl1\Kart_Board_placeroute_log.rpt,log"
+STATE="utd"
+TIME="1661179870"
+SIZE="2607"
+ENDFILE
+VALUE "<project>\designer\impl1\Kart_Board_prgdata_log.rpt,log"
+STATE="utd"
+TIME="1661179891"
+SIZE="799"
+ENDFILE
+VALUE "<project>\designer\impl1\Kart_Board_verifytiming_log.rpt,log"
+STATE="utd"
+TIME="1661179878"
+SIZE="1220"
+ENDFILE
+VALUE "<project>\synthesis\Kart_Board.edn,syn_edn"
+STATE="utd"
+TIME="1661172869"
+SIZE="2861254"
+ENDFILE
+VALUE "<project>\synthesis\Kart_Board.so,so"
+STATE="utd"
+TIME="1661172869"
+SIZE="249"
+ENDFILE
+VALUE "<project>\synthesis\Kart_Board_sdc.sdc,syn_sdc"
+STATE="utd"
+TIME="1661172868"
+SIZE="405"
+ENDFILE
+VALUE "<project>\synthesis\Kart_Board_syn.prj,prj"
+STATE="utd"
+TIME="1661172869"
+SIZE="1739"
+ENDFILE
+VALUE "C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.pdc,pdc"
+STATE="utd"
+TIME="1661175058"
+SIZE="6303"
+ENDFILE
+VALUE "C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd,hdl"
+STATE="utd"
+TIME="1661179720"
+SIZE="288448"
+IS_READONLY="TRUE"
+ENDFILE
+ENDLIST
+LIST UsedFile
+ENDLIST
+LIST NewModulesInfo
+LIST "Kart_Board::work"
+FILE "C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd,hdl"
+LIST ProjectState5.1
+LIST Impl1
+LiberoState=Post_Layout
+ideSYNTHESIS(<project>\synthesis\Kart_Board.edn,syn_edn)=StateSuccess
+ideDESIGNER(<project>\designer\impl1\Kart_Board_1.adb,adb)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+LIST PinReports
+VALUE "<project>\designer\impl1\Kart_Board_report_pin_byname.txt,log"
+VALUE "<project>\designer\impl1\Kart_Board_report_pin_bynumber.txt,log"
+ENDLIST
+ENDLIST
+ENDLIST
+LIST AssociatedStimulus
+ENDLIST
+LIST Other_Association
+ENDLIST
+LIST SimulationOptions
+UseAutomaticDoFile=true
+IncludeWaveDo=false
+Type=max
+RunTime=1000ns
+Resolution=1ps
+VsimOpt=
+EntityName=testbench
+TopInstanceName=<top>_0
+DoFileName=
+DoFileName2=wave.do
+DoFileParams=
+DisplayDUTWave=false
+LogAllSignals=false
+DisablePulseFiltering=false
+DumpVCD=false
+VCDFileName=power.vcd
+VHDL2008=false
+Verilog2001=false
+SystemVerilog=false
+TimeUnit=1
+TimeUnitBase=ns
+Precision=100
+PrecisionBase=ps
+ENDLIST
+LIST ModelSimLibPath
+UseCustomPath=FALSE
+LibraryPath=
+ENDLIST
+LIST GlobalFlowOptions
+GenerateHDLAfterSynthesis=FALSE
+GenerateHDLAfterPhySynthesis=FALSE
+RunDRCAfterSynthesis=FALSE
+AutoCheckConstraints=TRUE
+UpdateModelSimIni=TRUE
+NoIOMode=FALSE
+PeriInitStandalone=FALSE
+EnableViewDraw=FALSE
+UpdateViewDrawIni=TRUE
+GenerateHDLFromSchematic=TRUE
+VmNetlistFlowOn=FALSE
+EnableDesignSeparationOn=FALSE
+EnableSETMitigationOn=FALSE
+DisplayFanoutLimit=10
+AbortFlowOnPDCErrorsOn=TRUE
+AbortFlowOnSDCErrorsOn=TRUE
+InstantiateInSmartDesign=TRUE
+FlashProInputFile=pdb
+SmartGenCompileReport=T
+ENDLIST
+LIST PhySynthesisOptions
+ENDLIST
+LIST Profiles
+NAME="SoftConsole"
+FUNCTION="SoftwareIDE"
+TOOL="SoftConsole"
+LOCATION="eclipse.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="Synplify Pro ME"
+FUNCTION="Synthesis"
+TOOL="Synplify Pro ME"
+LOCATION="C:\eda\Microsemi\Libero\SynplifyPro\bin\synplify_pro.exe"
+PARAM="-licensetype synplifypro_actel -batch -log synplify.log"
+BATCH=1
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="ModelSim ME"
+FUNCTION="Simulation"
+TOOL="ModelSim"
+LOCATION="C:\eda\Microsemi\Libero\Modelsim\win32acoem\modelsim.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="FPExpress"
+FUNCTION="Program"
+TOOL="FlashPro"
+LOCATION="C:\eda\Microsemi\Libero\Designer\bin\FPExpress.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="Identify Debugger"
+FUNCTION="IdentifyDebugger"
+TOOL="Identify Debugger"
+LOCATION="C:\eda\Microsemi\Libero\Identify\bin\identify_debugger.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+ENDLIST
+LIST ProjectState5.1
+LIST "Kart_Board::work"
+LIST Impl1
+LiberoState=Post_Layout
+ideSYNTHESIS(<project>\synthesis\Kart_Board.edn,syn_edn)=StateSuccess
+ideDESIGNER(<project>\designer\impl1\Kart_Board_1.adb,adb)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+ENDLIST
+LIST ExcludePackageForSimulation
+ENDLIST
+LIST ExcludePackageForSynthesis
+ENDLIST
+LIST IncludeModuleForSimulation
+ENDLIST
+LIST CDBOrder
+ENDLIST
+LIST UserCustomizedFileList
+ENDLIST
+LIST OpenedFileList
+ORIENTATION;HORIZONTAL
+Reports;Reports;0
+ReportsCurrentItem;Generate Programming Data:Kart_Board_prgdata_log.rpt
+StartPage;StartPage;0
+HDL;C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.pdc;0
+ACTIVEVIEW;Reports
+ENDLIST
+LIST ModuleSubBlockList
+LIST "and2inv1::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+ENDLIST
+LIST "and2inv2::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+ENDLIST
+LIST "angleControl::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+SUBBLOCK "DFF::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+SUBBLOCK "angleDifference::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+SUBBLOCK "coilControl::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+SUBBLOCK "stepperCounter::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+ENDLIST
+LIST "angleDifference::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+ENDLIST
+LIST "anyEdgeDetector::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+ENDLIST
+LIST "batteryLevelInterface::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+SUBBLOCK "batteryLevelSequencer::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+SUBBLOCK "i2cReceiver::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+SUBBLOCK "i2cTransmitter::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+ENDLIST
+LIST "batteryLevelSequencer::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+ENDLIST
+LIST "bufferUlogic::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+ENDLIST
+LIST "bufferUlogicVector::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+ENDLIST
+LIST "coilControl::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+ENDLIST
+LIST "coilPWMControl::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+ENDLIST
+LIST "CommonLib::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+ENDLIST
+LIST "controlRegistersController::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+SUBBLOCK "controlRegistersRegisters::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+ENDLIST
+LIST "controlRegistersRegisters::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+SUBBLOCK "cregRegisterSender::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+SUBBLOCK "reg_addr_decoder::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+SUBBLOCK "registerManager_creg::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+ENDLIST
+LIST "crc8itu::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+ENDLIST
+LIST "cregRegisterSender::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+ENDLIST
+LIST "dcMotorController::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+SUBBLOCK "dcMotorPrescaler::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+SUBBLOCK "dcMotorPwm::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+SUBBLOCK "dcMotorRegisters::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+ENDLIST
+LIST "dcMotorPrescaler::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+ENDLIST
+LIST "dcMotorPwm::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+ENDLIST
+LIST "dcMotorRegisters::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+SUBBLOCK "dcMotorRegisterSender::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+SUBBLOCK "reg_addr_decoder::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+SUBBLOCK "registerManager::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+ENDLIST
+LIST "dcMotorRegisterSender::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+ENDLIST
+LIST "DFF::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+ENDLIST
+LIST "edgeDetectorDflt::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+ENDLIST
+LIST "endSwitchesSelector::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+ENDLIST
+LIST "FIFO_bram::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+ENDLIST
+LIST "FrameComposer::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+ENDLIST
+LIST "framePacker::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+ENDLIST
+LIST "frameReceiverHandler::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+ENDLIST
+LIST "freqDivider::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+ENDLIST
+LIST "freqDividerWForceOnStart::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+ENDLIST
+LIST "gates::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+ENDLIST
+LIST "hallCounters::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+ENDLIST
+LIST "hallCountManager::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+ENDLIST
+LIST "hallCountManagerOldFormat::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+ENDLIST
+LIST "hallDataSelector::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+ENDLIST
+LIST "hallPulsesFilter::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+ENDLIST
+LIST "i2cReceiver::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+ENDLIST
+LIST "i2cTransmitter::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+ENDLIST
+LIST "inverter::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+ENDLIST
+LIST "Kart::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+ENDLIST
+LIST "Kart_Board::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+SUBBLOCK "DFF::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+SUBBLOCK "bufferUlogic::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+SUBBLOCK "coilPWMControl::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+SUBBLOCK "endSwitchesSelector::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+SUBBLOCK "hallDataSelector::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+SUBBLOCK "inverter::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+SUBBLOCK "kartController::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+SUBBLOCK "logic0::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+SUBBLOCK "logic1::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+ENDLIST
+LIST "Kart_Student::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+ENDLIST
+LIST "kartController::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+SUBBLOCK "FIFO_bram::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+SUBBLOCK "and2inv2::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+SUBBLOCK "bufferUlogicVector::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+SUBBLOCK "controlRegistersController::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+SUBBLOCK "dcMotorController::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+SUBBLOCK "sensorsController::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+SUBBLOCK "stepperMotorController::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+SUBBLOCK "txRouter::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+SUBBLOCK "uartController::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+ENDLIST
+LIST "led_blinker::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+ENDLIST
+LIST "logic0::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+ENDLIST
+LIST "logic1::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+ENDLIST
+LIST "rangerSubsignals::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+ENDLIST
+LIST "rangerValidator::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+ENDLIST
+LIST "reg_addr_decoder::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+ENDLIST
+LIST "registerManager::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+ENDLIST
+LIST "registerManager_creg::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+ENDLIST
+LIST "sendActualAngleDeltaManager::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+ENDLIST
+LIST "sendDeltaManager::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+ENDLIST
+LIST "sendEndSwitchesOnChange::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+ENDLIST
+LIST "sensorsController::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+SUBBLOCK "batteryLevelInterface::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+SUBBLOCK "freqDividerWForceOnStart::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+SUBBLOCK "hallCounters::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+SUBBLOCK "hallPulsesFilter::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+SUBBLOCK "rangerSubsignals::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+SUBBLOCK "sensorsRegisters::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+SUBBLOCK "ultrasoundRanger::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+ENDLIST
+LIST "sensorsRegisters::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+SUBBLOCK "and2inv1::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+SUBBLOCK "anyEdgeDetector::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+SUBBLOCK "bufferUlogic::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+SUBBLOCK "freqDivider::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+SUBBLOCK "hallCountManager::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+SUBBLOCK "hallCountManagerOldFormat::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+SUBBLOCK "led_blinker::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+SUBBLOCK "logic0::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+SUBBLOCK "rangerValidator::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+SUBBLOCK "reg_addr_decoder::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+SUBBLOCK "registerManager::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+SUBBLOCK "sendDeltaManager::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+SUBBLOCK "sendEndSwitchesOnChange::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+SUBBLOCK "sensorsRegistersSend::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+SUBBLOCK "transUlogUnsigned::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+ENDLIST
+LIST "sensorsRegistersSend::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+ENDLIST
+LIST "serialFrameReceiver::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+SUBBLOCK "FrameComposer::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+SUBBLOCK "crc8itu::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+SUBBLOCK "frameReceiverHandler::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+SUBBLOCK "serialPortReceiver::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+ENDLIST
+LIST "serialFrameTransmitter::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+SUBBLOCK "crc8itu::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+SUBBLOCK "framePacker::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+SUBBLOCK "serialPortTransmitter::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+ENDLIST
+LIST "serialPortReceiver::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+ENDLIST
+LIST "serialPortTransmitter::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+ENDLIST
+LIST "stepperCounter::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+ENDLIST
+LIST "stepperMotorController::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+SUBBLOCK "angleControl::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+SUBBLOCK "stepperMotorDivider::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+SUBBLOCK "stepperMotorRegisters::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+ENDLIST
+LIST "stepperMotorDivider::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+ENDLIST
+LIST "stepperMotorRegisters::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+SUBBLOCK "edgeDetectorDflt::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+SUBBLOCK "reg_addr_decoder::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+SUBBLOCK "registerManager::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+SUBBLOCK "sendActualAngleDeltaManager::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+SUBBLOCK "stepperMotorRegisterSender::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+ENDLIST
+LIST "stepperMotorRegisterSender::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+ENDLIST
+LIST "transUlogUnsigned::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+ENDLIST
+LIST "txRouter::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+ENDLIST
+LIST "uartController::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+SUBBLOCK "serialFrameReceiver::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+SUBBLOCK "serialFrameTransmitter::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+ENDLIST
+LIST "ultrasoundRanger::work","C:\Users\axel.amand\Desktop\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+ENDLIST
+ENDLIST
+LIST ActiveTestBenchList
+ENDLIST
+LIST IOTabList
+ENDLIST
+LIST FPTabList
+ENDLIST
+LIST TimingTabList
+ENDLIST
+LIST FDCTabList
+ENDLIST
