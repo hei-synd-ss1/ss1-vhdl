@@ -80,23 +80,23 @@ VExpander (VariableExpander
 vvMap [
 (vvPair
 variable "HDLDir"
-value "C:\\dev\\ss1-kart-students\\Prefs\\..\\UART\\hdl"
+value "C:\\dev\\ss1-kart\\Prefs\\..\\UART\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "C:\\dev\\ss1-kart-students\\Prefs\\..\\UART\\hds"
+value "C:\\dev\\ss1-kart\\Prefs\\..\\UART\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "C:\\dev\\ss1-kart-students\\Prefs\\..\\UART\\hds\\serial@frame@transmitter\\struct.bd.info"
+value "C:\\dev\\ss1-kart\\Prefs\\..\\UART\\hds\\serial@frame@transmitter\\struct.bd.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "C:\\dev\\ss1-kart-students\\Prefs\\..\\UART\\hds\\serial@frame@transmitter\\struct.bd.user"
+value "C:\\dev\\ss1-kart\\Prefs\\..\\UART\\hds\\serial@frame@transmitter\\struct.bd.user"
 )
 (vvPair
 variable "SourceDir"
-value "C:\\dev\\ss1-kart-students\\Prefs\\..\\UART\\hds"
+value "C:\\dev\\ss1-kart\\Prefs\\..\\UART\\hds"
 )
 (vvPair
 variable "appl"
@@ -116,11 +116,11 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "C:\\dev\\ss1-kart-students\\Prefs\\..\\UART\\hds\\serial@frame@transmitter"
+value "C:\\dev\\ss1-kart\\Prefs\\..\\UART\\hds\\serial@frame@transmitter"
 )
 (vvPair
 variable "d_logical"
-value "C:\\dev\\ss1-kart-students\\Prefs\\..\\UART\\hds\\serialFrameTransmitter"
+value "C:\\dev\\ss1-kart\\Prefs\\..\\UART\\hds\\serialFrameTransmitter"
 )
 (vvPair
 variable "date"
@@ -176,7 +176,7 @@ value "WE7860"
 )
 (vvPair
 variable "graphical_source_time"
-value "14:58:28"
+value "14:59:55"
 )
 (vvPair
 variable "group"
@@ -216,11 +216,11 @@ value "février"
 )
 (vvPair
 variable "p"
-value "C:\\dev\\ss1-kart-students\\Prefs\\..\\UART\\hds\\serial@frame@transmitter\\struct.bd"
+value "C:\\dev\\ss1-kart\\Prefs\\..\\UART\\hds\\serial@frame@transmitter\\struct.bd"
 )
 (vvPair
 variable "p_logical"
-value "C:\\dev\\ss1-kart-students\\Prefs\\..\\UART\\hds\\serialFrameTransmitter\\struct.bd"
+value "C:\\dev\\ss1-kart\\Prefs\\..\\UART\\hds\\serialFrameTransmitter\\struct.bd"
 )
 (vvPair
 variable "package_name"
@@ -248,7 +248,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "14:58:28"
+value "14:59:55"
 )
 (vvPair
 variable "unit"
