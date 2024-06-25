@@ -1,13 +1,13 @@
 <h1 align="center">
   <br>
-  <img src="img/DiD_Kart.gif" alt="DiD Kart Logo" width="200" height="200">
+  <img src="img/DiD_Kart.gif" alt="RC Kart Logo" width="200" height="200">
   <br>
-  DiD Kart Summerschool Project - Adapted for the new [EBS3 Igloo board](https://gitlab.hevs.ch/infrastructure/labos/digital-electronics/boards/ebs3)
+  RC Kart Summerschool Project
   <br>
 </h1>
 
-<h4 align="center">Labor Files for DiD Kart Summerschool Project.
-See also: <a href="https://cyberlearn.hes-so.ch/" target="_blank">Moodle Cyberlearn</a>.</h4>
+<h4 align="center">Labor Files for RC Kart Summerschool Project.<br>
+See also the <a href="https://ss1.hevs.io/" target="_blank">Summer School 1 Website</a>.</h4>
 
 # Table of contents
 <p align="center">
@@ -17,7 +17,7 @@ See also: <a href="https://cyberlearn.hes-so.ch/" target="_blank">Moodle Cyberle
 </p>
 
 <div align="center">
-![screenshot](img/screenshot.png)
+<img src="img/screenshot.png">
 </div>
 
 ## Credits
