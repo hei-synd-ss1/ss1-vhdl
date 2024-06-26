@@ -25,11 +25,14 @@ PACKAGE Kart IS
   function check_endsw_count(size : positive) return std_ulogic;
   constant STD_LEDS_NUMBER : positive := STD_LEDS_NUMBER;
   function check_leds_count(size : positive) return std_ulogic;
+  constant STD_SERVOS_NUMBER: positive := STD_SERVOS_NUMBER;
+  function check_servos_count(size : positive) return std_ulogic;
 
 -- Sensors
     -- If changed, the memory layout would change -> need a new smartphone and PC app
     -- The number of leds (or any output requiring a symmetrical PWM)
   constant NUMBER_OF_LEDS : positive := 8;
+    -- Since servos share the leds registers, they share the same var
 
     -- The (maximum) number of hall sensors
   constant NUMBER_OF_HALL_SENSORS : positive := 2;
@@ -446,6 +449,7 @@ package body Kart is
     return '1';
   end function check_leds_count;
   
-  constant STD_LEDS_NUMBER_OK : std_ulogic := check_endsw_count(STD_LEDS_NUMBER);
+  constant STD_LEDS_NUMBER_OK : std_ulogic := check_leds_count(STD_LEDS_NUMBER);
+  constant STD_SERVOS_NUMBER_OK : std_ulogic := check_leds_count(STD_SERVOS_NUMBER);
   
 end package body Kart;

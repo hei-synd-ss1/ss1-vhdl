@@ -1,12 +1,3 @@
---
--- VHDL Package Header Kart.Kart_Student
---
--- Created:
---          by - axel.amand.UNKNOWN (WE7860)
---          at - 13:05:39 23.06.2022
---
--- using Mentor Graphics HDL Designer(TM) 2019.2 (Build 5)
---
 LIBRARY ieee;
 USE ieee.std_logic_1164.all;
 
@@ -35,5 +26,8 @@ PACKAGE Kart_Student IS
   
   -- The number of outputs (a.k.a leds in the program) wired (max 8)
   constant STD_LEDS_NUMBER : positive := 8;
+  
+  -- The number of servo outputs (a.k.a servos in the program) wired (max 8)
+  constant STD_SERVOS_NUMBER : positive := 8;
 
 END Kart_Student;

@@ -1,8 +1,9 @@
 [Concat]
 Board = $HDS_PROJECT_DIR/../Board/concat
 DcMotor_test = $HDS_PROJECT_DIR/../DcMotor_test/concat
-Kart = $HDS_PROJECT_DIR\..\Kart\concat
+Kart = $HDS_PROJECT_DIR/../Kart/concat
 Kart_test = $HDS_PROJECT_DIR/../Kart_test/concat
+Sensors = $HDS_PROJECT_DIR\..\Sensors\concat
 Stepper = $HDS_PROJECT_DIR/../Stepper/concat
 [ModelSim]
 Board = $SCRATCH_DIR/Kart/Board/work

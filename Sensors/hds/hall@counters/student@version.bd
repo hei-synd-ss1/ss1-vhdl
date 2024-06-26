@@ -55,23 +55,23 @@ value " "
 )
 (vvPair
 variable "HDLDir"
-value "C:\\dev\\did-kart\\Prefs\\..\\Sensors\\hdl"
+value "C:\\dev\\ss1\\ss1-kart\\Prefs\\..\\Sensors\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "C:\\dev\\did-kart\\Prefs\\..\\Sensors\\hds"
+value "C:\\dev\\ss1\\ss1-kart\\Prefs\\..\\Sensors\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "C:\\dev\\did-kart\\Prefs\\..\\Sensors\\hds\\hall@counters\\student@version.bd.info"
+value "C:\\dev\\ss1\\ss1-kart\\Prefs\\..\\Sensors\\hds\\hall@counters\\student@version.bd.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "C:\\dev\\did-kart\\Prefs\\..\\Sensors\\hds\\hall@counters\\student@version.bd.user"
+value "C:\\dev\\ss1\\ss1-kart\\Prefs\\..\\Sensors\\hds\\hall@counters\\student@version.bd.user"
 )
 (vvPair
 variable "SourceDir"
-value "C:\\dev\\did-kart\\Prefs\\..\\Sensors\\hds"
+value "C:\\dev\\ss1\\ss1-kart\\Prefs\\..\\Sensors\\hds"
 )
 (vvPair
 variable "appl"
@@ -91,27 +91,27 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "C:\\dev\\did-kart\\Prefs\\..\\Sensors\\hds\\hall@counters"
+value "C:\\dev\\ss1\\ss1-kart\\Prefs\\..\\Sensors\\hds\\hall@counters"
 )
 (vvPair
 variable "d_logical"
-value "C:\\dev\\did-kart\\Prefs\\..\\Sensors\\hds\\hallCounters"
+value "C:\\dev\\ss1\\ss1-kart\\Prefs\\..\\Sensors\\hds\\hallCounters"
 )
 (vvPair
 variable "date"
-value "27.06.2023"
+value "26/06/2024"
 )
 (vvPair
 variable "day"
-value "mar."
+value "mer."
 )
 (vvPair
 variable "day_long"
-value "mardi"
+value "mercredi"
 )
 (vvPair
 variable "dd"
-value "27"
+value "26"
 )
 (vvPair
 variable "designName"
@@ -139,11 +139,11 @@ value "student@version"
 )
 (vvPair
 variable "graphical_source_author"
-value "axel.amand"
+value "Axam"
 )
 (vvPair
 variable "graphical_source_date"
-value "27.06.2023"
+value "26/06/2024"
 )
 (vvPair
 variable "graphical_source_group"
@@ -151,11 +151,11 @@ value "UNKNOWN"
 )
 (vvPair
 variable "graphical_source_host"
-value "WE7860"
+value "WE10628"
 )
 (vvPair
 variable "graphical_source_time"
-value "11:43:48"
+value "14:16:08"
 )
 (vvPair
 variable "group"
@@ -163,7 +163,7 @@ value "UNKNOWN"
 )
 (vvPair
 variable "host"
-value "WE7860"
+value "WE10628"
 )
 (vvPair
 variable "language"
@@ -211,11 +211,11 @@ value "juin"
 )
 (vvPair
 variable "p"
-value "C:\\dev\\did-kart\\Prefs\\..\\Sensors\\hds\\hall@counters\\student@version.bd"
+value "C:\\dev\\ss1\\ss1-kart\\Prefs\\..\\Sensors\\hds\\hall@counters\\student@version.bd"
 )
 (vvPair
 variable "p_logical"
-value "C:\\dev\\did-kart\\Prefs\\..\\Sensors\\hds\\hallCounters\\studentVersion.bd"
+value "C:\\dev\\ss1\\ss1-kart\\Prefs\\..\\Sensors\\hds\\hallCounters\\studentVersion.bd"
 )
 (vvPair
 variable "package_name"
@@ -295,7 +295,7 @@ value "studentVersion"
 )
 (vvPair
 variable "time"
-value "11:43:48"
+value "14:16:08"
 )
 (vvPair
 variable "unit"
@@ -303,7 +303,7 @@ value "hallCounters"
 )
 (vvPair
 variable "user"
-value "axel.amand"
+value "Axam"
 )
 (vvPair
 variable "version"
@@ -315,11 +315,11 @@ value "studentVersion"
 )
 (vvPair
 variable "year"
-value "2023"
+value "2024"
 )
 (vvPair
 variable "yy"
-value "23"
+value "24"
 )
 ]
 )
@@ -1569,8 +1569,8 @@ tm "BdCompilerDirectivesTextMgr"
 ]
 associable 1
 )
-windowSize "-8,-8,1928,1048"
-viewArea "-4459,-1605,102431,56471"
+windowSize "-1928,-259,8,789"
+viewArea "-4459,-1605,102431,55970"
 cachedDiagramExtent "-3000,0,97500,55000"
 pageSetupInfo (PageSetupInfo
 ptrCmd "\\\\vmenpprint1.hevs.ch\\VS-FOLLOWME-PRN,winspool,"
@@ -1594,7 +1594,7 @@ boundaryWidth 0
 )
 hasePageBreakOrigin 1
 pageBreakOrigin "-3000,0"
-lastUid 1774,0
+lastUid 1807,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0

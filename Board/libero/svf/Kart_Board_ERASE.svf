@@ -4,21 +4,21 @@
 !#                        PROC_ENABLE
 !#                        DO_ERASE_ONLY
 !#                        DO_EXIT;
-!#SVF_PATH    C:\Users\axel.amand\kart-vhdl\Board\libero\svf\Kart_Board_svf\Kart_Board_ERASE.svf;
+!#SVF_PATH    C:\dev\ss1\ss1-kart\Board\libero\svf\Kart_Board_svf\Kart_Board_ERASE.svf;
 !#Programming Mode    Single;
 !#CREATOR    FlashPro Version: v11.8 SP3;
 !#CAPTURE    11.8.3.6;
 !#DEVICE    AGLN250V5;
 !#PACKAGE    AGLN250V5-vq100;
-!#DATE    2024/06/13;
-!#TIME    10:12:28;
+!#DATE    2024/06/26;
+!#TIME    16:56:26;
 !#STAPL_VERSION    JESD71;
 !#VENDOR    Microsemi Corporation;
 !#IDCODE    03A541CF;
 !#IDMASK    07FFFFFF;
 !#DESIGN    Kart_Board;
-!#DESIGN_DIRECTORY    C:\Temp\eda\axel.amand\Kart\Board\libero\designer\impl1\;
-!#CHECKSUM    60A1;
+!#DESIGN_DIRECTORY    C:\temp\eda\Axam\Kart\Board\libero\designer\impl1\;
+!#CHECKSUM    7849;
 !#SECURITY    Disable;
 !#ALG_VERSION    20;
 !#MAP_VERSION    1;

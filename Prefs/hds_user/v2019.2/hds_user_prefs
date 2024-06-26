@@ -1230,6 +1230,7 @@ projectPaths [
 "C:\\Users\\axel.amand\\Desktop\\eln_kart_sodimm200\\Prefs\\hds.hdp"
 "C:\\dev\\did-kart\\Prefs\\hds.hdp"
 "C:\\dev\\DiD\\did-kart\\Prefs\\hds.hdp"
+"C:\\dev\\ss1\\ss1-kart\\Prefs\\hds.hdp"
 ]
 libMappingsRootDir "$HDS_PROJECT_DIR/../"
 teamLibMappingsRootDir ""
@@ -4361,7 +4362,7 @@ hdsWorkspaceLocation ""
 relativeLibraryRootDir ""
 vmLabelLatestDontAskAgain 0
 vmLabelWorkspaceDontAskAgain 0
-logWindowGeometry "750x650+334+205"
+logWindowGeometry "750x650+-1811+-99"
 diagramBrowserTabNo 0
 showInsertPortHint 0
 showContentFirstTime 0
@@ -6451,16 +6452,16 @@ size 197
 )
 ]
 displayHierarchy 0
-xPos 0
-yPos 0
+xPos -1920
+yPos -251
 width 1936
-height 1056
+height 1048
 activeSidePanelTab 2
 activeLibraryTab 1
 sidePanelSize 296
 showUnixHiddenFiles 0
-componentBrowserXpos 1272
-componentBrowserYpos 149
+componentBrowserXpos -648
+componentBrowserYpos -102
 componentBrowserWidth 300
 componentBrowserHeight 340
 componentBrowserLibraryNames [
