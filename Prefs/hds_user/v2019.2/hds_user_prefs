@@ -1251,288 +1251,66 @@ exportedDirectories [
 exportStdIncludeRefs 1
 exportStdPackageRefs 1
 )
-printerName "\\\\vmenpprint1.hevs.ch\\VS-FOLLOWME-PRN"
+printerName "Microsoft Print to PDF"
 pageSizes [
 (PageSizeInfo
-name "12\" x 18\""
-type 512
-width 1106
-height 1658
+name "Lettre US (215,9 x 279,4 mm)"
+width 783
+height 1013
 )
 (PageSizeInfo
-name "11\" x 17\""
-type 17
+name "Tabloïd"
+type 3
 width 1013
 height 1566
 )
 (PageSizeInfo
-name "Legal (8,5\" x 14\")"
+name "Legal US"
 type 5
 width 783
 height 1290
 )
 (PageSizeInfo
-name "Letter (8,5\" x 11\")"
-width 783
-height 1013
-)
-(PageSizeInfo
-name "Executive (7,25\"x10,5\")"
-type 7
-width 667
-height 967
-)
-(PageSizeInfo
-name "5,5\" x 8,5\""
+name "Statement US"
 type 6
 width 506
 height 783
 )
 (PageSizeInfo
-name "A3 (297 x 420 mm)"
+name "Exécutif US (18,42 x 26,67 cm)"
+type 7
+width 667
+height 967
+)
+(PageSizeInfo
+name "A3"
 type 8
 width 1077
 height 1523
 )
 (PageSizeInfo
-name "A4 (210 x 297 mm)"
+name "A4"
 type 9
 width 761
 height 1077
 )
 (PageSizeInfo
-name "A5 (148 x 210 mm)"
+name "A5"
 type 11
-width 538
+width 536
 height 761
 )
 (PageSizeInfo
-name "A6 (105 x 148 mm)"
-type 70
-width 380
-height 538
-)
-(PageSizeInfo
-name "B4 JIS (257 x 364 mm)"
+name "B4 (JIS)"
 type 12
 width 932
 height 1320
 )
 (PageSizeInfo
-name "B5 JIS (182 x 257 mm)"
+name "B5 (JIS)"
 type 13
 width 660
 height 932
-)
-(PageSizeInfo
-name "B6 JIS (128 x 182 mm)"
-type 88
-width 464
-height 660
-)
-(PageSizeInfo
-name "8\" x 13\""
-type 518
-width 737
-height 1198
-)
-(PageSizeInfo
-name "8,25\" x 13\""
-type 519
-width 760
-height 1198
-)
-(PageSizeInfo
-name "8,5\" x 13\""
-type 14
-width 783
-height 1198
-)
-(PageSizeInfo
-name "8.5\" x 13.4\""
-type 551
-width 783
-height 1235
-)
-(PageSizeInfo
-name "Com10 Env.(4,125\"x9,5\")"
-type 20
-width 380
-height 875
-)
-(PageSizeInfo
-name "Env.Monar.(3,875\"x7,5\")"
-type 37
-width 357
-height 691
-)
-(PageSizeInfo
-name "Env. DL (110 x 220 mm)"
-type 27
-width 399
-height 798
-)
-(PageSizeInfo
-name "Env. C6 (114 x 162 mm)"
-type 31
-width 413
-height 587
-)
-(PageSizeInfo
-name "Env. C5 (162 x 229 mm)"
-type 28
-width 587
-height 830
-)
-(PageSizeInfo
-name "8K (267 x 390 mm)"
-type 520
-width 968
-height 1415
-)
-(PageSizeInfo
-name "16K (195 x 267 mm)"
-type 521
-width 707
-height 968
-)
-(PageSizeInfo
-name "8,25\" x 14\""
-type 522
-width 760
-height 1290
-)
-(PageSizeInfo
-name "11\" x 14\""
-type 524
-width 1013
-height 1290
-)
-(PageSizeInfo
-name "13\" x 19,2\""
-type 525
-width 1198
-height 1769
-)
-(PageSizeInfo
-name "13\" x 19\""
-type 526
-width 1198
-height 1751
-)
-(PageSizeInfo
-name "12,6\" x 19,2\""
-type 527
-width 1161
-height 1769
-)
-(PageSizeInfo
-name "12,6\" x 18,5\""
-type 528
-width 1161
-height 1704
-)
-(PageSizeInfo
-name "13\" x 18\""
-type 529
-width 1198
-height 1658
-)
-(PageSizeInfo
-name "10\" x 14\""
-type 16
-width 921
-height 1290
-)
-(PageSizeInfo
-name "10\" x 15\""
-type 546
-width 921
-height 1382
-)
-(PageSizeInfo
-name "11\" x 15\""
-type 539
-width 1013
-height 1382
-)
-(PageSizeInfo
-name "SRA3 (320 x 450 mm)"
-type 530
-width 1161
-height 1632
-)
-(PageSizeInfo
-name "SRA4 (225 x 320 mm)"
-type 531
-width 816
-height 1161
-)
-(PageSizeInfo
-name "Format papier personnalisé"
-type 256
-width 783
-height 1013
-)
-(PageSizeInfo
-name "Custom Paper Size1(215,9 x 279,4 mm)"
-type 257
-width 783
-height 1013
-)
-(PageSizeInfo
-name "Custom Paper Size2(215,9 x 279,4 mm)"
-type 258
-width 783
-height 1013
-)
-(PageSizeInfo
-name "Custom Paper Size3(215,9 x 279,4 mm)"
-type 259
-width 783
-height 1013
-)
-(PageSizeInfo
-name "Custom Paper Size4(215,9 x 279,4 mm)"
-type 260
-width 783
-height 1013
-)
-(PageSizeInfo
-name "Custom Paper Size5(215,9 x 279,4 mm)"
-type 261
-width 783
-height 1013
-)
-(PageSizeInfo
-name "Custom Paper Size6(215,9 x 279,4 mm)"
-type 262
-width 783
-height 1013
-)
-(PageSizeInfo
-name "Custom Paper Size7(215,9 x 279,4 mm)"
-type 263
-width 783
-height 1013
-)
-(PageSizeInfo
-name "Custom Paper Size8(215,9 x 279,4 mm)"
-type 264
-width 783
-height 1013
-)
-(PageSizeInfo
-name "Custom Paper Size9(215,9 x 279,4 mm)"
-type 265
-width 783
-height 1013
-)
-(PageSizeInfo
-name "Custom Paper Size10(215,9 x 279,4 mm)"
-type 266
-width 783
-height 1013
 )
 ]
 exportPageSetupInfo (PageSetupInfo

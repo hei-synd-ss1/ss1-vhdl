@@ -46,7 +46,7 @@ settingsMap [
 "GlitchGeneration"
 "1"
 "InitCmd"
-"$SIMULATION_DIR/Kart/kartStudent.do"
+"$SIMULATION_DIR/Sensors/sensors.do"
 "LogFile"
 ""
 "RemoteHost"

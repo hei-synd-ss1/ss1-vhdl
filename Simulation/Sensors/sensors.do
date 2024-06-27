@@ -17,8 +17,14 @@ add wave -noupdate -divider Ultrasound
 add wave -noupdate -color Gold -label distancePulse /sensors_tb/distancePulse
 add wave -noupdate -color {Dark Orchid} -label rangerDistance -radix unsigned /sensors_tb/I_sensors/rangerDistance
 add wave -noupdate -radix decimal /sensors_tb/I_tester/tbRangerDistanceTarget
+add wave -noupdate -divider {Servo 1}
+add wave -noupdate -color Gold -label {Pulse begin time} /sensors_tb/I_tester/pulse_begin_tm
+add wave -noupdate -color Gold -label {Pulse end time} /sensors_tb/I_tester/pulse_end_tm
+add wave -noupdate -label pulse_20ms /sensors_tb/I_sensors/g5(0)/I_servo_controller/pulse_20ms
+add wave -noupdate -label {count target} /sensors_tb/I_sensors/g5(0)/I_servo_controller/count_target
+add wave -noupdate -color {Dark Orchid} -label servo /sensors_tb/I_sensors/g5(0)/I_servo_controller/servo
 TreeUpdate [SetDefaultTree]
-WaveRestoreCursors {{Cursor 3} {2295433870 ps} 0}
+WaveRestoreCursors {{Cursor 3} {4180648394 ps} 0}
 quietly wave cursor active 1
 configure wave -namecolwidth 282
 configure wave -valuecolwidth 100
@@ -34,5 +40,5 @@ configure wave -griddelta 40
 configure wave -timeline 0
 configure wave -timelineunits ms
 update
-WaveRestoreZoom {1566733324 ps} {6310161405 ps}
+WaveRestoreZoom {0 ps} {47561662244 ps}
 run 100ms

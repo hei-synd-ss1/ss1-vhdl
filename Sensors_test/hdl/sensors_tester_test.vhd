@@ -19,6 +19,7 @@ ARCHITECTURE test OF sensors_tester IS
   constant testInterval : time := 412 us;
   signal testInfo       : string(1 to 40) := (others => ' ');
   signal lsig_started   : std_ulogic;
+  signal pulse_begin_tm, pulse_end_tm : time;
 
   -- Hall pulses
   constant hallFrequency: real := 10.0E3;
@@ -37,11 +38,14 @@ ARCHITECTURE test OF sensors_tester IS
 
   -- Registers definitions
   constant baseReadAddr : natural := REG_SENS_ADDR * 2**6;
+  constant baseWriteAddr : natural := baseReadAddr + 1 * 2**5;
 
   constant hallBaseRDAddr : natural :=
     baseReadAddr + SENS_HALLCNT_EXT_REG_POS;
   constant rangerRDAddr : natural :=
     baseReadAddr + SENS_RANGEFNDR_EXT_REG_POS;
+  constant servoWRAddr : natural :=
+    baseWriteAddr + SENS_LEDS_REG_POS;
 
 BEGIN
   ------------------------------------------------------------------------------
@@ -58,9 +62,20 @@ BEGIN
     begin
       assert(
         to_unsigned(address, addressIn'length)(REG_ADDR_GET_BIT_POSITION)
-        = '0') report "Address is not readable" severity failure;
+        = '0') report "Address " & natural'image(address) & " is not readable" severity failure;
       addressIn <= symbolSizeType(to_unsigned(address, addressIn'length));
       dataIn <= dataRegisterType(to_unsigned(0, dataIn'length));
+      regWr <= '1', '0' after clockPeriod * 1.1;
+    end procedure;
+
+    procedure setReg(constant address : in natural;
+                       constant data    : in natural) is
+    begin
+      assert(
+        to_unsigned(address, addressIn'length)(REG_ADDR_GET_BIT_POSITION)
+        = '1') report "Address " & natural'image(address) & " is not writable" severity failure;
+      addressIn <= symbolSizeType(to_unsigned(address, addressIn'length));
+      dataIn <= dataRegisterType(to_unsigned(data, dataIn'length));
       regWr <= '1', '0' after clockPeriod * 1.1;
     end procedure;
 
@@ -81,8 +96,16 @@ BEGIN
       lf & lf
     );
     testInfo <= pad("Init internal", testInfo'length);
+    setReg(servoWRAddr, 10000);
     wait for testInterval;
     lsig_started <= '1';
+
+    assert servos(1) = '1'
+        report "Servo 1 should be 0 "
+        severity error;
+    assert servos(1) = '0'
+        report "Servo 1 OK"
+        severity note;
 
                                                            -- read Hall counters
     for snb in 1 to STD_HALL_NUMBER loop
@@ -138,6 +161,25 @@ BEGIN
       report "Ultrasound ranger OK"
       severity note;
     wait for testInterval;
+
+
+                                                            -- servo 1
+    testInfo <= pad("Servo 1", testInfo'length);
+    write(output,
+      "Sending servo 1 value 10000" & " at time " & integer'image(now/1 us) & " us" &
+      lf & lf
+    );
+    wait until servos(1) = '1';
+    pulse_begin_tm <= now;
+    wait until servos(1) = '0';
+    pulse_end_tm <= now;
+    assert pulse_end_tm - pulse_begin_tm /= 1000000000 ps
+        report "Servo 1 pulse is not 1 ms long - found " & time'image(pulse_end_tm - pulse_begin_tm)
+        severity error;
+    assert pulse_end_tm - pulse_begin_tm = 1000000000 ps
+        report "Servo 1 pulse is 1 ms long"
+        severity note;
+    wait for 20 ms;
 
                                                             -- end of simulation
     testInfo <= pad("End", testInfo'length);
