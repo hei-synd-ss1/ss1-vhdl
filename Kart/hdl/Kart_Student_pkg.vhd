@@ -24,10 +24,9 @@ PACKAGE Kart_Student IS
     -- The number of inputs (a.k.a end switches in the program) wired (max 16)
   constant STD_ENDSW_NUMBER : positive := 4;
   
-  -- The number of outputs (a.k.a leds in the program) wired (max 8)
+  -- The number of outputs (a.k.a leds and servos in the program) wired (max 8)
+    -- LEDs and SERVOs have shared registers.
+    -- You can choose to write the register as for an LED or SERVO, simply use the correct output pin in the end (see doc)
   constant STD_LEDS_NUMBER : positive := 8;
-  
-  -- The number of servo outputs (a.k.a servos in the program) wired (max 8)
-  constant STD_SERVOS_NUMBER : positive := 8;
 
 END Kart_Student;

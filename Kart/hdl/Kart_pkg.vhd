@@ -25,7 +25,7 @@ PACKAGE Kart IS
   function check_endsw_count(size : positive) return std_ulogic;
   constant STD_LEDS_NUMBER : positive := STD_LEDS_NUMBER;
   function check_leds_count(size : positive) return std_ulogic;
-  constant STD_SERVOS_NUMBER: positive := STD_SERVOS_NUMBER;
+  constant STD_SERVOS_NUMBER: positive := STD_LEDS_NUMBER;
 
 -- Sensors
     -- If changed, the memory layout would change -> need a new smartphone and PC app
