@@ -185,19 +185,19 @@ value "C:\\dev\\ss1\\ss1-kart\\Prefs\\..\\Sensors\\hds\\sensorsController"
 )
 (vvPair
 variable "date"
-value "26/06/2024"
+value "27/06/2024"
 )
 (vvPair
 variable "day"
-value "mer."
+value "jeu."
 )
 (vvPair
 variable "day_long"
-value "mercredi"
+value "jeudi"
 )
 (vvPair
 variable "dd"
-value "26"
+value "27"
 )
 (vvPair
 variable "entity_name"
@@ -225,7 +225,7 @@ value "Axam"
 )
 (vvPair
 variable "graphical_source_date"
-value "26/06/2024"
+value "27/06/2024"
 )
 (vvPair
 variable "graphical_source_group"
@@ -237,7 +237,7 @@ value "WE10628"
 )
 (vvPair
 variable "graphical_source_time"
-value "15:15:10"
+value "13:50:30"
 )
 (vvPair
 variable "group"
@@ -313,7 +313,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "15:15:10"
+value "13:50:30"
 )
 (vvPair
 variable "unit"
@@ -2711,7 +2711,7 @@ vasetType 1
 fg "62464,50688,60672"
 lineColor "32768,32768,65280"
 )
-xt "131000,58000,150000,90000"
+xt "131000,30000,150000,90000"
 )
 oxt "0,0,15000,5000"
 text (MLText
@@ -2720,10 +2720,20 @@ va (VaSet
 fg "0,0,32768"
 font "Verdana,20,1"
 )
-xt "131200,58200,149800,85700"
+xt "131200,30200,149800,85200"
 st "
 TO COMPLETE
 
+<= optional
+
+
+
+
+
+
+
+
+
 <=
 
 
@@ -2732,11 +2742,12 @@ TO COMPLETE
 
 
 
-<=
+
+<= optional
 "
 tm "CommentText"
 wrapOption 3
-visibleHeight 32000
+visibleHeight 60000
 visibleWidth 19000
 )
 position 3
@@ -6295,7 +6306,7 @@ exportStdPackageRefs 1
 )
 hasePageBreakOrigin 1
 pageBreakOrigin "0,0"
-lastUid 7179,0
+lastUid 7264,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0
