@@ -10,15 +10,15 @@
 !#CAPTURE    11.8.3.6;
 !#DEVICE    AGLN250V5;
 !#PACKAGE    AGLN250V5-vq100;
-!#DATE    2024/06/26;
-!#TIME    16:56:26;
+!#DATE    2024/07/25;
+!#TIME    13:41:23;
 !#STAPL_VERSION    JESD71;
 !#VENDOR    Microsemi Corporation;
 !#IDCODE    03A541CF;
 !#IDMASK    07FFFFFF;
 !#DESIGN    Kart_Board;
 !#DESIGN_DIRECTORY    C:\temp\eda\Axam\Kart\Board\libero\designer\impl1\;
-!#CHECKSUM    7849;
+!#CHECKSUM    8048;
 !#SECURITY    Disable;
 !#ALG_VERSION    20;
 !#MAP_VERSION    1;

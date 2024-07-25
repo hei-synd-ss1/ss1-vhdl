@@ -90,11 +90,11 @@ set_io  {leds[8]}       -pinname 59     -fixed yes      -DIRECTION Output
 # PM5_1
 set_io  {servos_inverted[1]}           -pinname 60     -fixed yes      -DIRECTION Output
 # PM5_2
-# set_io  PM5_2           -pinname 61     -fixed yes      -DIRECTION Input
+set_io  {servos_inverted[2]}           -pinname 61     -fixed yes      -DIRECTION Output
 # PM5_3
-# set_io  PM5_3           -pinname 62     -fixed yes      -DIRECTION Input
+set_io  {servos_inverted[3]}           -pinname 62     -fixed yes      -DIRECTION Output
 # PM5_4
-# set_io  PM5_4           -pinname 63     -fixed yes      -DIRECTION Input
+set_io  {servos_inverted[4]}           -pinname 63     -fixed yes      -DIRECTION Output
 # PM5_5
 set_io  dc_A            -pinname 64     -fixed yes      -DIRECTION Output
 # PM5_6
