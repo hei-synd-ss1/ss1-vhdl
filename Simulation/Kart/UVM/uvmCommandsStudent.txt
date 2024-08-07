@@ -49,7 +49,9 @@ info             Deasserting end switch
 stp_endsw        0
 wait             1 ms
 
-
+info             Setting test mode
+stp_testmode     1
+wait             1 ms
 
 
 # DC Motor ------------------------
@@ -113,6 +115,22 @@ stp_target_angle 0
 wait             12 ms
 
 
+
+
+# No test mode ------------------------
+
+target           Free running (DC 66%, stepper 100)
+
+info             Removing test mode
+stp_testmode     0
+wait             1 ms
+
+info             Letting system run 10s
+dc_speed         10
+wait             1ms
+stp_target_angle 100
+wait             1ms
+wait             10000 ms
 
 
 endskip

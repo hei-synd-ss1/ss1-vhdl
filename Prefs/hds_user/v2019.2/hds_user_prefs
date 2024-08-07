@@ -1131,6 +1131,10 @@ second "notepad++.exe \"%(p)\" -n%(l)"
 first "Sublime"
 second "subl \"%(p)\""
 )
+(pair
+first "VSCode"
+second "code \"%(p)\""
+)
 ]
 win32ViewerCmdMappings [
 (pair
@@ -1144,6 +1148,10 @@ second "notepad++.exe \"%(p)\" -n%(l) -ro"
 (pair
 first "Sublime"
 second "subl \"%(p)\""
+)
+(pair
+first "VSCode"
+second "code \"%(p)\""
 )
 ]
 defaultTextPrintingCmd "Enscript"
@@ -6405,12 +6413,12 @@ size 197
 )
 ]
 displayHierarchy 0
-xPos -3144
-yPos -241
+xPos -3006
+yPos 183
 width 1936
 height 1048
 activeSidePanelTab 2
-activeLibraryTab 2
+activeLibraryTab 1
 sidePanelSize 296
 showUnixHiddenFiles 0
 componentBrowserXpos -648

@@ -879,23 +879,23 @@ VExpander (VariableExpander
 vvMap [
 (vvPair
 variable "HDLDir"
-value "C:\\dev\\did-kart\\Prefs\\..\\Kart_test\\hdl"
+value "C:\\dev\\ss1\\ss1-kart\\Prefs\\..\\Kart_test\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "C:\\dev\\did-kart\\Prefs\\..\\Kart_test\\hds"
+value "C:\\dev\\ss1\\ss1-kart\\Prefs\\..\\Kart_test\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "C:\\dev\\did-kart\\Prefs\\..\\Kart_test\\hds\\kart@controller_tester_@u@v@m\\symbol.sb.info"
+value "C:\\dev\\ss1\\ss1-kart\\Prefs\\..\\Kart_test\\hds\\kart@controller_tester_@u@v@m\\symbol.sb.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "C:\\dev\\did-kart\\Prefs\\..\\Kart_test\\hds\\kart@controller_tester_@u@v@m\\symbol.sb.user"
+value "C:\\dev\\ss1\\ss1-kart\\Prefs\\..\\Kart_test\\hds\\kart@controller_tester_@u@v@m\\symbol.sb.user"
 )
 (vvPair
 variable "SourceDir"
-value "C:\\dev\\did-kart\\Prefs\\..\\Kart_test\\hds"
+value "C:\\dev\\ss1\\ss1-kart\\Prefs\\..\\Kart_test\\hds"
 )
 (vvPair
 variable "appl"
@@ -915,27 +915,27 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "C:\\dev\\did-kart\\Prefs\\..\\Kart_test\\hds\\kart@controller_tester_@u@v@m"
+value "C:\\dev\\ss1\\ss1-kart\\Prefs\\..\\Kart_test\\hds\\kart@controller_tester_@u@v@m"
 )
 (vvPair
 variable "d_logical"
-value "C:\\dev\\did-kart\\Prefs\\..\\Kart_test\\hds\\kartController_tester_UVM"
+value "C:\\dev\\ss1\\ss1-kart\\Prefs\\..\\Kart_test\\hds\\kartController_tester_UVM"
 )
 (vvPair
 variable "date"
-value "27.06.2023"
+value "07/08/2024"
 )
 (vvPair
 variable "day"
-value "mar."
+value "mer."
 )
 (vvPair
 variable "day_long"
-value "mardi"
+value "mercredi"
 )
 (vvPair
 variable "dd"
-value "27"
+value "07"
 )
 (vvPair
 variable "entity_name"
@@ -959,11 +959,11 @@ value "symbol"
 )
 (vvPair
 variable "graphical_source_author"
-value "axel.amand"
+value "Axam"
 )
 (vvPair
 variable "graphical_source_date"
-value "27.06.2023"
+value "07/08/2024"
 )
 (vvPair
 variable "graphical_source_group"
@@ -971,11 +971,11 @@ value "UNKNOWN"
 )
 (vvPair
 variable "graphical_source_host"
-value "WE7860"
+value "WE10628"
 )
 (vvPair
 variable "graphical_source_time"
-value "11:39:17"
+value "10:22:30"
 )
 (vvPair
 variable "group"
@@ -983,7 +983,7 @@ value "UNKNOWN"
 )
 (vvPair
 variable "host"
-value "WE7860"
+value "WE10628"
 )
 (vvPair
 variable "language"
@@ -1003,7 +1003,7 @@ value "$SCRATCH_DIR/Kart/Kart_test/work"
 )
 (vvPair
 variable "mm"
-value "06"
+value "08"
 )
 (vvPair
 variable "module_name"
@@ -1011,19 +1011,19 @@ value "kartController_tester_UVM"
 )
 (vvPair
 variable "month"
-value "juin"
+value "août"
 )
 (vvPair
 variable "month_long"
-value "juin"
+value "août"
 )
 (vvPair
 variable "p"
-value "C:\\dev\\did-kart\\Prefs\\..\\Kart_test\\hds\\kart@controller_tester_@u@v@m\\symbol.sb"
+value "C:\\dev\\ss1\\ss1-kart\\Prefs\\..\\Kart_test\\hds\\kart@controller_tester_@u@v@m\\symbol.sb"
 )
 (vvPair
 variable "p_logical"
-value "C:\\dev\\did-kart\\Prefs\\..\\Kart_test\\hds\\kartController_tester_UVM\\symbol.sb"
+value "C:\\dev\\ss1\\ss1-kart\\Prefs\\..\\Kart_test\\hds\\kartController_tester_UVM\\symbol.sb"
 )
 (vvPair
 variable "package_name"
@@ -1051,7 +1051,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "11:39:17"
+value "10:22:30"
 )
 (vvPair
 variable "unit"
@@ -1059,7 +1059,7 @@ value "kartController_tester_UVM"
 )
 (vvPair
 variable "user"
-value "axel.amand"
+value "Axam"
 )
 (vvPair
 variable "version"
@@ -1071,11 +1071,11 @@ value "symbol"
 )
 (vvPair
 variable "year"
-value "2023"
+value "2024"
 )
 (vvPair
 variable "yy"
-value "23"
+value "24"
 )
 ]
 )
@@ -2255,7 +2255,7 @@ fg "0,0,32768"
 bg "0,0,32768"
 font "Arial,8,0"
 )
-xt "85200,5000,96700,6000"
+xt "85200,5000,96500,6000"
 st "
 by %user on %dd %month %year
 "
@@ -2881,7 +2881,7 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 2087,0
+lastUid 2110,0
 okToSyncOnLoad 1
 OkToSyncGenericsOnLoad 1
 activeModelName "Symbol:GEN"

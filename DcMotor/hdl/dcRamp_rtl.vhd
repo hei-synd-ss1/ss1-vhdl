@@ -23,19 +23,25 @@ BEGIN
       lvec_speed <= (others => '0');
       lvec_counter <= (others => '0');
     elsif rising_edge(clock) then
-      -- Target not reached
-      if lsig_diff = '1' then
-        lvec_counter <= lvec_counter + 1;
-        if lvec_counter >= TIMEOUT_CNT_TARGET then
-          if lsig_smaller = '1' then
-            lvec_speed <= lvec_speed + 1;
-          elsif lsig_bigger = '1' then
-            lvec_speed <= lvec_speed - 1;
+      -- Test mode => direct speed value
+      if testMode = '1' then
+        lvec_speed <= signed(target);
+      -- Normal mode => creates a ramp
+      else
+        -- Target not reached
+        if lsig_diff = '1' then
+          lvec_counter <= lvec_counter + 1;
+          if lvec_counter >= TIMEOUT_CNT_TARGET then
+            if lsig_smaller = '1' then
+              lvec_speed <= lvec_speed + 1;
+            elsif lsig_bigger = '1' then
+              lvec_speed <= lvec_speed - 1;
+            end if;
+            lvec_counter <= (others => '0');
           end if;
+        else
           lvec_counter <= (others => '0');
         end if;
-      else
-        lvec_counter <= (others => '0');
       end if;
     end if;
   end process ramp;
