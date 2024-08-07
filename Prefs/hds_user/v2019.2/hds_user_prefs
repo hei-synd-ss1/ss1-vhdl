@@ -1231,7 +1231,6 @@ projectPaths [
 "C:\\dev\\did-kart\\Prefs\\hds.hdp"
 "C:\\dev\\DiD\\did-kart\\Prefs\\hds.hdp"
 "C:\\dev\\ss1\\ss1-kart\\Prefs\\hds.hdp"
-"C:\\dev\\ss1\\ss1-kart-students\\Prefs\\hds.hdp"
 ]
 libMappingsRootDir "$HDS_PROJECT_DIR/../"
 teamLibMappingsRootDir ""
@@ -6406,12 +6405,12 @@ size 197
 )
 ]
 displayHierarchy 0
-xPos -1737
-yPos -132
+xPos -3144
+yPos -241
 width 1936
 height 1048
 activeSidePanelTab 2
-activeLibraryTab 7
+activeLibraryTab 2
 sidePanelSize 296
 showUnixHiddenFiles 0
 componentBrowserXpos -648
