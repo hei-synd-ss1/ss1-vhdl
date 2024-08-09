@@ -87,6 +87,7 @@ BEGIN
     regWr <= '0';
     sensorsSendAuth <= '1';
     distancePulse <= '0';
+    testMode <= '0';
 
     write(output,
       lf & lf & lf &

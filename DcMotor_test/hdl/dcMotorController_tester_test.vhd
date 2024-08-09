@@ -84,6 +84,7 @@ BEGIN
     dcMotorSendAuth <= '1';
     absSpeed <= 65535;
     btConnected <= '0';
+    testMode <= '0';
 
     write(output,
       lf & lf & lf &

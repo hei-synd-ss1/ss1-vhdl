@@ -1155,8 +1155,8 @@ second "code \"%(p)\""
 )
 ]
 defaultTextPrintingCmd "Enscript"
-win32DefaultEditor "Notepad++"
-win32DefaultViewer "Notepad++"
+win32DefaultEditor "VSCode"
+win32DefaultViewer "VSCode"
 unixDefaultEditor "Builtin"
 unixDefaultViewer "Builtin"
 defaultVerilogDialect 5
@@ -4323,7 +4323,7 @@ hdsWorkspaceLocation ""
 relativeLibraryRootDir ""
 vmLabelLatestDontAskAgain 0
 vmLabelWorkspaceDontAskAgain 0
-logWindowGeometry "750x650+-1811+-99"
+logWindowGeometry "750x650+-1271+-121"
 diagramBrowserTabNo 0
 showInsertPortHint 0
 showContentFirstTime 0
@@ -6413,8 +6413,8 @@ size 197
 )
 ]
 displayHierarchy 0
-xPos -3006
-yPos 183
+xPos -2932
+yPos 159
 width 1936
 height 1048
 activeSidePanelTab 2
