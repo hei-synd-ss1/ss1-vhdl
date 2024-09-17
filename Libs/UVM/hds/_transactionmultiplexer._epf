@@ -1,0 +1,2 @@
+DEFAULT_FILE atom transactionMultiplexer_sim.vhd
+DEFAULT_ARCHITECTURE atom RTL

@@ -1,0 +1,2 @@
+DEFAULT_FILE atom i2creceiver_rtl.vhd
+DEFAULT_ARCHITECTURE atom RTL
