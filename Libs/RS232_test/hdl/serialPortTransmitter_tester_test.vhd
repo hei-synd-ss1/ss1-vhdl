@@ -38,5 +38,4 @@ BEGIN
     wait;
 
   end process;
-
 END ARCHITECTURE test;
