@@ -644,19 +644,19 @@ value "C:\\dev\\ss1\\ss1-kart\\Prefs\\..\\DcMotor\\hds\\dcMotorController"
 )
 (vvPair
 variable "date"
-value "16/09/2024"
+value "15.01.2025"
 )
 (vvPair
 variable "day"
-value "lun."
+value "mer."
 )
 (vvPair
 variable "day_long"
-value "lundi"
+value "mercredi"
 )
 (vvPair
 variable "dd"
-value "16"
+value "15"
 )
 (vvPair
 variable "entity_name"
@@ -684,7 +684,7 @@ value "Axam"
 )
 (vvPair
 variable "graphical_source_date"
-value "16/09/2024"
+value "15.01.2025"
 )
 (vvPair
 variable "graphical_source_group"
@@ -696,7 +696,7 @@ value "WE10628"
 )
 (vvPair
 variable "graphical_source_time"
-value "10:23:25"
+value "09:11:56"
 )
 (vvPair
 variable "group"
@@ -720,7 +720,7 @@ value "$HDS_PROJECT_DIR/../DcMotor/work"
 )
 (vvPair
 variable "mm"
-value "09"
+value "01"
 )
 (vvPair
 variable "module_name"
@@ -728,11 +728,11 @@ value "dcMotorController"
 )
 (vvPair
 variable "month"
-value "sept."
+value "janv."
 )
 (vvPair
 variable "month_long"
-value "septembre"
+value "janvier"
 )
 (vvPair
 variable "p"
@@ -768,7 +768,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "10:23:25"
+value "09:11:56"
 )
 (vvPair
 variable "unit"
@@ -788,11 +788,11 @@ value "symbol"
 )
 (vvPair
 variable "year"
-value "2024"
+value "2025"
 )
 (vvPair
 variable "yy"
-value "24"
+value "25"
 )
 ]
 )
@@ -2151,7 +2151,7 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 788,0
+lastUid 811,0
 okToSyncOnLoad 1
 OkToSyncGenericsOnLoad 1
 activeModelName "Symbol"

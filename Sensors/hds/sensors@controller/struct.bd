@@ -194,19 +194,19 @@ value "C:\\dev\\ss1\\ss1-kart\\Prefs\\..\\Sensors\\hds\\sensorsController"
 )
 (vvPair
 variable "date"
-value "17/09/2024"
+value "15.01.2025"
 )
 (vvPair
 variable "day"
-value "mar."
+value "mer."
 )
 (vvPair
 variable "day_long"
-value "mardi"
+value "mercredi"
 )
 (vvPair
 variable "dd"
-value "17"
+value "15"
 )
 (vvPair
 variable "entity_name"
@@ -234,7 +234,7 @@ value "Axam"
 )
 (vvPair
 variable "graphical_source_date"
-value "17/09/2024"
+value "15.01.2025"
 )
 (vvPair
 variable "graphical_source_group"
@@ -246,7 +246,7 @@ value "WE10628"
 )
 (vvPair
 variable "graphical_source_time"
-value "10:04:34"
+value "10:47:35"
 )
 (vvPair
 variable "group"
@@ -274,7 +274,7 @@ value "$HDS_PROJECT_DIR/../Sensors/work"
 )
 (vvPair
 variable "mm"
-value "09"
+value "01"
 )
 (vvPair
 variable "module_name"
@@ -282,11 +282,11 @@ value "sensorsController"
 )
 (vvPair
 variable "month"
-value "sept."
+value "janv."
 )
 (vvPair
 variable "month_long"
-value "septembre"
+value "janvier"
 )
 (vvPair
 variable "p"
@@ -322,7 +322,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "10:04:34"
+value "10:47:35"
 )
 (vvPair
 variable "unit"
@@ -342,11 +342,11 @@ value "struct"
 )
 (vvPair
 variable "year"
-value "2024"
+value "2025"
 )
 (vvPair
 variable "yy"
-value "24"
+value "25"
 )
 ]
 )
@@ -702,7 +702,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "19000,2200,39000,3000"
-st "addressIn            : symbolSizeType"
+st "addressIn            : symbolSizeType
+"
 )
 )
 *13 (Net
@@ -720,7 +721,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "19000,8600,37000,9400"
-st "regWr                : std_ulogic"
+st "regWr                : std_ulogic
+"
 )
 )
 *14 (Net
@@ -738,7 +740,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "19000,5400,40000,6200"
-st "dataIn               : dataRegisterType"
+st "dataIn               : dataRegisterType
+"
 )
 )
 *15 (Net
@@ -756,7 +759,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "19000,4600,37000,5400"
-st "clock                : std_ulogic"
+st "clock                : std_ulogic
+"
 )
 )
 *16 (Net
@@ -774,7 +778,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "19000,9400,37000,10200"
-st "reset                : std_ulogic"
+st "reset                : std_ulogic
+"
 )
 )
 *17 (Net
@@ -792,7 +797,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "19000,13400,49500,14200"
-st "leds                 : std_uLogic_vector(1 to SENS_ledNb)"
+st "leds                 : std_uLogic_vector(1 to SENS_ledNb)
+"
 )
 )
 *18 (Net
@@ -811,7 +817,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "19000,7000,52500,7800"
-st "endSwitches          : std_ulogic_vector(1 to SENS_endSwitchNb)"
+st "endSwitches          : std_ulogic_vector(1 to SENS_endSwitchNb)
+"
 )
 )
 *19 (PortIoIn
@@ -873,7 +880,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "19000,21800,65000,22600"
-st "SIGNAL hallCount            : unsigned(SENS_hallCountBitNb*SENS_hallSensorNb-1 downto 0)"
+st "SIGNAL hallCount            : unsigned(SENS_hallCountBitNb*SENS_hallSensorNb-1 downto 0)
+"
 )
 )
 *21 (PortIoIn
@@ -935,7 +943,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "19000,23400,54000,24200"
-st "SIGNAL rangerDistance       : unsigned(SENS_rangeBitNb-1 downto 0)"
+st "SIGNAL rangerDistance       : unsigned(SENS_rangeBitNb-1 downto 0)
+"
 )
 )
 *23 (PortIoOut
@@ -997,7 +1006,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "19000,7800,53000,8600"
-st "hallPulses           : std_ulogic_vector(1 to SENS_hallSensorNb)"
+st "hallPulses           : std_ulogic_vector(1 to SENS_hallSensorNb)
+"
 )
 )
 *25 (Net
@@ -1014,7 +1024,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "19000,6200,37000,7000"
-st "distancePulse        : std_ulogic"
+st "distancePulse        : std_ulogic
+"
 )
 )
 *26 (PortIoIn
@@ -1437,7 +1448,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "19000,14200,39000,15000"
-st "sensorsAddressToSend : symbolSizeType"
+st "sensorsAddressToSend : symbolSizeType
+"
 )
 )
 *36 (Net
@@ -1455,7 +1467,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "19000,15000,40000,15800"
-st "sensorsDataToSend    : dataRegisterType"
+st "sensorsDataToSend    : dataRegisterType
+"
 )
 )
 *37 (Net
@@ -1473,7 +1486,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "19000,10200,37000,11000"
-st "sensorsSendAuth      : std_ulogic"
+st "sensorsSendAuth      : std_ulogic
+"
 )
 )
 *38 (Net
@@ -1491,7 +1505,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "19000,15800,37000,16600"
-st "sensorsSendRequest   : std_ulogic"
+st "sensorsSendRequest   : std_ulogic
+"
 )
 )
 *39 (PortIoIn
@@ -1553,7 +1568,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "19000,11800,37000,12600"
-st "batterySClOut        : std_ulogic"
+st "batterySClOut        : std_ulogic
+"
 )
 )
 *41 (Net
@@ -1571,7 +1587,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "19000,12600,37000,13400"
-st "batterySDaOut        : std_ulogic"
+st "batterySDaOut        : std_ulogic
+"
 )
 )
 *42 (Net
@@ -1589,7 +1606,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "19000,3000,37000,3800"
-st "batterySClIn         : std_ulogic"
+st "batterySClIn         : std_ulogic
+"
 )
 )
 *43 (Net
@@ -1607,7 +1625,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "19000,3800,37000,4600"
-st "batterySDaIn         : std_ulogic"
+st "batterySDaIn         : std_ulogic
+"
 )
 )
 *44 (PortIoIn
@@ -1801,7 +1820,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "19000,19400,44000,20200"
-st "SIGNAL battery250uv         : dataRegisterType"
+st "SIGNAL battery250uv         : dataRegisterType
+"
 )
 )
 *49 (SaComponent
@@ -1925,7 +1945,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "110000,105625,110750,106375"
+xt "113000,105625,113750,106375"
 )
 tg (CPTG
 uid 3149,0
@@ -1936,10 +1956,10 @@ uid 3150,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "105000,105300,109000,106700"
+xt "108000,105300,112000,106700"
 st "sClIn"
 ju 2
-blo "109000,106500"
+blo "112000,106500"
 )
 )
 thePort (LogicalPort
@@ -1962,7 +1982,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "110000,101625,110750,102375"
+xt "113000,101625,113750,102375"
 )
 tg (CPTG
 uid 3153,0
@@ -1973,10 +1993,10 @@ uid 3154,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "104000,101300,109000,102700"
+xt "107000,101300,112000,102700"
 st "sClOut"
 ju 2
-blo "109000,102500"
+blo "112000,102500"
 )
 )
 thePort (LogicalPort
@@ -2000,7 +2020,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "110000,107625,110750,108375"
+xt "113000,107625,113750,108375"
 )
 tg (CPTG
 uid 3157,0
@@ -2011,10 +2031,10 @@ uid 3158,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "104500,107300,109000,108700"
+xt "107500,107300,112000,108700"
 st "sDaIn"
 ju 2
-blo "109000,108500"
+blo "112000,108500"
 )
 )
 thePort (LogicalPort
@@ -2037,7 +2057,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "110000,103625,110750,104375"
+xt "113000,103625,113750,104375"
 )
 tg (CPTG
 uid 3161,0
@@ -2048,10 +2068,10 @@ uid 3162,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "103500,103300,109000,104700"
+xt "106500,103300,112000,104700"
 st "sDaOut"
 ju 2
-blo "109000,104500"
+blo "112000,104500"
 )
 )
 thePort (LogicalPort
@@ -2147,7 +2167,7 @@ fg "0,65535,0"
 lineColor "0,32896,0"
 lineWidth 2
 )
-xt "94000,99000,110000,112000"
+xt "94000,99000,113000,112000"
 )
 oxt "17000,14000,33000,26000"
 ttg (MlTextGroup
@@ -2237,7 +2257,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "19000,20200,44000,21000"
-st "SIGNAL current250uA         : dataRegisterType"
+st "SIGNAL current250uA         : dataRegisterType
+"
 )
 )
 *63 (Net
@@ -2255,7 +2276,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "19000,26600,56500,27400"
-st "SIGNAL zeroPos              : std_ulogic_vector(1 to SENS_hallSensorNb)"
+st "SIGNAL zeroPos              : std_ulogic_vector(1 to SENS_hallSensorNb)
+"
 )
 )
 *64 (Net
@@ -2272,7 +2294,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "19000,21000,41000,21800"
-st "SIGNAL enable               : std_ulogic"
+st "SIGNAL enable               : std_ulogic
+"
 )
 )
 *65 (CommentText
@@ -2403,7 +2426,7 @@ va (VaSet
 fg "0,0,32768"
 font "Verdana,20,1"
 )
-xt "147200,13200,165800,85700"
+xt "147200,13200,165800,80700"
 st "
 TO COMPLETE
 
@@ -2423,8 +2446,6 @@ TO COMPLETE
 
 
 <=
-
-
 
 
 
@@ -2544,7 +2565,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "19000,22600,56500,23400"
-st "SIGNAL hallPulsesFiltered   : std_ulogic_vector(1 to SENS_hallSensorNb)"
+st "SIGNAL hallPulsesFiltered   : std_ulogic_vector(1 to SENS_hallSensorNb)
+"
 )
 )
 *76 (Frame
@@ -2631,7 +2653,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "19000,25000,41000,25800"
-st "SIGNAL servo_start          : std_ulogic"
+st "SIGNAL servo_start          : std_ulogic
+"
 )
 )
 *80 (Net
@@ -2650,7 +2673,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "19000,16600,49500,17400"
-st "servos               : std_ulogic_vector(1 to SENS_ledNb)"
+st "servos               : std_ulogic_vector(1 to SENS_ledNb)
+"
 )
 )
 *81 (PortIoOut
@@ -3026,7 +3050,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "19000,11000,37000,11800"
-st "testMode             : std_ulogic"
+st "testMode             : std_ulogic
+"
 )
 )
 *93 (Net
@@ -3045,7 +3070,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "19000,24200,59000,25000"
-st "SIGNAL registers            : registersHolderType(SENS_REG_COUNT-1 downto 0)"
+st "SIGNAL registers            : registersHolderType(SENS_REG_COUNT-1 downto 0)
+"
 )
 )
 *94 (Net
@@ -3064,7 +3090,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "19000,17400,60000,18200"
-st "user_outputs         : std_ulogic_vector(STD_USER_OUTPUTS_NUMBER - 1 DOWNTO 0)"
+st "user_outputs         : std_ulogic_vector(STD_USER_OUTPUTS_NUMBER - 1 DOWNTO 0)
+"
 )
 )
 *95 (PortIoOut
@@ -3633,7 +3660,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "19000,25800,41000,26600"
-st "SIGNAL startNextCount       : std_ulogic"
+st "SIGNAL startNextCount       : std_ulogic
+"
 )
 )
 *114 (SaComponent
@@ -4895,8 +4923,7 @@ font "Verdana,8,0"
 )
 xt "94000,73000,116400,75000"
 st "sensorNb   = SENS_hallSensorNb      ( positive )  
-countBitNb = SENS_hallCountBitNb    ( positive )  
-"
+countBitNb = SENS_hallCountBitNb    ( positive )  "
 )
 header ""
 )
@@ -4921,9 +4948,9 @@ vasetType 1
 fg "49152,49152,49152"
 )
 xt "94250,67250,95750,68750"
-iconName "BlockDiagram.png"
-iconMaskName "BlockDiagram.msk"
-ftype 1
+iconName "VhdlFileViewIcon.png"
+iconMaskName "VhdlFileViewIcon.msk"
+ftype 10
 )
 viewiconposition 0
 portVis (PortSigDisplay
@@ -5723,9 +5750,10 @@ uid 1995,0
 va (VaSet
 vasetType 3
 )
-xt "110750,102000,120000,102000"
+xt "113750,102000,120000,102000"
 pts [
-"110750,102000"
+"113750,102000"
+"117000,102000"
 "120000,102000"
 ]
 )
@@ -5745,9 +5773,9 @@ uid 2001,0
 va (VaSet
 isHidden 1
 )
-xt "105000,100800,113700,102000"
+xt "108000,100800,116700,102000"
 st "batterySClOut"
-blo "105000,101800"
+blo "108000,101800"
 tm "WireNameMgr"
 )
 )
@@ -5760,9 +5788,10 @@ uid 2005,0
 va (VaSet
 vasetType 3
 )
-xt "110750,104000,120000,104000"
+xt "113750,104000,120000,104000"
 pts [
-"110750,104000"
+"113750,104000"
+"117000,104000"
 "120000,104000"
 ]
 )
@@ -5782,9 +5811,9 @@ uid 2011,0
 va (VaSet
 isHidden 1
 )
-xt "105000,102800,114000,104000"
+xt "108000,102800,117000,104000"
 st "batterySDaOut"
-blo "105000,103800"
+blo "108000,103800"
 tm "WireNameMgr"
 )
 )
@@ -5797,10 +5826,11 @@ uid 2015,0
 va (VaSet
 vasetType 3
 )
-xt "110750,106000,120000,106000"
+xt "113750,106000,120000,106000"
 pts [
 "120000,106000"
-"110750,106000"
+"117000,106000"
+"113750,106000"
 ]
 )
 start &44
@@ -5819,9 +5849,9 @@ uid 2021,0
 va (VaSet
 isHidden 1
 )
-xt "105000,104800,112900,106000"
+xt "108000,104800,115900,106000"
 st "batterySClIn"
-blo "105000,105800"
+blo "108000,105800"
 tm "WireNameMgr"
 )
 )
@@ -5834,10 +5864,11 @@ uid 2025,0
 va (VaSet
 vasetType 3
 )
-xt "110750,108000,120000,108000"
+xt "113750,108000,120000,108000"
 pts [
 "120000,108000"
-"110750,108000"
+"117000,108000"
+"113750,108000"
 ]
 )
 start &45
@@ -5856,9 +5887,9 @@ uid 2031,0
 va (VaSet
 isHidden 1
 )
-xt "105000,106800,113200,108000"
+xt "108000,106800,116200,108000"
 st "batterySDaIn"
-blo "105000,107800"
+blo "108000,107800"
 tm "WireNameMgr"
 )
 )
@@ -6292,15 +6323,15 @@ uid 8257,0
 ps "OnConnectorStrategy"
 shape (Line2D
 pts [
-"73000,45000"
-"74000,44000"
+"75000,45000"
+"76000,44000"
 ]
 uid 8258,0
 va (VaSet
 vasetType 3
 lineWidth 2
 )
-xt "73000,44000,74000,45000"
+xt "75000,44000,76000,45000"
 )
 )
 ]
@@ -6573,10 +6604,10 @@ va (VaSet
 vasetType 3
 lineWidth 2
 )
-xt "74000,18000,110250,44000"
+xt "76000,18000,110250,44000"
 pts [
-"74000,44000"
-"74000,18000"
+"76000,44000"
+"76000,18000"
 "110250,18000"
 ]
 )
@@ -6968,7 +6999,7 @@ exportStdPackageRefs 1
 )
 hasePageBreakOrigin 1
 pageBreakOrigin "0,0"
-lastUid 9428,0
+lastUid 9505,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0

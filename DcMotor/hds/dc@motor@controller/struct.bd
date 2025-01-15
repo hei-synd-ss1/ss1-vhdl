@@ -129,19 +129,19 @@ value "C:\\dev\\ss1\\ss1-kart\\Prefs\\..\\DcMotor\\hds\\dcMotorController"
 )
 (vvPair
 variable "date"
-value "16/09/2024"
+value "15.01.2025"
 )
 (vvPair
 variable "day"
-value "lun."
+value "mer."
 )
 (vvPair
 variable "day_long"
-value "lundi"
+value "mercredi"
 )
 (vvPair
 variable "dd"
-value "16"
+value "15"
 )
 (vvPair
 variable "entity_name"
@@ -169,7 +169,7 @@ value "Axam"
 )
 (vvPair
 variable "graphical_source_date"
-value "16/09/2024"
+value "15.01.2025"
 )
 (vvPair
 variable "graphical_source_group"
@@ -181,7 +181,7 @@ value "WE10628"
 )
 (vvPair
 variable "graphical_source_time"
-value "10:23:25"
+value "09:11:56"
 )
 (vvPair
 variable "group"
@@ -205,7 +205,7 @@ value "$HDS_PROJECT_DIR/../DcMotor/work"
 )
 (vvPair
 variable "mm"
-value "09"
+value "01"
 )
 (vvPair
 variable "module_name"
@@ -213,11 +213,11 @@ value "dcMotorController"
 )
 (vvPair
 variable "month"
-value "sept."
+value "janv."
 )
 (vvPair
 variable "month_long"
-value "septembre"
+value "janvier"
 )
 (vvPair
 variable "p"
@@ -253,7 +253,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "10:23:25"
+value "09:11:56"
 )
 (vvPair
 variable "unit"
@@ -273,11 +273,11 @@ value "struct"
 )
 (vvPair
 variable "year"
-value "2024"
+value "2025"
 )
 (vvPair
 variable "yy"
-value "24"
+value "25"
 )
 ]
 )
@@ -1356,7 +1356,7 @@ uid 2537,0
 va (VaSet
 font "Verdana,8,0"
 )
-xt "91000,37000,113700,38000"
+xt "89000,37000,111700,38000"
 st "prescalerBitNb = DC_prescalerBitNb    ( positive )  "
 )
 header ""
@@ -1623,16 +1623,16 @@ optionalChildren [
 uid 2949,0
 sl 0
 ro 270
-xt "63000,45625,64500,46375"
+xt "61000,45625,62500,46375"
 )
 (Line
 uid 2950,0
 sl 0
 ro 270
-xt "64500,46000,65000,46000"
+xt "62500,46000,63000,46000"
 pts [
-"64500,46000"
-"65000,46000"
+"62500,46000"
+"63000,46000"
 ]
 )
 ]
@@ -1647,10 +1647,10 @@ f (Text
 uid 2952,0
 va (VaSet
 )
-xt "53600,45400,62000,46600"
+xt "51600,45400,60000,46600"
 st "hwOrientation"
 ju 2
-blo "62000,46400"
+blo "60000,46400"
 tm "WireNameMgr"
 )
 )
@@ -2977,9 +2977,9 @@ va (VaSet
 vasetType 3
 lineWidth 2
 )
-xt "65000,46000,66000,54000"
+xt "63000,46000,66000,54000"
 pts [
-"65000,46000"
+"63000,46000"
 "66000,46000"
 "66000,54000"
 ]
@@ -3001,9 +3001,9 @@ uid 1374,0
 va (VaSet
 isHidden 1
 )
-xt "67000,44800,75400,46000"
+xt "65000,44800,73400,46000"
 st "hwOrientation"
-blo "67000,45800"
+blo "65000,45800"
 tm "WireNameMgr"
 )
 )
@@ -3767,8 +3767,8 @@ tm "BdCompilerDirectivesTextMgr"
 ]
 associable 1
 )
-windowSize "-1928,-259,8,789"
-viewArea "-2056,-2138,142749,73486"
+windowSize "-1920,-251,1,797"
+viewArea "-2100,-2100,143498,77020"
 cachedDiagramExtent "0,0,140000,67000"
 pageSetupInfo (PageSetupInfo
 ptrCmd ""
@@ -3792,7 +3792,7 @@ exportStdPackageRefs 1
 )
 hasePageBreakOrigin 1
 pageBreakOrigin "0,0"
-lastUid 4366,0
+lastUid 4399,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0

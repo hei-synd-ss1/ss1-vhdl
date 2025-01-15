@@ -53,23 +53,23 @@ value " "
 )
 (vvPair
 variable "HDLDir"
-value "C:\\dev\\did-kart\\Prefs\\..\\DcMotor\\hdl"
+value "C:\\dev\\ss1\\ss1-kart\\Prefs\\..\\DcMotor\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "C:\\dev\\did-kart\\Prefs\\..\\DcMotor\\hds"
+value "C:\\dev\\ss1\\ss1-kart\\Prefs\\..\\DcMotor\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "C:\\dev\\did-kart\\Prefs\\..\\DcMotor\\hds\\dc@motor@pwm\\student@version.bd.info"
+value "C:\\dev\\ss1\\ss1-kart\\Prefs\\..\\DcMotor\\hds\\dc@motor@pwm\\student@version.bd.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "C:\\dev\\did-kart\\Prefs\\..\\DcMotor\\hds\\dc@motor@pwm\\student@version.bd.user"
+value "C:\\dev\\ss1\\ss1-kart\\Prefs\\..\\DcMotor\\hds\\dc@motor@pwm\\student@version.bd.user"
 )
 (vvPair
 variable "SourceDir"
-value "C:\\dev\\did-kart\\Prefs\\..\\DcMotor\\hds"
+value "C:\\dev\\ss1\\ss1-kart\\Prefs\\..\\DcMotor\\hds"
 )
 (vvPair
 variable "appl"
@@ -89,27 +89,27 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "C:\\dev\\did-kart\\Prefs\\..\\DcMotor\\hds\\dc@motor@pwm"
+value "C:\\dev\\ss1\\ss1-kart\\Prefs\\..\\DcMotor\\hds\\dc@motor@pwm"
 )
 (vvPair
 variable "d_logical"
-value "C:\\dev\\did-kart\\Prefs\\..\\DcMotor\\hds\\dcMotorPwm"
+value "C:\\dev\\ss1\\ss1-kart\\Prefs\\..\\DcMotor\\hds\\dcMotorPwm"
 )
 (vvPair
 variable "date"
-value "27.06.2023"
+value "15.01.2025"
 )
 (vvPair
 variable "day"
-value "mar."
+value "mer."
 )
 (vvPair
 variable "day_long"
-value "mardi"
+value "mercredi"
 )
 (vvPair
 variable "dd"
-value "27"
+value "15"
 )
 (vvPair
 variable "designName"
@@ -137,11 +137,11 @@ value "student@version"
 )
 (vvPair
 variable "graphical_source_author"
-value "axel.amand"
+value "Axam"
 )
 (vvPair
 variable "graphical_source_date"
-value "27.06.2023"
+value "15.01.2025"
 )
 (vvPair
 variable "graphical_source_group"
@@ -149,11 +149,11 @@ value "UNKNOWN"
 )
 (vvPair
 variable "graphical_source_host"
-value "WE7860"
+value "WE10628"
 )
 (vvPair
 variable "graphical_source_time"
-value "11:40:15"
+value "09:12:15"
 )
 (vvPair
 variable "group"
@@ -161,7 +161,7 @@ value "UNKNOWN"
 )
 (vvPair
 variable "host"
-value "WE7860"
+value "WE10628"
 )
 (vvPair
 variable "language"
@@ -177,7 +177,7 @@ value "$HDS_PROJECT_DIR/../DcMotor/work"
 )
 (vvPair
 variable "mm"
-value "06"
+value "01"
 )
 (vvPair
 variable "module_name"
@@ -185,19 +185,19 @@ value "dcMotorPwm"
 )
 (vvPair
 variable "month"
-value "juin"
+value "janv."
 )
 (vvPair
 variable "month_long"
-value "juin"
+value "janvier"
 )
 (vvPair
 variable "p"
-value "C:\\dev\\did-kart\\Prefs\\..\\DcMotor\\hds\\dc@motor@pwm\\student@version.bd"
+value "C:\\dev\\ss1\\ss1-kart\\Prefs\\..\\DcMotor\\hds\\dc@motor@pwm\\student@version.bd"
 )
 (vvPair
 variable "p_logical"
-value "C:\\dev\\did-kart\\Prefs\\..\\DcMotor\\hds\\dcMotorPwm\\studentVersion.bd"
+value "C:\\dev\\ss1\\ss1-kart\\Prefs\\..\\DcMotor\\hds\\dcMotorPwm\\studentVersion.bd"
 )
 (vvPair
 variable "package_name"
@@ -245,7 +245,7 @@ value "studentVersion"
 )
 (vvPair
 variable "time"
-value "11:40:15"
+value "09:12:15"
 )
 (vvPair
 variable "unit"
@@ -253,7 +253,7 @@ value "dcMotorPwm"
 )
 (vvPair
 variable "user"
-value "axel.amand"
+value "Axam"
 )
 (vvPair
 variable "version"
@@ -265,11 +265,11 @@ value "studentVersion"
 )
 (vvPair
 variable "year"
-value "2023"
+value "2025"
 )
 (vvPair
 variable "yy"
-value "23"
+value "25"
 )
 ]
 )
@@ -334,7 +334,8 @@ uid 22,0
 va (VaSet
 )
 xt "-1000,8200,13000,9400"
-st "clock           : std_ulogic"
+st "clock           : std_ulogic
+"
 )
 )
 *3 (PortIoIn
@@ -395,7 +396,8 @@ uid 36,0
 va (VaSet
 )
 xt "-1000,10600,12400,11800"
-st "en              : std_ulogic"
+st "en              : std_ulogic
+"
 )
 )
 *5 (PortIoOut
@@ -455,7 +457,8 @@ uid 50,0
 va (VaSet
 )
 xt "-1000,14200,13600,15400"
-st "forwards        : std_ulogic"
+st "forwards        : std_ulogic
+"
 )
 )
 *7 (PortIoIn
@@ -516,7 +519,8 @@ uid 64,0
 va (VaSet
 )
 xt "-1000,15400,15300,16600"
-st "normalDirection : std_ulogic"
+st "normalDirection : std_ulogic
+"
 )
 )
 *9 (PortIoOut
@@ -576,7 +580,8 @@ uid 78,0
 va (VaSet
 )
 xt "-1000,13000,14100,14200"
-st "pwmOut          : std_ulogic"
+st "pwmOut          : std_ulogic
+"
 )
 )
 *11 (PortIoIn
@@ -637,7 +642,8 @@ uid 92,0
 va (VaSet
 )
 xt "-1000,9400,12900,10600"
-st "reset           : std_ulogic"
+st "reset           : std_ulogic
+"
 )
 )
 *13 (PortIoIn
@@ -699,7 +705,8 @@ uid 106,0
 va (VaSet
 )
 xt "-1000,11800,26200,13000"
-st "speed           : signed(speedBitNb-1 DOWNTO 0)"
+st "speed           : signed(speedBitNb-1 DOWNTO 0)
+"
 )
 )
 *15 (Grouping
@@ -784,7 +791,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "58200,6400,76300,7600"
+xt "58200,6400,73700,7600"
 st "
 by %user on %dd %month %year
 "
@@ -1076,7 +1083,8 @@ uid 332,0
 va (VaSet
 )
 xt "-1000,16600,13100,17800"
-st "restart         : std_ulogic"
+st "restart         : std_ulogic
+"
 )
 )
 *28 (PortIoIn
@@ -1137,7 +1145,8 @@ uid 346,0
 va (VaSet
 )
 xt "-1000,17800,14900,19000"
-st "btConnected     : std_ulogic"
+st "btConnected     : std_ulogic
+"
 )
 )
 *30 (SaComponent
@@ -1878,8 +1887,8 @@ tm "BdCompilerDirectivesTextMgr"
 ]
 associable 1
 )
-windowSize "-8,-8,1928,1048"
-viewArea "-4591,-1698,106152,58472"
+windowSize "-1928,-259,8,789"
+viewArea "-4588,-1697,106086,57917"
 cachedDiagramExtent "-3000,0,104000,44700"
 pageSetupInfo (PageSetupInfo
 ptrCmd ""
@@ -1903,7 +1912,7 @@ exportStdPackageRefs 1
 )
 hasePageBreakOrigin 1
 pageBreakOrigin "-3000,0"
-lastUid 585,0
+lastUid 622,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0

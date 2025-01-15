@@ -50,7 +50,7 @@ BEGIN
           skipcommands := '0';
         elsif skipcommands = '0' then
           if verbosity > 2 then
-            print(command.all & ":" & driverLine.all);
+            print(command.all & ":" & driverLine.all & "(" & sprintf("%tn", now) & ")");
           end if;
 
           if command.all = "info" then
@@ -132,6 +132,8 @@ BEGIN
             end if;
           end if;
         end if;
+        -- Advance time by one delta simulation step
+        wait for 0 ns;
 
       end if;
     end loop;

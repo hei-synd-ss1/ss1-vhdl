@@ -23,7 +23,7 @@ unitName "gates"
 ]
 instances [
 (Instance
-name "U_0"
+name "U_zero"
 duLibraryName "gates"
 duName "logic0"
 elements [
@@ -90,7 +90,7 @@ value "C:\\dev\\ss1\\ss1-kart\\Prefs\\..\\Sensors\\hds\\servoController"
 )
 (vvPair
 variable "date"
-value "07/08/2024"
+value "15.01.2025"
 )
 (vvPair
 variable "day"
@@ -102,7 +102,7 @@ value "mercredi"
 )
 (vvPair
 variable "dd"
-value "07"
+value "15"
 )
 (vvPair
 variable "entity_name"
@@ -130,7 +130,7 @@ value "Axam"
 )
 (vvPair
 variable "graphical_source_date"
-value "07/08/2024"
+value "15.01.2025"
 )
 (vvPair
 variable "graphical_source_group"
@@ -142,7 +142,7 @@ value "WE10628"
 )
 (vvPair
 variable "graphical_source_time"
-value "08:08:06"
+value "09:15:17"
 )
 (vvPair
 variable "group"
@@ -170,7 +170,7 @@ value "$HDS_PROJECT_DIR/../Sensors/work"
 )
 (vvPair
 variable "mm"
-value "08"
+value "01"
 )
 (vvPair
 variable "module_name"
@@ -178,11 +178,11 @@ value "servoController"
 )
 (vvPair
 variable "month"
-value "août"
+value "janv."
 )
 (vvPair
 variable "month_long"
-value "août"
+value "janvier"
 )
 (vvPair
 variable "p"
@@ -218,7 +218,7 @@ value "studentVersion"
 )
 (vvPair
 variable "time"
-value "08:08:06"
+value "09:15:17"
 )
 (vvPair
 variable "unit"
@@ -238,11 +238,11 @@ value "studentVersion"
 )
 (vvPair
 variable "year"
-value "2024"
+value "2025"
 )
 (vvPair
 variable "yy"
-value "24"
+value "25"
 )
 ]
 )
@@ -308,8 +308,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-8000,17000,6000,17800"
-st "pulse_20ms   : std_ulogic
-"
+st "pulse_20ms   : std_ulogic"
 )
 )
 *3 (PortIoOut
@@ -371,8 +370,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-8000,18600,6000,19400"
-st "servo        : std_ulogic
-"
+st "servo        : std_ulogic"
 )
 )
 *5 (Grouping
@@ -397,7 +395,7 @@ fg "0,0,32768"
 bg "0,0,32768"
 font "Arial,8,0"
 )
-xt "11200,4000,20800,5000"
+xt "11200,4000,21000,5000"
 st "
 by %user on %dd %month %year
 "
@@ -801,8 +799,8 @@ uid 211,0
 va (VaSet
 font "Verdana,8,1"
 )
-xt "29910,23700,32410,24700"
-st "U_0"
+xt "29910,23700,33810,24700"
+st "U_zero"
 blo "29910,24500"
 tm "InstanceNameMgr"
 )
@@ -906,8 +904,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-8000,16200,9000,17000"
-st "count_target : dataRegisterType
-"
+st "count_target : dataRegisterType"
 )
 )
 *23 (PortIoIn
@@ -970,8 +967,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-8000,15400,6000,16200"
-st "clock        : std_ulogic
-"
+st "clock        : std_ulogic"
 )
 )
 *25 (PortIoIn
@@ -1034,8 +1030,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-8000,17800,6000,18600"
-st "reset        : std_ulogic
-"
+st "reset        : std_ulogic"
 )
 )
 *27 (CommentText
@@ -1048,7 +1043,7 @@ vasetType 1
 fg "65280,65280,46080"
 lineColor "0,0,32768"
 )
-xt "-8000,29000,38000,33000"
+xt "-8000,30000,40000,33000"
 )
 oxt "0,0,15000,5000"
 text (MLText
@@ -1056,15 +1051,15 @@ uid 366,0
 va (VaSet
 fg "0,0,32768"
 )
-xt "-7800,29200,37900,32800"
+xt "-7800,30200,39500,32600"
 st "
 Signal \"count_target\" is of type \"dataRegisterType\", which is a definition in Kart/Kart.pkg
 It corresponds to a std_ulogic_vector(VALUE_BIT_NB-1 downto 0), i.e. 15 downto 0.
 "
 tm "CommentText"
 wrapOption 3
-visibleHeight 4000
-visibleWidth 46000
+visibleHeight 3000
+visibleWidth 48000
 )
 )
 *28 (Wire
@@ -1367,8 +1362,8 @@ tm "BdCompilerDirectivesTextMgr"
 ]
 associable 1
 )
-windowSize "-1928,-259,8,789"
-viewArea "-10870,-988,59453,36891"
+windowSize "-1920,-251,1,797"
+viewArea "-10900,-1000,60206,37640"
 cachedDiagramExtent "-10000,0,48500,35700"
 pageSetupInfo (PageSetupInfo
 ptrCmd ""
@@ -1392,7 +1387,7 @@ exportStdPackageRefs 1
 )
 hasePageBreakOrigin 1
 pageBreakOrigin "-11000,0"
-lastUid 366,0
+lastUid 397,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0

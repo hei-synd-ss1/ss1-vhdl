@@ -137,19 +137,19 @@ value "C:\\dev\\ss1\\ss1-kart\\Prefs\\..\\Stepper\\hds\\stepperMotorController"
 )
 (vvPair
 variable "date"
-value "13/09/2024"
+value "15.01.2025"
 )
 (vvPair
 variable "day"
-value "ven."
+value "mer."
 )
 (vvPair
 variable "day_long"
-value "vendredi"
+value "mercredi"
 )
 (vvPair
 variable "dd"
-value "13"
+value "15"
 )
 (vvPair
 variable "entity_name"
@@ -177,7 +177,7 @@ value "Axam"
 )
 (vvPair
 variable "graphical_source_date"
-value "13/09/2024"
+value "15.01.2025"
 )
 (vvPair
 variable "graphical_source_group"
@@ -189,7 +189,7 @@ value "WE10628"
 )
 (vvPair
 variable "graphical_source_time"
-value "10:43:15"
+value "09:11:36"
 )
 (vvPair
 variable "group"
@@ -217,7 +217,7 @@ value "$HDS_PROJECT_DIR/../Stepper/work"
 )
 (vvPair
 variable "mm"
-value "09"
+value "01"
 )
 (vvPair
 variable "module_name"
@@ -225,11 +225,11 @@ value "stepperMotorController"
 )
 (vvPair
 variable "month"
-value "sept."
+value "janv."
 )
 (vvPair
 variable "month_long"
-value "septembre"
+value "janvier"
 )
 (vvPair
 variable "p"
@@ -265,7 +265,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "10:43:15"
+value "09:11:36"
 )
 (vvPair
 variable "unit"
@@ -285,11 +285,11 @@ value "struct"
 )
 (vvPair
 variable "year"
-value "2024"
+value "2025"
 )
 (vvPair
 variable "yy"
-value "24"
+value "25"
 )
 ]
 )
@@ -645,8 +645,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,2400,42000,3200"
-st "addressIn            : symbolSizeType
-"
+st "addressIn            : symbolSizeType"
 )
 )
 *13 (Net
@@ -664,8 +663,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,3200,40000,4000"
-st "clock                : std_ulogic
-"
+st "clock                : std_ulogic"
 )
 )
 *14 (Net
@@ -683,8 +681,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,4000,43000,4800"
-st "dataIn               : dataRegisterType
-"
+st "dataIn               : dataRegisterType"
 )
 )
 *15 (Net
@@ -702,8 +699,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,5600,40000,6400"
-st "regWr                : std_ulogic
-"
+st "regWr                : std_ulogic"
 )
 )
 *16 (Net
@@ -721,8 +717,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,6400,40000,7200"
-st "reset                : std_ulogic
-"
+st "reset                : std_ulogic"
 )
 )
 *17 (Net
@@ -741,8 +736,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,18000,57500,18800"
-st "SIGNAL clockDivider         : unsigned(STP_dividerBitNb-1 DOWNTO 0)
-"
+st "SIGNAL clockDivider         : unsigned(STP_dividerBitNb-1 DOWNTO 0)"
 )
 )
 *18 (Net
@@ -760,8 +754,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,8000,40000,8800"
-st "stepperSendAuth      : std_ulogic
-"
+st "stepperSendAuth      : std_ulogic"
 )
 )
 *19 (PortIoIn
@@ -1049,8 +1042,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,18800,44000,19600"
-st "SIGNAL reached              : std_ulogic
-"
+st "SIGNAL reached              : std_ulogic"
 )
 )
 *26 (Net
@@ -1068,8 +1060,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,7200,40000,8000"
-st "stepperEnd           : std_ulogic
-"
+st "stepperEnd           : std_ulogic"
 )
 )
 *27 (PortIoIn
@@ -1131,8 +1122,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,15200,40000,16000"
-st "stepperSendRequest   : std_ulogic
-"
+st "stepperSendRequest   : std_ulogic"
 )
 )
 *29 (PortIoOut
@@ -1195,8 +1185,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,14400,43000,15200"
-st "stepperDataToSend    : dataRegisterType
-"
+st "stepperDataToSend    : dataRegisterType"
 )
 )
 *31 (PortIoOut
@@ -1259,8 +1248,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,13600,42000,14400"
-st "stepperAddressToSend : symbolSizeType
-"
+st "stepperAddressToSend : symbolSizeType"
 )
 )
 *33 (PortIoOut
@@ -1567,8 +1555,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,9600,40000,10400"
-st "coil1                : std_ulogic
-"
+st "coil1                : std_ulogic"
 )
 )
 *42 (PortIoOut
@@ -1629,8 +1616,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,10400,40000,11200"
-st "coil2                : std_uLogic
-"
+st "coil2                : std_uLogic"
 )
 )
 *44 (PortIoOut
@@ -1691,8 +1677,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,11200,40000,12000"
-st "coil3                : std_uLogic
-"
+st "coil3                : std_uLogic"
 )
 )
 *46 (PortIoOut
@@ -1753,8 +1738,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,12000,40000,12800"
-st "coil4                : std_uLogic
-"
+st "coil4                : std_uLogic"
 )
 )
 *48 (PortIoOut
@@ -1816,8 +1800,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,4800,43000,5600"
-st "hwOrientation        : dataRegisterType
-"
+st "hwOrientation        : dataRegisterType"
 )
 )
 *50 (Net
@@ -1834,8 +1817,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,8800,40000,9600"
-st "testMode             : std_ulogic
-"
+st "testMode             : std_ulogic"
 )
 )
 *51 (PortIoIn
@@ -1896,8 +1878,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,20400,44000,21200"
-st "SIGNAL stepperEndOr         : std_ulogic
-"
+st "SIGNAL stepperEndOr         : std_ulogic"
 )
 )
 *53 (Net
@@ -1914,8 +1895,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,19600,44000,20400"
-st "SIGNAL stepEn               : std_uLogic
-"
+st "SIGNAL stepEn               : std_uLogic"
 )
 )
 *54 (Net
@@ -1933,8 +1913,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,17200,56500,18000"
-st "SIGNAL actual               : unsigned(STP_angleBitNb-1 DOWNTO 0)
-"
+st "SIGNAL actual               : unsigned(STP_angleBitNb-1 DOWNTO 0)"
 )
 )
 *55 (PortIoIn
@@ -2307,8 +2286,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,21200,56500,22000"
-st "SIGNAL targetAngle          : unsigned(STP_angleBitNb-1 DOWNTO 0)
-"
+st "SIGNAL targetAngle          : unsigned(STP_angleBitNb-1 DOWNTO 0)"
 )
 )
 *66 (CommentText
@@ -3002,8 +2980,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,12800,45500,13600"
-st "magnetizing_power    : unsigned(3 DOWNTO 0)
-"
+st "magnetizing_power    : unsigned(3 DOWNTO 0)"
 )
 )
 *87 (PortIoOut
@@ -4412,14 +4389,14 @@ uid 3149,0
 ps "OnConnectorStrategy"
 shape (Line2D
 pts [
-"106000,50000"
-"105000,51000"
+"106001,52000"
+"105001,51000"
 ]
 uid 3150,0
 va (VaSet
 vasetType 3
 )
-xt "105000,50000,106000,51000"
+xt "105001,51000,106001,52000"
 )
 )
 ]
@@ -4927,9 +4904,9 @@ uid 3144,0
 va (VaSet
 vasetType 3
 )
-xt "62750,37000,105000,51000"
+xt "62750,37000,105001,51000"
 pts [
-"105000,51000"
+"105001,51000"
 "89000,51000"
 "89000,37000"
 "62750,37000"
@@ -5116,7 +5093,7 @@ tm "BdCompilerDirectivesTextMgr"
 associable 1
 )
 windowSize "-1928,-259,8,789"
-viewArea "-2890,-3006,200673,106642"
+viewArea "-2900,-3000,202883,107843"
 cachedDiagramExtent "0,0,197000,80600"
 pageSetupInfo (PageSetupInfo
 ptrCmd ""
@@ -5140,7 +5117,7 @@ exportStdPackageRefs 1
 )
 hasePageBreakOrigin 1
 pageBreakOrigin "0,0"
-lastUid 4031,0
+lastUid 4064,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0
