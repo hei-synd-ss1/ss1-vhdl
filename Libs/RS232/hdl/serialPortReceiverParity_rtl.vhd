@@ -152,5 +152,6 @@ BEGIN
 
   o_byte <= lsig_rx_shift_reg(o_byte'range);
   o_byte_received <= lsig_rx_data_valid;
+  o_receiving <= lsig_rx_receiving;
 
 end rtl;

@@ -48,6 +48,8 @@ signal lsig_tx_sending_byte_and_stop: std_uLogic;
 
 BEGIN
 
+  assert false report "o_txd_en not handled" severity failure;
+
   divide: process(reset, clock)
   begin
     if reset = '1' then
@@ -123,6 +125,7 @@ BEGIN
     else '0';
 
   o_txd <= lvec_tx_shift_reg(0) when lsig_tx_sending_byte = '1' else '1';
+  o_txd_en <= '0';
   o_busy <= lsig_tx_sending_byte_and_stop or lsig_send1 or i_send;
 
 END ARCHITECTURE RTL;
