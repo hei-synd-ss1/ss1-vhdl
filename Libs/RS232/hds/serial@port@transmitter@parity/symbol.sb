@@ -17,7 +17,7 @@ libraryRefs [
 ]
 )
 version "27.1"
-appVersion "2019.2 (Build 5)"
+appVersion "2023.4 Built on 6 Oct 2023 at 01:57:26"
 model (Symbol
 commonDM (CommonDM
 ldm (LogicalDM
@@ -518,23 +518,23 @@ VExpander (VariableExpander
 vvMap [
 (vvPair
 variable "HDLDir"
-value "C:\\dev\\Clearspace\\clearspace-fpga\\Prefs\\..\\Libs\\RS232\\hdl"
+value "C:\\Users\\remy.borgeat\\Documents\\git\\Projects\\Clearspace\\fpga\\Prefs\\..\\Libs\\RS232\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "C:\\dev\\Clearspace\\clearspace-fpga\\Prefs\\..\\Libs\\RS232\\hds"
+value "C:\\Users\\remy.borgeat\\Documents\\git\\Projects\\Clearspace\\fpga\\Prefs\\..\\Libs\\RS232\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "C:\\dev\\Clearspace\\clearspace-fpga\\Prefs\\..\\Libs\\RS232\\hds\\serial@port@transmitter@parity\\symbol.sb.info"
+value "C:\\Users\\remy.borgeat\\Documents\\git\\Projects\\Clearspace\\fpga\\Prefs\\..\\Libs\\RS232\\hds\\serial@port@transmitter@parity\\symbol.sb.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "C:\\dev\\Clearspace\\clearspace-fpga\\Prefs\\..\\Libs\\RS232\\hds\\serial@port@transmitter@parity\\symbol.sb.user"
+value "C:\\Users\\remy.borgeat\\Documents\\git\\Projects\\Clearspace\\fpga\\Prefs\\..\\Libs\\RS232\\hds\\serial@port@transmitter@parity\\symbol.sb.user"
 )
 (vvPair
 variable "SourceDir"
-value "C:\\dev\\Clearspace\\clearspace-fpga\\Prefs\\..\\Libs\\RS232\\hds"
+value "C:\\Users\\remy.borgeat\\Documents\\git\\Projects\\Clearspace\\fpga\\Prefs\\..\\Libs\\RS232\\hds"
 )
 (vvPair
 variable "appl"
@@ -554,27 +554,27 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "C:\\dev\\Clearspace\\clearspace-fpga\\Prefs\\..\\Libs\\RS232\\hds\\serial@port@transmitter@parity"
+value "C:\\Users\\remy.borgeat\\Documents\\git\\Projects\\Clearspace\\fpga\\Prefs\\..\\Libs\\RS232\\hds\\serial@port@transmitter@parity"
 )
 (vvPair
 variable "d_logical"
-value "C:\\dev\\Clearspace\\clearspace-fpga\\Prefs\\..\\Libs\\RS232\\hds\\serialPortTransmitterParity"
+value "C:\\Users\\remy.borgeat\\Documents\\git\\Projects\\Clearspace\\fpga\\Prefs\\..\\Libs\\RS232\\hds\\serialPortTransmitterParity"
 )
 (vvPair
 variable "date"
-value "20.02.2025"
+value "11.03.2025"
 )
 (vvPair
 variable "day"
-value "jeu."
+value "mar."
 )
 (vvPair
 variable "day_long"
-value "jeudi"
+value "mardi"
 )
 (vvPair
 variable "dd"
-value "20"
+value "11"
 )
 (vvPair
 variable "entity_name"
@@ -598,11 +598,11 @@ value "symbol"
 )
 (vvPair
 variable "graphical_source_author"
-value "Axam"
+value "remy.borgeat"
 )
 (vvPair
 variable "graphical_source_date"
-value "20.02.2025"
+value "11.03.2025"
 )
 (vvPair
 variable "graphical_source_group"
@@ -610,11 +610,11 @@ value "UNKNOWN"
 )
 (vvPair
 variable "graphical_source_host"
-value "WE10628"
+value "WE10993"
 )
 (vvPair
 variable "graphical_source_time"
-value "14:30:53"
+value "08:52:39"
 )
 (vvPair
 variable "group"
@@ -622,7 +622,7 @@ value "UNKNOWN"
 )
 (vvPair
 variable "host"
-value "WE10628"
+value "WE10993"
 )
 (vvPair
 variable "language"
@@ -633,12 +633,16 @@ variable "library"
 value "RS232"
 )
 (vvPair
+variable "library_downstream_Concatenation"
+value "$HDS_PROJECT_DIR/../Libs/RS232/concat"
+)
+(vvPair
 variable "library_downstream_ModelSimCompiler"
 value "$SCRATCH_DIR/RS232"
 )
 (vvPair
 variable "mm"
-value "02"
+value "03"
 )
 (vvPair
 variable "module_name"
@@ -646,19 +650,19 @@ value "serialPortTransmitterParity"
 )
 (vvPair
 variable "month"
-value "févr."
+value "mars"
 )
 (vvPair
 variable "month_long"
-value "février"
+value "mars"
 )
 (vvPair
 variable "p"
-value "C:\\dev\\Clearspace\\clearspace-fpga\\Prefs\\..\\Libs\\RS232\\hds\\serial@port@transmitter@parity\\symbol.sb"
+value "C:\\Users\\remy.borgeat\\Documents\\git\\Projects\\Clearspace\\fpga\\Prefs\\..\\Libs\\RS232\\hds\\serial@port@transmitter@parity\\symbol.sb"
 )
 (vvPair
 variable "p_logical"
-value "C:\\dev\\Clearspace\\clearspace-fpga\\Prefs\\..\\Libs\\RS232\\hds\\serialPortTransmitterParity\\symbol.sb"
+value "C:\\Users\\remy.borgeat\\Documents\\git\\Projects\\Clearspace\\fpga\\Prefs\\..\\Libs\\RS232\\hds\\serialPortTransmitterParity\\symbol.sb"
 )
 (vvPair
 variable "package_name"
@@ -671,6 +675,10 @@ value "hds"
 (vvPair
 variable "series"
 value "HDL Designer Series"
+)
+(vvPair
+variable "task_QuestaCDCFormalPath"
+value "$QHOME/bin"
 )
 (vvPair
 variable "this_ext"
@@ -686,7 +694,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "14:30:53"
+value "08:52:39"
 )
 (vvPair
 variable "unit"
@@ -694,11 +702,11 @@ value "serialPortTransmitterParity"
 )
 (vvPair
 variable "user"
-value "Axam"
+value "remy.borgeat"
 )
 (vvPair
 variable "version"
-value "2019.2 (Build 5)"
+value "2023.4 Built on 6 Oct 2023 at 01:57:26"
 )
 (vvPair
 variable "view"
@@ -754,8 +762,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,6400,61000,7200"
-st "o_txd    : OUT    std_ulogic  ;
-"
+st "o_txd    : OUT    std_ulogic  ;"
 )
 thePort (LogicalPort
 m 1
@@ -800,8 +807,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,5600,61000,6400"
-st "o_busy   : OUT    std_ulogic  ;
-"
+st "o_busy   : OUT    std_ulogic  ;"
 )
 thePort (LogicalPort
 m 1
@@ -846,8 +852,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,2400,61000,3200"
-st "clock    : IN     std_ulogic  ;
-"
+st "clock    : IN     std_ulogic  ;"
 )
 thePort (LogicalPort
 decl (Decl
@@ -891,8 +896,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,3200,78000,4000"
-st "i_data   : IN     std_ulogic_vector (g_DATA_BIT_NB-1 DOWNTO 0) ;
-"
+st "i_data   : IN     std_ulogic_vector (g_DATA_BIT_NB-1 DOWNTO 0) ;"
 )
 thePort (LogicalPort
 decl (Decl
@@ -937,8 +941,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,4800,61000,5600"
-st "reset    : IN     std_ulogic  ;
-"
+st "reset    : IN     std_ulogic  ;"
 )
 thePort (LogicalPort
 decl (Decl
@@ -982,8 +985,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,4000,61000,4800"
-st "i_send   : IN     std_ulogic  ;
-"
+st "i_send   : IN     std_ulogic  ;"
 )
 thePort (LogicalPort
 decl (Decl
@@ -1028,8 +1030,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,7200,60000,8000"
-st "o_txd_en : OUT    std_ulogic 
-"
+st "o_txd_en : OUT    std_ulogic "
 )
 thePort (LogicalPort
 m 1
@@ -1151,7 +1152,7 @@ fg "0,0,32768"
 bg "0,0,32768"
 font "Arial,8,0"
 )
-xt "36200,48000,45900,49000"
+xt "36200,48000,48700,49000"
 st "
 by %user on %dd %month %year
 "
@@ -1500,8 +1501,8 @@ tm "PackageList"
 )
 ]
 )
-windowSize "-1920,-251,1,797"
-viewArea "-17000,-19892,108282,46116"
+windowSize "1912,-8,3848,1048"
+viewArea "13451,2771,97403,47008"
 cachedDiagramExtent "0,0,78000,49000"
 hasePageBreakOrigin 1
 pageBreakOrigin "0,0"
@@ -1774,6 +1775,6 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 337,0
-activeModelName "Symbol:CDM"
+lastUid 360,0
+activeModelName "Symbol"
 )
