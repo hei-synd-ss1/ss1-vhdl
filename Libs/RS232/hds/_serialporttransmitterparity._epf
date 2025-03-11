@@ -1,2 +1,2 @@
-DEFAULT_ARCHITECTURE atom state_driven
-DEFAULT_FILE atom serialPortTransmitterParity_state_driven.vhd
+DEFAULT_ARCHITECTURE atom RTL
+DEFAULT_FILE atom serialPortTransmitterParity_RTL.vhd
