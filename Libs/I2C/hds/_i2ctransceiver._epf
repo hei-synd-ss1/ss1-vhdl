@@ -1,3 +1,0 @@
-DEFAULT_FILE atom i2ctransceiver_rtl.vhd
-DEFAULT_ARCHITECTURE atom RTL
-TOP_MARKER atom 1
