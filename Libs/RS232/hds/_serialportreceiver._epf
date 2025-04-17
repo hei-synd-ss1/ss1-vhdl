@@ -1,2 +1,2 @@
-DEFAULT_FILE atom serialPortReceiver_rtl.vhd
 DEFAULT_ARCHITECTURE atom RTL
+DEFAULT_FILE atom serialPortReceiver_RTL.vhd

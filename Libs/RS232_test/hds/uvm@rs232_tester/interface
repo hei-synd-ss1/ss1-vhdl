@@ -11,9 +11,20 @@ unitName "std_logic_1164"
 library "ieee"
 unitName "NUMERIC_STD"
 )
+(DmPackageRef
+library "Common"
+unitName "CommonLib"
+itemName "ALL"
+)
+(DmPackageRef
+library "gates"
+unitName "gates"
+)
 ]
 libraryRefs [
 "ieee"
+"Common"
+"gates"
 ]
 )
 version "27.1"
@@ -21,7 +32,7 @@ appVersion "2019.2 (Build 5)"
 model (Symbol
 commonDM (CommonDM
 ldm (LogicalDM
-suid 35,0
+suid 56,0
 usingSuid 1
 emptyRow *1 (LEmptyRow
 )
@@ -65,11 +76,11 @@ port (LogicalPort
 decl (Decl
 n "busy"
 t "std_ulogic"
-o 7
-suid 29,0
+o 3
+suid 50,0
 )
 )
-uid 529,0
+uid 745,0
 )
 *15 (LogPort
 port (LogicalPort
@@ -77,11 +88,11 @@ m 1
 decl (Decl
 n "clock"
 t "std_ulogic"
-o 2
-suid 30,0
+o 4
+suid 51,0
 )
 )
-uid 531,0
+uid 747,0
 )
 *16 (LogPort
 port (LogicalPort
@@ -90,11 +101,11 @@ decl (Decl
 n "dataIn"
 t "std_ulogic_vector"
 b "(rs232BitNb-1 DOWNTO 0)"
-o 9
-suid 31,0
+o 5
+suid 52,0
 )
 )
-uid 533,0
+uid 749,0
 )
 *17 (LogPort
 port (LogicalPort
@@ -103,21 +114,21 @@ n "dataOut"
 t "std_ulogic_vector"
 b "(rs232BitNb-1 DOWNTO 0)"
 o 6
-suid 32,0
+suid 53,0
 )
 )
-uid 535,0
+uid 751,0
 )
 *18 (LogPort
 port (LogicalPort
 decl (Decl
 n "dataValid"
 t "std_ulogic"
-o 5
-suid 33,0
+o 7
+suid 54,0
 )
 )
-uid 537,0
+uid 753,0
 )
 *19 (LogPort
 port (LogicalPort
@@ -125,11 +136,11 @@ m 1
 decl (Decl
 n "reset"
 t "std_ulogic"
-o 1
-suid 34,0
+o 8
+suid 55,0
 )
 )
-uid 539,0
+uid 755,0
 )
 *20 (LogPort
 port (LogicalPort
@@ -137,11 +148,11 @@ m 1
 decl (Decl
 n "send"
 t "std_ulogic"
-o 8
-suid 35,0
+o 9
+suid 56,0
 )
 )
-uid 541,0
+uid 757,0
 )
 ]
 )
@@ -197,43 +208,43 @@ uid 120,0
 litem &14
 pos 0
 dimension 20
-uid 530,0
+uid 746,0
 )
 *27 (MRCItem
 litem &15
 pos 1
 dimension 20
-uid 532,0
+uid 748,0
 )
 *28 (MRCItem
 litem &16
 pos 2
 dimension 20
-uid 534,0
+uid 750,0
 )
 *29 (MRCItem
 litem &17
 pos 3
 dimension 20
-uid 536,0
+uid 752,0
 )
 *30 (MRCItem
 litem &18
 pos 4
 dimension 20
-uid 538,0
+uid 754,0
 )
 *31 (MRCItem
 litem &19
 pos 5
 dimension 20
-uid 540,0
+uid 756,0
 )
 *32 (MRCItem
 litem &20
 pos 6
 dimension 20
-uid 542,0
+uid 758,0
 )
 ]
 )
@@ -506,23 +517,23 @@ VExpander (VariableExpander
 vvMap [
 (vvPair
 variable "HDLDir"
-value "C:\\Users\\francois.corthay\\Documents\\SEm_labs\\05-Morse\\..\\Libs\\RS232_test\\hdl"
+value "C:\\dev\\Clearspace\\clearspace-fpga\\Prefs\\..\\Libs\\RS232_test\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "C:\\Users\\francois.corthay\\Documents\\SEm_labs\\05-Morse\\..\\Libs\\RS232_test\\hds"
+value "C:\\dev\\Clearspace\\clearspace-fpga\\Prefs\\..\\Libs\\RS232_test\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "C:\\Users\\francois.corthay\\Documents\\SEm_labs\\05-Morse\\..\\Libs\\RS232_test\\hds\\uvm@rs232_tester\\interface.info"
+value "C:\\dev\\Clearspace\\clearspace-fpga\\Prefs\\..\\Libs\\RS232_test\\hds\\uvm@rs232_tester\\interface.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "C:\\Users\\francois.corthay\\Documents\\SEm_labs\\05-Morse\\..\\Libs\\RS232_test\\hds\\uvm@rs232_tester\\interface.user"
+value "C:\\dev\\Clearspace\\clearspace-fpga\\Prefs\\..\\Libs\\RS232_test\\hds\\uvm@rs232_tester\\interface.user"
 )
 (vvPair
 variable "SourceDir"
-value "C:\\Users\\francois.corthay\\Documents\\SEm_labs\\05-Morse\\..\\Libs\\RS232_test\\hds"
+value "C:\\dev\\Clearspace\\clearspace-fpga\\Prefs\\..\\Libs\\RS232_test\\hds"
 )
 (vvPair
 variable "appl"
@@ -542,27 +553,27 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "C:\\Users\\francois.corthay\\Documents\\SEm_labs\\05-Morse\\..\\Libs\\RS232_test\\hds\\uvm@rs232_tester"
+value "C:\\dev\\Clearspace\\clearspace-fpga\\Prefs\\..\\Libs\\RS232_test\\hds\\uvm@rs232_tester"
 )
 (vvPair
 variable "d_logical"
-value "C:\\Users\\francois.corthay\\Documents\\SEm_labs\\05-Morse\\..\\Libs\\RS232_test\\hds\\uvmRs232_tester"
+value "C:\\dev\\Clearspace\\clearspace-fpga\\Prefs\\..\\Libs\\RS232_test\\hds\\uvmRs232_tester"
 )
 (vvPair
 variable "date"
-value "02/25/2022"
+value "16.04.2025"
 )
 (vvPair
 variable "day"
-value "Fri"
+value "mer."
 )
 (vvPair
 variable "day_long"
-value "Friday"
+value "mercredi"
 )
 (vvPair
 variable "dd"
-value "25"
+value "16"
 )
 (vvPair
 variable "entity_name"
@@ -586,11 +597,11 @@ value "interface"
 )
 (vvPair
 variable "graphical_source_author"
-value "francois.corthay"
+value "Axam"
 )
 (vvPair
 variable "graphical_source_date"
-value "02/25/2022"
+value "16.04.2025"
 )
 (vvPair
 variable "graphical_source_group"
@@ -598,11 +609,11 @@ value "UNKNOWN"
 )
 (vvPair
 variable "graphical_source_host"
-value "WE7525"
+value "WE10628"
 )
 (vvPair
 variable "graphical_source_time"
-value "14:42:40"
+value "16:34:15"
 )
 (vvPair
 variable "group"
@@ -610,7 +621,7 @@ value "UNKNOWN"
 )
 (vvPair
 variable "host"
-value "WE7525"
+value "WE10628"
 )
 (vvPair
 variable "language"
@@ -621,12 +632,16 @@ variable "library"
 value "RS232_test"
 )
 (vvPair
+variable "library_downstream_Concatenation"
+value "$HDS_PROJECT_DIR/../Libs/RS232_test/concat"
+)
+(vvPair
 variable "library_downstream_ModelSimCompiler"
 value "$SCRATCH_DIR/RS232_test"
 )
 (vvPair
 variable "mm"
-value "02"
+value "04"
 )
 (vvPair
 variable "module_name"
@@ -634,19 +649,19 @@ value "uvmRs232_tester"
 )
 (vvPair
 variable "month"
-value "Feb"
+value "avr."
 )
 (vvPair
 variable "month_long"
-value "February"
+value "avril"
 )
 (vvPair
 variable "p"
-value "C:\\Users\\francois.corthay\\Documents\\SEm_labs\\05-Morse\\..\\Libs\\RS232_test\\hds\\uvm@rs232_tester\\interface"
+value "C:\\dev\\Clearspace\\clearspace-fpga\\Prefs\\..\\Libs\\RS232_test\\hds\\uvm@rs232_tester\\interface"
 )
 (vvPair
 variable "p_logical"
-value "C:\\Users\\francois.corthay\\Documents\\SEm_labs\\05-Morse\\..\\Libs\\RS232_test\\hds\\uvmRs232_tester\\interface"
+value "C:\\dev\\Clearspace\\clearspace-fpga\\Prefs\\..\\Libs\\RS232_test\\hds\\uvmRs232_tester\\interface"
 )
 (vvPair
 variable "package_name"
@@ -674,7 +689,7 @@ value "interface"
 )
 (vvPair
 variable "time"
-value "14:42:40"
+value "16:34:15"
 )
 (vvPair
 variable "unit"
@@ -682,7 +697,7 @@ value "uvmRs232_tester"
 )
 (vvPair
 variable "user"
-value "francois.corthay"
+value "Axam"
 )
 (vvPair
 variable "version"
@@ -694,11 +709,11 @@ value "interface"
 )
 (vvPair
 variable "year"
-value "2022"
+value "2025"
 )
 (vvPair
 variable "yy"
-value "22"
+value "25"
 )
 ]
 )
@@ -709,10 +724,10 @@ optionalChildren [
 uid 8,0
 optionalChildren [
 *72 (CptPort
-uid 494,0
+uid 710,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 495,0
+uid 711,0
 ro 180
 va (VaSet
 vasetType 1
@@ -721,11 +736,11 @@ fg "0,65535,0"
 xt "84625,5250,85375,6000"
 )
 tg (CPTG
-uid 496,0
+uid 712,0
 ps "CptPortTextPlaceStrategy"
 stg "RightVerticalLayoutStrategy"
 f (Text
-uid 497,0
+uid 713,0
 ro 270
 va (VaSet
 font "Verdana,12,0"
@@ -738,7 +753,7 @@ tm "CptPortNameMgr"
 )
 )
 dt (MLText
-uid 498,0
+uid 714,0
 va (VaSet
 font "Courier New,8,0"
 )
@@ -750,41 +765,41 @@ thePort (LogicalPort
 decl (Decl
 n "busy"
 t "std_ulogic"
-o 7
-suid 29,0
+o 3
+suid 50,0
 )
 )
 )
 *73 (CptPort
-uid 499,0
+uid 715,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 500,0
+uid 716,0
 va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "22625,5250,23375,6000"
+xt "41625,5250,42375,6000"
 )
 tg (CPTG
-uid 501,0
+uid 717,0
 ps "CptPortTextPlaceStrategy"
 stg "RightVerticalLayoutStrategy"
 f (Text
-uid 502,0
+uid 718,0
 ro 270
 va (VaSet
 font "Verdana,12,0"
 )
-xt "22300,7000,23700,10800"
+xt "41300,7000,42700,10800"
 st "clock"
 ju 2
-blo "23500,7000"
+blo "42500,7000"
 tm "CptPortNameMgr"
 )
 )
 dt (MLText
-uid 503,0
+uid 719,0
 va (VaSet
 font "Courier New,8,0"
 )
@@ -797,16 +812,16 @@ m 1
 decl (Decl
 n "clock"
 t "std_ulogic"
-o 2
-suid 30,0
+o 4
+suid 51,0
 )
 )
 )
 *74 (CptPort
-uid 504,0
+uid 720,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 505,0
+uid 721,0
 va (VaSet
 vasetType 1
 fg "0,65535,0"
@@ -814,11 +829,11 @@ fg "0,65535,0"
 xt "88625,5250,89375,6000"
 )
 tg (CPTG
-uid 506,0
+uid 722,0
 ps "CptPortTextPlaceStrategy"
 stg "RightVerticalLayoutStrategy"
 f (Text
-uid 507,0
+uid 723,0
 ro 270
 va (VaSet
 font "Verdana,12,0"
@@ -831,7 +846,7 @@ tm "CptPortNameMgr"
 )
 )
 dt (MLText
-uid 508,0
+uid 724,0
 va (VaSet
 font "Courier New,8,0"
 )
@@ -845,16 +860,16 @@ decl (Decl
 n "dataIn"
 t "std_ulogic_vector"
 b "(rs232BitNb-1 DOWNTO 0)"
-o 9
-suid 31,0
+o 5
+suid 52,0
 )
 )
 )
 *75 (CptPort
-uid 509,0
+uid 725,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 510,0
+uid 726,0
 ro 180
 va (VaSet
 vasetType 1
@@ -863,11 +878,11 @@ fg "0,65535,0"
 xt "80625,5250,81375,6000"
 )
 tg (CPTG
-uid 511,0
+uid 727,0
 ps "CptPortTextPlaceStrategy"
 stg "RightVerticalLayoutStrategy"
 f (Text
-uid 512,0
+uid 728,0
 ro 270
 va (VaSet
 font "Verdana,12,0"
@@ -880,7 +895,7 @@ tm "CptPortNameMgr"
 )
 )
 dt (MLText
-uid 513,0
+uid 729,0
 va (VaSet
 font "Courier New,8,0"
 )
@@ -894,15 +909,15 @@ n "dataOut"
 t "std_ulogic_vector"
 b "(rs232BitNb-1 DOWNTO 0)"
 o 6
-suid 32,0
+suid 53,0
 )
 )
 )
 *76 (CptPort
-uid 514,0
+uid 730,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 515,0
+uid 731,0
 ro 180
 va (VaSet
 vasetType 1
@@ -911,11 +926,11 @@ fg "0,65535,0"
 xt "78625,5250,79375,6000"
 )
 tg (CPTG
-uid 516,0
+uid 732,0
 ps "CptPortTextPlaceStrategy"
 stg "RightVerticalLayoutStrategy"
 f (Text
-uid 517,0
+uid 733,0
 ro 270
 va (VaSet
 font "Verdana,12,0"
@@ -928,7 +943,7 @@ tm "CptPortNameMgr"
 )
 )
 dt (MLText
-uid 518,0
+uid 734,0
 va (VaSet
 font "Courier New,8,0"
 )
@@ -940,41 +955,41 @@ thePort (LogicalPort
 decl (Decl
 n "dataValid"
 t "std_ulogic"
-o 5
-suid 33,0
+o 7
+suid 54,0
 )
 )
 )
 *77 (CptPort
-uid 519,0
+uid 735,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 520,0
+uid 736,0
 va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "24625,5250,25375,6000"
+xt "43625,5250,44375,6000"
 )
 tg (CPTG
-uid 521,0
+uid 737,0
 ps "CptPortTextPlaceStrategy"
 stg "RightVerticalLayoutStrategy"
 f (Text
-uid 522,0
+uid 738,0
 ro 270
 va (VaSet
 font "Verdana,12,0"
 )
-xt "24300,7000,25700,11100"
+xt "43300,7000,44700,11100"
 st "reset"
 ju 2
-blo "25500,7000"
+blo "44500,7000"
 tm "CptPortNameMgr"
 )
 )
 dt (MLText
-uid 523,0
+uid 739,0
 va (VaSet
 font "Courier New,8,0"
 )
@@ -987,16 +1002,16 @@ m 1
 decl (Decl
 n "reset"
 t "std_ulogic"
-o 1
-suid 34,0
+o 8
+suid 55,0
 )
 )
 )
 *78 (CptPort
-uid 524,0
+uid 740,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 525,0
+uid 741,0
 va (VaSet
 vasetType 1
 fg "0,65535,0"
@@ -1004,11 +1019,11 @@ fg "0,65535,0"
 xt "86625,5250,87375,6000"
 )
 tg (CPTG
-uid 526,0
+uid 742,0
 ps "CptPortTextPlaceStrategy"
 stg "RightVerticalLayoutStrategy"
 f (Text
-uid 527,0
+uid 743,0
 ro 270
 va (VaSet
 font "Verdana,12,0"
@@ -1021,7 +1036,7 @@ tm "CptPortNameMgr"
 )
 )
 dt (MLText
-uid 528,0
+uid 744,0
 va (VaSet
 font "Courier New,8,0"
 )
@@ -1034,8 +1049,8 @@ m 1
 decl (Decl
 n "send"
 t "std_ulogic"
-o 8
-suid 35,0
+o 9
+suid 56,0
 )
 )
 )
@@ -1143,7 +1158,7 @@ fg "0,0,32768"
 bg "0,0,32768"
 font "Arial,8,0"
 )
-xt "36200,48000,49100,49000"
+xt "36200,48000,45700,49000"
 st "
 by %user on %dd %month %year
 "
@@ -1484,10 +1499,14 @@ blo "0,1000"
 uid 50,0
 va (VaSet
 )
-xt "0,1200,17500,4800"
+xt "0,1200,17900,9600"
 st "LIBRARY ieee;
   USE ieee.std_logic_1164.all;
-  USE ieee.NUMERIC_STD.all;"
+  USE ieee.NUMERIC_STD.all;
+LIBRARY Common;
+USE Common.CommonLib.ALL;
+LIBRARY gates;
+USE gates.gates.all;"
 tm "PackageList"
 )
 ]
@@ -1765,6 +1784,6 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 542,0
+lastUid 758,0
 activeModelName "Symbol:GEN"
 )
