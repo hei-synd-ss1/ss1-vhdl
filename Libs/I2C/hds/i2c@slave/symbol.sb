@@ -17,7 +17,7 @@ libraryRefs [
 ]
 )
 version "27.1"
-appVersion "2023.4 Built on 6 Oct 2023 at 01:57:26"
+appVersion "2019.2 (Build 5)"
 model (Symbol
 commonDM (CommonDM
 ldm (LogicalDM
@@ -525,6 +525,23 @@ value "60"
 )
 uid 1917,0
 )
+*73 (LogGeneric
+generic (GiElement
+name "g_CLOCK_FREQUENCY"
+type "real"
+value "100.0E6"
+)
+uid 2431,0
+)
+*74 (LogGeneric
+generic (GiElement
+name "g_INPUT_FILTER"
+type "time"
+value "50 ns"
+e "Input filter time. Depends on bus mode (10ns for HS, 50ns for Fast/Fast+)"
+)
+uid 2433,0
+)
 ]
 )
 pdm (PhysicalDM
@@ -532,7 +549,7 @@ displayShortBounds 1
 editShortBounds 1
 uid 65,0
 optionalChildren [
-*73 (Sheet
+*75 (Sheet
 sheetRow (SheetRow
 headerVa (MVa
 cellColor "49152,49152,49152"
@@ -549,43 +566,55 @@ cellColor "39936,56832,65280"
 fontColor "0,0,0"
 font "Tahoma,10,0"
 )
-emptyMRCItem *74 (MRCItem
+emptyMRCItem *76 (MRCItem
 litem &59
-pos 2
+pos 4
 dimension 20
 )
 uid 67,0
 optionalChildren [
-*75 (MRCItem
+*77 (MRCItem
 litem &60
 pos 0
 dimension 20
 uid 68,0
 )
-*76 (MRCItem
+*78 (MRCItem
 litem &61
 pos 1
 dimension 23
 uid 69,0
 )
-*77 (MRCItem
+*79 (MRCItem
 litem &62
 pos 2
 hidden 1
 dimension 20
 uid 70,0
 )
-*78 (MRCItem
+*80 (MRCItem
 litem &71
 pos 0
 dimension 20
 uid 123,0
 )
-*79 (MRCItem
+*81 (MRCItem
 litem &72
 pos 1
 dimension 20
 uid 1916,0
+)
+*82 (MRCItem
+litem &73
+pos 2
+dimension 20
+uid 2432,0
+)
+*83 (MRCItem
+litem &74
+pos 3
+dimension 20
+uid 2434,0
 )
 ]
 )
@@ -598,43 +627,43 @@ textAngle 90
 )
 uid 71,0
 optionalChildren [
-*80 (MRCItem
+*84 (MRCItem
 litem &63
 pos 0
 dimension 20
 uid 72,0
 )
-*81 (MRCItem
+*85 (MRCItem
 litem &65
 pos 1
 dimension 50
 uid 73,0
 )
-*82 (MRCItem
+*86 (MRCItem
 litem &66
 pos 2
 dimension 100
 uid 74,0
 )
-*83 (MRCItem
+*87 (MRCItem
 litem &67
 pos 3
 dimension 100
 uid 75,0
 )
-*84 (MRCItem
+*88 (MRCItem
 litem &68
 pos 4
 dimension 50
 uid 76,0
 )
-*85 (MRCItem
+*89 (MRCItem
 litem &69
 pos 5
 dimension 50
 uid 77,0
 )
-*86 (MRCItem
+*90 (MRCItem
 litem &70
 pos 6
 dimension 80
@@ -658,23 +687,23 @@ VExpander (VariableExpander
 vvMap [
 (vvPair
 variable "HDLDir"
-value "C:\\Users\\remy.borgeat\\Documents\\git\\Courses\\eda-libs\\Prefs\\..\\I2C\\hdl"
+value "C:\\dev\\Clearspace\\clearspace-fpga\\Libs\\Prefs\\..\\I2C\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "C:\\Users\\remy.borgeat\\Documents\\git\\Courses\\eda-libs\\Prefs\\..\\I2C\\hds"
+value "C:\\dev\\Clearspace\\clearspace-fpga\\Libs\\Prefs\\..\\I2C\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "C:\\Users\\remy.borgeat\\Documents\\git\\Courses\\eda-libs\\Prefs\\..\\I2C\\hds\\i2c@slave\\symbol.sb.info"
+value "C:\\dev\\Clearspace\\clearspace-fpga\\Libs\\Prefs\\..\\I2C\\hds\\i2c@slave\\symbol.sb.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "C:\\Users\\remy.borgeat\\Documents\\git\\Courses\\eda-libs\\Prefs\\..\\I2C\\hds\\i2c@slave\\symbol.sb.user"
+value "C:\\dev\\Clearspace\\clearspace-fpga\\Libs\\Prefs\\..\\I2C\\hds\\i2c@slave\\symbol.sb.user"
 )
 (vvPair
 variable "SourceDir"
-value "C:\\Users\\remy.borgeat\\Documents\\git\\Courses\\eda-libs\\Prefs\\..\\I2C\\hds"
+value "C:\\dev\\Clearspace\\clearspace-fpga\\Libs\\Prefs\\..\\I2C\\hds"
 )
 (vvPair
 variable "appl"
@@ -694,27 +723,27 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "C:\\Users\\remy.borgeat\\Documents\\git\\Courses\\eda-libs\\Prefs\\..\\I2C\\hds\\i2c@slave"
+value "C:\\dev\\Clearspace\\clearspace-fpga\\Libs\\Prefs\\..\\I2C\\hds\\i2c@slave"
 )
 (vvPair
 variable "d_logical"
-value "C:\\Users\\remy.borgeat\\Documents\\git\\Courses\\eda-libs\\Prefs\\..\\I2C\\hds\\i2cSlave"
+value "C:\\dev\\Clearspace\\clearspace-fpga\\Libs\\Prefs\\..\\I2C\\hds\\i2cSlave"
 )
 (vvPair
 variable "date"
-value "14.03.2025"
+value "24.04.2025"
 )
 (vvPair
 variable "day"
-value "ven."
+value "jeu."
 )
 (vvPair
 variable "day_long"
-value "vendredi"
+value "jeudi"
 )
 (vvPair
 variable "dd"
-value "14"
+value "24"
 )
 (vvPair
 variable "entity_name"
@@ -738,11 +767,11 @@ value "symbol"
 )
 (vvPair
 variable "graphical_source_author"
-value "remy.borgeat"
+value "Axam"
 )
 (vvPair
 variable "graphical_source_date"
-value "14.03.2025"
+value "24.04.2025"
 )
 (vvPair
 variable "graphical_source_group"
@@ -750,11 +779,11 @@ value "UNKNOWN"
 )
 (vvPair
 variable "graphical_source_host"
-value "WE10993"
+value "WE10628"
 )
 (vvPair
 variable "graphical_source_time"
-value "10:51:54"
+value "08:19:02"
 )
 (vvPair
 variable "group"
@@ -762,7 +791,7 @@ value "UNKNOWN"
 )
 (vvPair
 variable "host"
-value "WE10993"
+value "WE10628"
 )
 (vvPair
 variable "language"
@@ -778,7 +807,7 @@ value "$SCRATCH_DIR/Libraries/I2C/work"
 )
 (vvPair
 variable "mm"
-value "03"
+value "04"
 )
 (vvPair
 variable "module_name"
@@ -786,19 +815,19 @@ value "i2cSlave"
 )
 (vvPair
 variable "month"
-value "mars"
+value "avr."
 )
 (vvPair
 variable "month_long"
-value "mars"
+value "avril"
 )
 (vvPair
 variable "p"
-value "C:\\Users\\remy.borgeat\\Documents\\git\\Courses\\eda-libs\\Prefs\\..\\I2C\\hds\\i2c@slave\\symbol.sb"
+value "C:\\dev\\Clearspace\\clearspace-fpga\\Libs\\Prefs\\..\\I2C\\hds\\i2c@slave\\symbol.sb"
 )
 (vvPair
 variable "p_logical"
-value "C:\\Users\\remy.borgeat\\Documents\\git\\Courses\\eda-libs\\Prefs\\..\\I2C\\hds\\i2cSlave\\symbol.sb"
+value "C:\\dev\\Clearspace\\clearspace-fpga\\Libs\\Prefs\\..\\I2C\\hds\\i2cSlave\\symbol.sb"
 )
 (vvPair
 variable "package_name"
@@ -830,7 +859,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "10:51:54"
+value "08:19:02"
 )
 (vvPair
 variable "unit"
@@ -838,11 +867,11 @@ value "i2cSlave"
 )
 (vvPair
 variable "user"
-value "remy.borgeat"
+value "Axam"
 )
 (vvPair
 variable "version"
-value "2023.4 Built on 6 Oct 2023 at 01:57:26"
+value "2019.2 (Build 5)"
 )
 (vvPair
 variable "view"
@@ -861,10 +890,10 @@ value "25"
 LanguageMgr "Vhdl2008LangMgr"
 uid 22,0
 optionalChildren [
-*87 (SymbolBody
+*91 (SymbolBody
 uid 8,0
 optionalChildren [
-*88 (CptPort
+*92 (CptPort
 uid 85,0
 ps "OnEdgeStrategy"
 shape (Triangle
@@ -874,7 +903,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "28250,23625,29000,24375"
+xt "28250,28625,29000,29375"
 )
 tg (CPTG
 uid 87,0
@@ -885,9 +914,9 @@ uid 88,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "30000,23300,34200,24700"
+xt "30000,28300,34200,29700"
 st "i_sda"
-blo "30000,24500"
+blo "30000,29500"
 tm "CptPortNameMgr"
 )
 )
@@ -908,7 +937,7 @@ suid 1,0
 )
 )
 )
-*89 (CptPort
+*93 (CptPort
 uid 90,0
 ps "OnEdgeStrategy"
 shape (Triangle
@@ -952,7 +981,7 @@ suid 2,0
 )
 )
 )
-*90 (CptPort
+*94 (CptPort
 uid 162,0
 ps "OnEdgeStrategy"
 shape (Triangle
@@ -962,7 +991,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "55000,20625,55750,21375"
+xt "55000,19625,55750,20375"
 )
 tg (CPTG
 uid 164,0
@@ -973,10 +1002,10 @@ uid 165,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "49200,20300,54000,21700"
+xt "49200,19300,54000,20700"
 st "i_data"
 ju 2
-blo "54000,21500"
+blo "54000,20500"
 tm "CptPortNameMgr"
 )
 )
@@ -999,7 +1028,7 @@ suid 4,0
 )
 )
 )
-*91 (CptPort
+*95 (CptPort
 uid 167,0
 ps "OnEdgeStrategy"
 shape (Triangle
@@ -1009,7 +1038,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "55000,22625,55750,23375"
+xt "55000,21625,55750,22375"
 )
 tg (CPTG
 uid 169,0
@@ -1020,10 +1049,10 @@ uid 170,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "48700,22300,54000,23700"
+xt "48700,21300,54000,22700"
 st "o_data"
 ju 2
-blo "54000,23500"
+blo "54000,22500"
 tm "CptPortNameMgr"
 )
 )
@@ -1047,7 +1076,7 @@ suid 5,0
 )
 )
 )
-*92 (CptPort
+*96 (CptPort
 uid 172,0
 ps "OnEdgeStrategy"
 shape (Triangle
@@ -1057,7 +1086,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "55000,26625,55750,27375"
+xt "55000,25625,55750,26375"
 )
 tg (CPTG
 uid 174,0
@@ -1068,10 +1097,10 @@ uid 175,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "50000,26300,54000,27700"
+xt "50000,25300,54000,26700"
 st "i_ack"
 ju 2
-blo "54000,27500"
+blo "54000,26500"
 tm "CptPortNameMgr"
 )
 )
@@ -1093,7 +1122,7 @@ suid 6,0
 )
 )
 )
-*93 (CptPort
+*97 (CptPort
 uid 182,0
 ps "OnEdgeStrategy"
 shape (Triangle
@@ -1103,7 +1132,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "55000,24625,55750,25375"
+xt "55000,23625,55750,24375"
 )
 tg (CPTG
 uid 184,0
@@ -1114,10 +1143,10 @@ uid 185,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "43000,24300,54000,25700"
+xt "43000,23300,54000,24700"
 st "o_request_ack"
 ju 2
-blo "54000,25500"
+blo "54000,24500"
 tm "CptPortNameMgr"
 )
 )
@@ -1140,7 +1169,7 @@ suid 8,0
 )
 )
 )
-*94 (CptPort
+*98 (CptPort
 uid 298,0
 ps "OnEdgeStrategy"
 shape (Triangle
@@ -1150,7 +1179,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "28250,25625,29000,26375"
+xt "28250,26625,29000,27375"
 )
 tg (CPTG
 uid 300,0
@@ -1161,9 +1190,9 @@ uid 301,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "30000,25300,34700,26700"
+xt "30000,26300,34700,27700"
 st "o_sda"
-blo "30000,26500"
+blo "30000,27500"
 tm "CptPortNameMgr"
 )
 )
@@ -1186,7 +1215,7 @@ suid 12,0
 )
 )
 )
-*95 (CptPort
+*99 (CptPort
 uid 353,0
 ps "OnEdgeStrategy"
 shape (Triangle
@@ -1196,7 +1225,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "28250,32625,29000,33375"
+xt "28250,31625,29000,32375"
 )
 tg (CPTG
 uid 355,0
@@ -1207,9 +1236,9 @@ uid 356,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "30000,32300,33800,33700"
+xt "30000,31300,33800,32700"
 st "clock"
-blo "30000,33500"
+blo "30000,32500"
 tm "CptPortNameMgr"
 )
 )
@@ -1230,7 +1259,7 @@ suid 13,0
 )
 )
 )
-*96 (CptPort
+*100 (CptPort
 uid 358,0
 ps "OnEdgeStrategy"
 shape (Triangle
@@ -1240,7 +1269,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "28250,34625,29000,35375"
+xt "28250,33625,29000,34375"
 )
 tg (CPTG
 uid 360,0
@@ -1251,9 +1280,9 @@ uid 361,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "30000,34300,34100,35700"
+xt "30000,33300,34100,34700"
 st "reset"
-blo "30000,35500"
+blo "30000,34500"
 tm "CptPortNameMgr"
 )
 )
@@ -1274,7 +1303,7 @@ suid 14,0
 )
 )
 )
-*97 (CptPort
+*101 (CptPort
 uid 993,0
 ps "OnEdgeStrategy"
 shape (Triangle
@@ -1284,7 +1313,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "55000,30625,55750,31375"
+xt "55000,27625,55750,28375"
 )
 tg (CPTG
 uid 995,0
@@ -1295,10 +1324,10 @@ uid 996,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "41800,30300,54000,31700"
+xt "41800,27300,54000,28700"
 st "o_transfer_done"
 ju 2
-blo "54000,31500"
+blo "54000,28500"
 tm "CptPortNameMgr"
 )
 )
@@ -1320,30 +1349,31 @@ suid 16,0
 )
 )
 )
-*98 (CptPort
+*102 (CptPort
 uid 1322,0
 ps "OnEdgeStrategy"
 shape (Triangle
 uid 1323,0
-ro 270
+ro 90
 va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "28250,29625,29000,30375"
+xt "55000,33625,55750,34375"
 )
 tg (CPTG
 uid 1324,0
 ps "CptPortTextPlaceStrategy"
-stg "VerticalLayoutStrategy"
+stg "RightVerticalLayoutStrategy"
 f (Text
 uid 1325,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "30000,29300,35500,30700"
+xt "48500,33300,54000,34700"
 st "o_error"
-blo "30000,30500"
+ju 2
+blo "54000,34500"
 tm "CptPortNameMgr"
 )
 )
@@ -1365,7 +1395,7 @@ suid 17,0
 )
 )
 )
-*99 (CptPort
+*103 (CptPort
 uid 1423,0
 ps "OnEdgeStrategy"
 shape (Triangle
@@ -1375,7 +1405,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "55000,32625,55750,33375"
+xt "55000,29625,55750,30375"
 )
 tg (CPTG
 uid 1425,0
@@ -1386,10 +1416,10 @@ uid 1426,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "49400,32300,54000,33700"
+xt "49400,29300,54000,30700"
 st "i_wait"
 ju 2
-blo "54000,33500"
+blo "54000,30500"
 tm "CptPortNameMgr"
 )
 )
@@ -1410,7 +1440,7 @@ suid 18,0
 )
 )
 )
-*100 (CptPort
+*104 (CptPort
 uid 1476,0
 ps "OnEdgeStrategy"
 shape (Triangle
@@ -1420,7 +1450,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "28250,20625,29000,21375"
+xt "28250,16625,29000,17375"
 )
 tg (CPTG
 uid 1478,0
@@ -1431,9 +1461,9 @@ uid 1479,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "30000,20300,34000,21700"
+xt "30000,16300,34000,17700"
 st "o_scl"
-blo "30000,21500"
+blo "30000,17500"
 tm "CptPortNameMgr"
 )
 )
@@ -1456,7 +1486,7 @@ suid 20,0
 )
 )
 )
-*101 (CptPort
+*105 (CptPort
 uid 1897,0
 ps "OnEdgeStrategy"
 shape (Triangle
@@ -1466,7 +1496,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "55000,34625,55750,35375"
+xt "55000,31625,55750,32375"
 )
 tg (CPTG
 uid 1899,0
@@ -1477,10 +1507,10 @@ uid 1900,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "50200,34300,54000,35700"
+xt "50200,31300,54000,32700"
 st "i_we"
 ju 2
-blo "54000,35500"
+blo "54000,32500"
 tm "CptPortNameMgr"
 )
 )
@@ -1502,7 +1532,7 @@ suid 21,0
 )
 )
 )
-*102 (CptPort
+*106 (CptPort
 uid 1904,0
 ps "OnEdgeStrategy"
 shape (Triangle
@@ -1512,7 +1542,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "55000,18625,55750,19375"
+xt "55000,17625,55750,18375"
 )
 tg (CPTG
 uid 1906,0
@@ -1523,10 +1553,10 @@ uid 1907,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "38700,18300,54000,19700"
+xt "38700,17300,54000,18700"
 st "o_request_new_data"
 ju 2
-blo "54000,19500"
+blo "54000,18500"
 tm "CptPortNameMgr"
 )
 )
@@ -1549,7 +1579,7 @@ suid 22,0
 )
 )
 )
-*103 (CptPort
+*107 (CptPort
 uid 2357,0
 ps "OnEdgeStrategy"
 shape (Triangle
@@ -1598,16 +1628,15 @@ suid 25,0
 )
 ]
 shape (Rectangle
-uid 9,0
+uid 2505,0
 va (VaSet
 vasetType 1
 fg "0,65535,0"
 lineColor "0,32896,0"
 lineWidth 2
 )
-xt "29000,17000,55000,37000"
+xt "29000,16000,55000,37000"
 )
-oxt "15000,6000,44000,26000"
 biTextGroup (BiTextGroup
 uid 10,0
 ps "CenterOffsetStrategy"
@@ -1617,21 +1646,21 @@ uid 11,0
 va (VaSet
 font "Verdana,9,1"
 )
-xt "37800,25800,40100,27000"
+xt "36800,27800,39100,29000"
 st "I2C"
-blo "37800,26800"
+blo "36800,28800"
 )
 second (Text
 uid 12,0
 va (VaSet
 font "Verdana,9,1"
 )
-xt "37800,27000,42500,28200"
+xt "36800,29000,41500,30200"
 st "i2cSlave"
-blo "37800,28000"
+blo "36800,30000"
 )
 )
-gi *104 (GenericInterface
+gi *108 (GenericInterface
 uid 13,0
 ps "CenterOffsetStrategy"
 matrix (Matrix
@@ -1641,11 +1670,13 @@ uid 15,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "35000,37600,51500,40800"
+xt "35000,37600,92000,42400"
 st "Generic Declarations
 
-g_DATA_BIT_NB     integer 8   
-g_BAUDRATE_DIVIDE integer 60  "
+g_DATA_BIT_NB     integer 8                                                                                   
+g_BAUDRATE_DIVIDE integer 60                                                                                  
+g_CLOCK_FREQUENCY real    100.0E6                                                                             
+g_INPUT_FILTER    time    50 ns   --Input filter time. Depends on bus mode (10ns for HS, 50ns for Fast/Fast+) "
 )
 header "Generic Declarations"
 showHdrWhenContentsEmpty 1
@@ -1661,6 +1692,17 @@ name "g_BAUDRATE_DIVIDE"
 type "integer"
 value "60"
 )
+(GiElement
+name "g_CLOCK_FREQUENCY"
+type "real"
+value "100.0E6"
+)
+(GiElement
+name "g_INPUT_FILTER"
+type "time"
+value "50 ns"
+e "Input filter time. Depends on bus mode (10ns for HS, 50ns for Fast/Fast+)"
+)
 ]
 )
 portInstanceVisAsIs 1
@@ -1673,7 +1715,7 @@ sTC 0
 sIVOD 1
 )
 )
-*105 (CommentText
+*109 (CommentText
 uid 16,0
 shape (Rectangle
 uid 17,0
@@ -1712,11 +1754,11 @@ xShown 1
 yShown 1
 color "65535,0,0"
 )
-packageList *106 (PackageList
+packageList *110 (PackageList
 uid 19,0
 stg "VerticalLayoutStrategy"
 textVec [
-*107 (Text
+*111 (Text
 uid 20,0
 va (VaSet
 font "Verdana,9,1"
@@ -1725,7 +1767,7 @@ xt "0,0,7600,1200"
 st "Package List"
 blo "0,1000"
 )
-*108 (MLText
+*112 (MLText
 uid 21,0
 va (VaSet
 )
@@ -1737,9 +1779,9 @@ tm "PackageList"
 )
 ]
 )
-windowSize "1920,0,3841,1056"
-viewArea "-12300,7000,87587,61752"
-cachedDiagramExtent "0,-7400,82000,49000"
+windowSize "-3840,-256,-1919,792"
+viewArea "-12300,7000,89280,60640"
+cachedDiagramExtent "0,-7400,92000,49000"
 pageSetupInfo (PageSetupInfo
 ptrCmd "Microsoft Print to PDF,winspool,"
 fileName "PORTPROMPT:"
@@ -1870,7 +1912,7 @@ st "<cell>"
 blo "26800,17000"
 )
 )
-gi *109 (GenericInterface
+gi *113 (GenericInterface
 ps "CenterOffsetStrategy"
 matrix (Matrix
 text (MLText
@@ -1971,7 +2013,7 @@ o 0
 )
 )
 )
-DeclarativeBlock *110 (SymDeclBlock
+DeclarativeBlock *114 (SymDeclBlock
 uid 1,0
 stg "SymDeclLayoutStrategy"
 declLabel (Text
@@ -2029,8 +2071,8 @@ xt "41000,-7400,41000,-7400"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 2407,0
+lastUid 2505,0
 okToSyncOnLoad 1
 OkToSyncGenericsOnLoad 1
-activeModelName "Symbol"
+activeModelName "Symbol:GEN"
 )
