@@ -50,6 +50,9 @@
 library Common;
 use Common.CommonLib.all;
 
+library IEEE;
+  use IEEE.std_logic_misc.all;
+
 ARCHITECTURE RTL OF serialPortTransmitter IS
 
   -- FSM
@@ -126,9 +129,9 @@ BEGIN
             -- parity bit
             if g_USE_PARITY = '1' then
               if g_PARITY_IS_EVEN = '1' then
-                lsig_data_xor <= xor i_data;
+                lsig_data_xor <= xor_reduce(i_data);
               else
-                lsig_data_xor <= xnor i_data;
+                lsig_data_xor <= xnor_reduce(i_data);
               end if;
             end if;
           end if;

@@ -15,7 +15,7 @@
 --   o_byte : Recomposed data
 --   o_byte_received : Indicates that a byte has been received
 --   o_parity_error : Indicates that a parity error has occurred
---   o_frame_error : Indicates that a frame error has occurred
+--   o_frame_error : Not implemented yet. Always '0'.
 --   o_illegalstate_error : Indicates that an illegal state has occurred in the FSM
 --   o_is_receiving : Indicates that the receiver is currently receiving data
 --
@@ -50,6 +50,9 @@
 
 library Common;
   use Common.CommonLib.all;
+
+library IEEE;
+  use IEEE.std_logic_misc.all;
 
 ARCHITECTURE RTL OF serialPortReceiver IS
 
@@ -113,7 +116,11 @@ BEGIN
       -- Check for divider done
       if i_rxd_en = '0' or (lvec_state = ST_IDLE and i_rxd = g_IDLE_STATE) or lvec_divider_counter = 0 then
         lvec_divider_counter <= to_unsigned( g_BAUD_RATE_DIVIDER - 1, lvec_divider_counter'length );
-        lsig_divider_of <= '1' when (i_rxd_en = '1' and lvec_state /= ST_IDLE) else '0';
+        if i_rxd_en = '1' and lvec_state /= ST_IDLE then
+          lsig_divider_of <= '1';
+        else
+          lsig_divider_of <= '0';
+        end if;
         lvec_divider_sampling_counter <= c_DIVIDER_SAMPLING_TARGET;
       else
         lvec_divider_counter <= lvec_divider_counter - 1;
@@ -202,7 +209,6 @@ BEGIN
 
           -- Indicate reception
           lsig_o_byte_received <= '1';
-          lsig_o_frame_error <= g_IDLE_STATE xor i_rxd; -- only checks if data MAY still be transmitting
 
           -- Data
           if g_LSB_FIRST = '1' then
@@ -216,11 +222,11 @@ BEGIN
           -- Check parity
           if g_USE_PARITY = '1' then
             if g_PARITY_IS_EVEN = '1' then
-              if lvec_rx_shift_reg(lvec_rx_shift_reg'high) /= xor lvec_rx_shift_reg(lvec_rx_shift_reg'high - 1 downto 0) then
+              if lvec_rx_shift_reg(lvec_rx_shift_reg'high) /= xor_reduce(lvec_rx_shift_reg(lvec_rx_shift_reg'high - 1 downto 0)) then
                 lsig_o_parity_error <= '1';
               end if;
             else
-              if lvec_rx_shift_reg(lvec_rx_shift_reg'high) /= xnor lvec_rx_shift_reg(lvec_rx_shift_reg'high - 1 downto 0) then
+              if lvec_rx_shift_reg(lvec_rx_shift_reg'high) /= xnor_reduce(lvec_rx_shift_reg(lvec_rx_shift_reg'high - 1 downto 0)) then
                 lsig_o_parity_error <= '1';
               end if;
             end if;
@@ -263,6 +269,5 @@ BEGIN
   o_frame_error <= lsig_o_frame_error;
   o_is_receiving <= '0' when lvec_state = ST_IDLE else '1';
   o_illegalstate_error <= lsig_illegalstate;
-
 
 END ARCHITECTURE RTL;
