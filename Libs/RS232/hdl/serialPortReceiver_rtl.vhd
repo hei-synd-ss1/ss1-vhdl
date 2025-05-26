@@ -207,9 +207,6 @@ BEGIN
           -- Need this state because lvec_rx_shift_reg not assigned yet. May be avoided by using variables.
           lvec_state <= ST_WAIT_STOP;
 
-          -- Indicate reception
-          lsig_o_byte_received <= '1';
-
           -- Data
           if g_LSB_FIRST = '1' then
             lvec_o_byte <= lvec_rx_shift_reg(lvec_rx_shift_reg'high - 1 downto 0);
@@ -236,6 +233,8 @@ BEGIN
         when ST_WAIT_STOP =>
           if g_STOP_BITS = 1.0 then
             if lvec_divider_counter < c_DIVIDER_NEAR_BAUDRATE_TARGET then
+              -- Indicate reception
+              lsig_o_byte_received <= '1';
               lvec_state <= ST_IDLE;
             end if;
           elsif lsig_divider_of = '1' then
@@ -246,10 +245,14 @@ BEGIN
           -- Stop detected
           if g_STOP_BITS = 1.5 then
             if lvec_divider_counter < c_DIVIDER_NEAR_HALF_TARGET then
+              -- Indicate reception
+              lsig_o_byte_received <= '1';
               lvec_state <= ST_IDLE;
             end if;
           else
             if lvec_divider_counter < c_DIVIDER_NEAR_BAUDRATE_TARGET then
+              -- Indicate reception
+              lsig_o_byte_received <= '1';
               lvec_state <= ST_IDLE;
             end if;
           end if;
