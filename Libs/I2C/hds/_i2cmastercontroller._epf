@@ -1,2 +1,2 @@
-DEFAULT_ARCHITECTURE atom rtl
-DEFAULT_FILE atom i2cMasterController_rtl.vhd
+DEFAULT_ARCHITECTURE atom RTL
+DEFAULT_FILE atom i2cMasterController_RTL.vhd
