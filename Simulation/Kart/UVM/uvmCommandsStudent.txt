@@ -1,0 +1,149 @@
+at               0 ns
+target           Startup
+info             Setting clock frequency to 10MHz
+clock_frequency  10000000
+info             Setting clock frequency to 11MHz
+clock_frequency  11000000
+info             Setting clock frequency to 12MHz
+clock_frequency  12000000
+info             Setting clock frequency to 13MHz
+clock_frequency  13000000
+info             Setting clock frequency to 14MHz
+clock_frequency  14000000
+
+at               30 ns
+info             Disconnecting ranger
+sens_ranger_conn 0
+
+at               50 ns
+info             Setting UART baudrate to 115200
+uart_baud        115200
+
+wait             200 ns
+info             TESTS BEGIN
+IDLE
+wait             1ms
+
+
+
+
+# HW Control --------------------
+
+target           Setup
+
+info             Setting DC prescaler for arnd. 20KHz
+dc_prescaler     31
+wait             800 us
+
+info             Setting stepper prescaler for 10 kHz
+stp_prescaler    10
+wait             800 us
+
+info             Setting HWOrientation for reset
+cr_hw_control    1 1 1 0 1 1
+wait             700 us
+bt_status        1
+
+info             Resetting stepper
+wait             10 ms
+cr_hw_control    1 1 1 0 0 1
+wait             1 ms
+
+info             Asserting end switch
+stp_endsw        1
+wait             100 us
+
+info             Deasserting end switch
+stp_endsw        0
+wait             1 ms
+
+info             Setting test mode
+stp_testmode     1
+wait             1 ms
+
+
+# DC Motor ------------------------
+
+target           DC Motor
+
+wait             2 ms
+info             Setting DC speed at 33%
+dc_speed         5
+
+wait             10 ms
+info             Setting DC speed at 66%
+dc_speed         10
+
+wait             10 ms
+info             Setting DC speed at 100%
+dc_speed         15
+
+wait             10 ms
+info             Setting DC speed at 0%
+dc_speed         0
+
+wait             10 ms
+info             Setting DC speed at -33%
+dc_speed         -5
+
+wait             10 ms
+info             Setting DC speed at -66%
+dc_speed         -10
+
+wait             10 ms
+info             Setting DC speed at -100%
+dc_speed         -15
+
+wait             10 ms
+info             Setting DC speed at 0%
+dc_speed         0
+wait             2 ms
+
+
+
+
+# Stepper ------------------------
+
+target           Stepper
+
+info             Stepper reaching target 2
+stp_target_angle 2
+wait             2 ms
+
+info             Stepper reaching target 0
+stp_target_angle 0
+wait             2 ms
+
+info             Stepper reaching target 100
+stp_target_angle 100
+wait             12 ms
+
+info             Stepper reaching target 0
+stp_target_angle 0
+wait             12 ms
+
+
+
+
+# No test mode ------------------------
+
+target           Free running (DC 66%, stepper 100)
+
+info             Removing test mode
+stp_testmode     0
+wait             1 ms
+
+info             Letting system run 10s
+dc_speed         10
+wait             1ms
+stp_target_angle 100
+wait             1ms
+wait             10000 ms
+
+
+endskip
+# End ------------------------
+target           End
+info             End
+wait             10 ms
+end_sim

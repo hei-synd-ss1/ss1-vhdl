@@ -1,0 +1,202 @@
+# Actel Physical design constraints file
+# Family: IGLOO , Die: AGL125V5 , Package: 100 VQG
+
+###############################################################################
+###############################################################################
+############## PINS STUDENTS CAN MODIFY BASED ON THEIR HARDWARE ###############
+###############################################################################
+###############################################################################
+
+# ------------------------------------------------------------------------------
+# PMOD1
+#
+
+# PM1_1
+# set_io  PM1_1             -pinname 8      -fixed yes      -DIRECTION Input
+# PM1_2
+# set_io  PM1_2             -pinname 10     -fixed yes      -DIRECTION Input
+# PM1_3
+# set_io  PM1_3             -pinname 11     -fixed yes      -DIRECTION Input
+# PM1_4
+# set_io  PM1_4             -pinname 13     -fixed yes      -DIRECTION Input
+# PM1_5
+# set_io  PM1_5             -pinname 15     -fixed yes      -DIRECTION Input
+# PM1_6
+# set_io  PM1_6             -pinname 16     -fixed yes      -DIRECTION Input
+# PM1_7
+# set_io  PM1_7             -pinname 19     -fixed yes      -DIRECTION Input
+# PM1_8
+set_io  distancePulse     -pinname 20     -fixed yes      -DIRECTION Input
+
+# ------------------------------------------------------------------------------
+# PMOD2
+#
+
+# PM2_1
+set_io  stepperEnd        -pinname 27     -fixed yes      -DIRECTION Input    -RES_PULL Up
+# PM2_2
+# set_io  PM2_2             -pinname 28     -fixed yes      -DIRECTION Input
+# PM2_3
+# set_io  PM2_3             -pinname 29     -fixed yes      -DIRECTION Input
+# PM2_4
+# set_io  PM2_4             -pinname 30     -fixed yes      -DIRECTION Input
+
+# ------------------------------------------------------------------------------
+# PMOD3
+#
+
+# PM3_1
+# set_io  PM3_1             -pinname 31     -fixed yes      -DIRECTION Input
+# PM3_2
+# set_io  PM3_2             -pinname 32     -fixed yes      -DIRECTION Input
+# PM3_3
+# set_io  PM3_3             -pinname 33     -fixed yes      -DIRECTION Input
+# PM3_4
+# set_io  PM3_4             -pinname 34     -fixed yes      -DIRECTION Input
+# PM3_5
+set_io  dc_A              -pinname 35     -fixed yes      -DIRECTION Output
+# PM3_6
+set_io  dc_B              -pinname 36     -fixed yes      -DIRECTION Output
+# PM3_7
+# set_io  PM3_7             -pinname 40     -fixed yes      -DIRECTION Input
+# PM3_8
+# set_io  PM3_8             -pinname 41     -fixed yes      -DIRECTION Input
+
+# ------------------------------------------------------------------------------
+# PMOD4
+#
+
+# PM4_1
+#  set_io  PM4_1            -pinname 42     -fixed yes      -DIRECTION Input
+# PM4_2
+#  set_io  PM4_2            -pinname 43     -fixed yes      -DIRECTION Input
+# PM4_3
+#  set_io  PM4_3            -pinname 44     -fixed yes      -DIRECTION Input
+# PM4_4
+#  set_io  PM4_4            -pinname 45     -fixed yes      -DIRECTION Input
+# PM4_5
+set_io  coil1             -pinname 98     -fixed yes      -DIRECTION Output
+# PM4_6
+set_io  coil2             -pinname 57     -fixed yes      -DIRECTION Output
+# PM4_7
+set_io  coil3             -pinname 58     -fixed yes      -DIRECTION Output
+# PM4_8
+set_io  coil4             -pinname 59     -fixed yes      -DIRECTION Output
+
+# ------------------------------------------------------------------------------
+# PMOD5
+#
+
+# PM5_1
+set_io  {halls[1]}        -pinname 60     -fixed yes      -DIRECTION Input
+# PM5_2
+# set_io  PM5_2             -pinname 61     -fixed yes      -DIRECTION Input
+# PM5_3
+# set_io  PM5_3             -pinname 62     -fixed yes      -DIRECTION Input
+# PM5_4
+# set_io  PM5_4             -pinname 63     -fixed yes      -DIRECTION Input
+# PM5_5
+# set_io  PM5_5             -pinname 64     -fixed yes      -DIRECTION Input
+# PM5_6
+# set_io  PM5_6             -pinname 69     -fixed yes      -DIRECTION Input
+# PM5_7
+# set_io  PM5_7             -pinname 70     -fixed yes      -DIRECTION Input
+# PM5_8
+# set_io  PM5_8             -pinname 71     -fixed yes      -DIRECTION Input
+
+# ------------------------------------------------------------------------------
+# PMOD6
+#
+
+# PM6_1
+# set_io  PM6_1             -pinname 72     -fixed yes      -DIRECTION Input
+# PM6_2
+# set_io  PM6_2             -pinname 73     -fixed yes      -DIRECTION Input
+# PM6_3
+# set_io  PM6_3             -pinname 76     -fixed yes      -DIRECTION Input
+# PM6_4
+# set_io  PM6_4             -pinname 77     -fixed yes      -DIRECTION Input
+# PM6_5
+set_io  {endSwitches[1]}  -pinname 78     -fixed yes      -DIRECTION Output
+# PM6_6
+set_io  {endSwitches[2]}  -pinname 79     -fixed yes      -DIRECTION Output
+# PM6_7
+set_io  {endSwitches[3]}  -pinname 80     -fixed yes      -DIRECTION Output
+# PM6_8
+set_io  {endSwitches[4]}  -pinname 81     -fixed yes      -DIRECTION Output
+
+# ------------------------------------------------------------------------------
+# PMOD7
+#
+
+# PM7_1
+set_io  {leds[1]}         -pinname 82     -fixed yes      -DIRECTION Output
+# PM7_2
+set_io  {leds[2]}         -pinname 83     -fixed yes      -DIRECTION Output
+# PM7_3
+set_io  {leds[3]}         -pinname 84     -fixed yes      -DIRECTION Output
+# PM7_4
+set_io  {leds[4]}         -pinname 85     -fixed yes      -DIRECTION Output
+# PM7_5
+# set_io  PM7_5             -pinname 86     -fixed yes      -DIRECTION Input
+# PM7_6
+# set_io  PM7_6             -pinname 90     -fixed yes      -DIRECTION Input
+# PM7_7
+# set_io  PM7_7             -pinname 91     -fixed yes      -DIRECTION Input
+# PM7_8
+# set_io  PM7_8             -pinname 92     -fixed yes      -DIRECTION Input
+
+# ------------------------------------------------------------------------------
+# PMOD8
+#
+
+# PM8_1
+set_io  {servos[1]}      -pinname 93     -fixed yes      -DIRECTION Output
+# PM8_2
+set_io  {servos[2]}      -pinname 94     -fixed yes      -DIRECTION Output
+# PM8_3
+set_io  {servos[3]}      -pinname 95     -fixed yes      -DIRECTION Output
+# PM8_4
+set_io  {servos[4]}      -pinname 96     -fixed yes      -DIRECTION Output
+# PM8_5
+# set_io  PM8_5            -pinname 97     -fixed yes      -DIRECTION Input
+
+# PM8_6 to PM8_8 CANT be used with this hardware
+
+
+
+
+
+
+###############################################################################
+###############################################################################
+####################### FIXED PINS (DO NOT MODIFY !!!) ########################
+###############################################################################
+###############################################################################
+
+# ------------------------------------------------------------------------------
+# Daughterboard
+#
+  # Clock
+set_io  clock           -pinname 65     -fixed yes      -DIRECTION Input
+set_io  reset_n         -pinname 21     -fixed yes      -DIRECTION Input
+  # Embeeded LEDs
+set_io  LED_R           -pinname 26     -fixed yes      -DIRECTION Output
+set_io  LED_Y           -pinname 23     -fixed yes      -DIRECTION Output
+set_io  LED_G           -pinname 22     -fixed yes      -DIRECTION Output
+  # UART (USB)
+set_io  Tx_USB          -pinname 7      -fixed yes      -DIRECTION Output
+set_io  Rx_USB          -pinname 6      -fixed yes      -DIRECTION Input  -RES_PULL Up
+  # Banks voltages
+set_iobank Bank1        -vcci 3.3       -fixed yes
+set_iobank Bank0        -vcci 3.3       -fixed yes
+
+# ------------------------------------------------------------------------------
+# Motherboard
+#
+  # I2C
+set_io  SDA_battery     -pinname 5      -fixed yes      -DIRECTION InOut  -RES_PULL Up
+set_io  SCL_battery     -pinname 4      -fixed yes      -DIRECTION Output
+  # UART
+set_io  Tx_BLE          -pinname 2      -fixed yes      -DIRECTION Output
+set_io  Rx_BLE          -pinname 3      -fixed yes      -DIRECTION Input  -RES_PULL Up
