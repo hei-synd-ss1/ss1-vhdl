@@ -1,0 +1,16 @@
+at 0 ns idle            
+at 182465 ns uart sent 48    
+at 312673 ns uart sent 65    
+at 442881 ns uart sent 6C    
+at 573090 ns uart sent 6C    
+at 582494 ns uart received 48
+at 703298 ns uart sent 6F    
+at 712711 ns uart received 69
+at 833506 ns uart sent 0D    
+at 842927 ns uart received 0D
+at 1182465 ns uart sent 77    
+at 1312673 ns uart sent 6F    
+at 1442881 ns uart sent 72    
+at 1573090 ns uart sent 6C    
+at 1703298 ns uart sent 64    
+at 1833506 ns uart sent 0D    

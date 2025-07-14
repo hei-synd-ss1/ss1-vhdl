@@ -1,0 +1,3 @@
+DEFAULT_FILE atom i2c@f@i@f@o/struct.bd
+DEFAULT_ARCHITECTURE atom struct
+TOP_MARKER atom 1
