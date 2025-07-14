@@ -248,19 +248,19 @@ value "C:\\dev\\ss1\\ss1-kart\\Prefs\\..\\Stepper\\hds\\angleControl"
 )
 (vvPair
 variable "date"
-value "15.01.2025"
+value "14.07.2025"
 )
 (vvPair
 variable "day"
-value "mer."
+value "lun."
 )
 (vvPair
 variable "day_long"
-value "mercredi"
+value "lundi"
 )
 (vvPair
 variable "dd"
-value "15"
+value "14"
 )
 (vvPair
 variable "designName"
@@ -292,7 +292,7 @@ value "Axam"
 )
 (vvPair
 variable "graphical_source_date"
-value "15.01.2025"
+value "14.07.2025"
 )
 (vvPair
 variable "graphical_source_group"
@@ -304,7 +304,7 @@ value "WE10628"
 )
 (vvPair
 variable "graphical_source_time"
-value "09:10:59"
+value "17:53:11"
 )
 (vvPair
 variable "group"
@@ -332,7 +332,7 @@ value "$HDS_PROJECT_DIR/../Stepper/work"
 )
 (vvPair
 variable "mm"
-value "01"
+value "07"
 )
 (vvPair
 variable "module_name"
@@ -340,11 +340,11 @@ value "angleControl"
 )
 (vvPair
 variable "month"
-value "janv."
+value "juil."
 )
 (vvPair
 variable "month_long"
-value "janvier"
+value "juillet"
 )
 (vvPair
 variable "p"
@@ -396,7 +396,7 @@ value "studentVersion"
 )
 (vvPair
 variable "time"
-value "09:10:59"
+value "17:53:11"
 )
 (vvPair
 variable "unit"
@@ -485,7 +485,8 @@ uid 22,0
 va (VaSet
 )
 xt "-1000,10400,13900,11600"
-st "clock             : std_uLogic"
+st "clock             : std_uLogic
+"
 )
 )
 *3 (PortIoIn
@@ -546,7 +547,8 @@ uid 36,0
 va (VaSet
 )
 xt "-1000,11600,14900,12800"
-st "clockwise         : std_uLogic"
+st "clockwise         : std_uLogic
+"
 )
 )
 *5 (PortIoIn
@@ -607,7 +609,8 @@ uid 50,0
 va (VaSet
 )
 xt "-1000,12800,14400,14000"
-st "enStep            : std_uLogic"
+st "enStep            : std_uLogic
+"
 )
 )
 *7 (PortIoIn
@@ -668,7 +671,8 @@ uid 64,0
 va (VaSet
 )
 xt "-1000,14000,13800,15200"
-st "reset             : std_uLogic"
+st "reset             : std_uLogic
+"
 )
 )
 *9 (PortIoIn
@@ -729,7 +733,8 @@ uid 78,0
 va (VaSet
 )
 xt "-1000,16400,15000,17600"
-st "sensorLeft        : std_uLogic"
+st "sensorLeft        : std_uLogic
+"
 )
 )
 *11 (PortIoIn
@@ -790,7 +795,8 @@ uid 92,0
 va (VaSet
 )
 xt "-1000,17600,15400,18800"
-st "stepperEnd        : std_uLogic"
+st "stepperEnd        : std_uLogic
+"
 )
 )
 *13 (PortIoIn
@@ -852,7 +858,8 @@ uid 106,0
 va (VaSet
 )
 xt "-1000,18800,27400,20000"
-st "target            : unsigned(angleBitNb-1 DOWNTO 0)"
+st "target            : unsigned(angleBitNb-1 DOWNTO 0)
+"
 )
 )
 *15 (PortIoOut
@@ -913,7 +920,8 @@ uid 120,0
 va (VaSet
 )
 xt "-1000,20000,27500,21200"
-st "actual            : unsigned(angleBitNb-1 DOWNTO 0)"
+st "actual            : unsigned(angleBitNb-1 DOWNTO 0)
+"
 )
 )
 *17 (PortIoOut
@@ -973,7 +981,8 @@ uid 134,0
 va (VaSet
 )
 xt "-1000,21200,13400,22400"
-st "coil1             : std_ulogic"
+st "coil1             : std_ulogic
+"
 )
 )
 *19 (PortIoOut
@@ -1033,7 +1042,8 @@ uid 148,0
 va (VaSet
 )
 xt "-1000,22400,13700,23600"
-st "coil2             : std_uLogic"
+st "coil2             : std_uLogic
+"
 )
 )
 *21 (PortIoOut
@@ -1093,7 +1103,8 @@ uid 162,0
 va (VaSet
 )
 xt "-1000,23600,13700,24800"
-st "coil3             : std_uLogic"
+st "coil3             : std_uLogic
+"
 )
 )
 *23 (PortIoOut
@@ -1153,7 +1164,8 @@ uid 176,0
 va (VaSet
 )
 xt "-1000,24800,13700,26000"
-st "coil4             : std_uLogic"
+st "coil4             : std_uLogic
+"
 )
 )
 *25 (PortIoOut
@@ -1213,7 +1225,8 @@ uid 190,0
 va (VaSet
 )
 xt "-1000,27200,14300,28400"
-st "reached           : std_ulogic"
+st "reached           : std_ulogic
+"
 )
 )
 *27 (Grouping
@@ -1599,7 +1612,8 @@ uid 383,0
 va (VaSet
 )
 xt "-1000,15200,13700,16400"
-st "restart           : std_ulogic"
+st "restart           : std_ulogic
+"
 )
 )
 *40 (SaComponent
@@ -2829,7 +2843,8 @@ uid 751,0
 va (VaSet
 )
 xt "-1000,31600,31600,32800"
-st "SIGNAL zero              : unsigned(angleBitNb-1 DOWNTO 0)"
+st "SIGNAL zero              : unsigned(angleBitNb-1 DOWNTO 0)
+"
 )
 )
 *84 (Net
@@ -2847,7 +2862,8 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-1000,29400,26400,30400"
-st "SIGNAL target_double     : unsigned(angleBitNb-1 DOWNTO 0)"
+st "SIGNAL target_double     : unsigned(angleBitNb-1 DOWNTO 0)
+"
 )
 )
 *85 (SaComponent
@@ -3000,7 +3016,8 @@ uid 814,0
 va (VaSet
 )
 xt "-1000,32800,33600,34000"
-st "SIGNAL zeroingValue      : unsigned(angleBitNb-1 DOWNTO 0)"
+st "SIGNAL zeroingValue      : unsigned(angleBitNb-1 DOWNTO 0)
+"
 )
 )
 *91 (PortIoOut
@@ -3061,7 +3078,8 @@ uid 888,0
 va (VaSet
 )
 xt "-1000,26000,24600,27200"
-st "magnetizing_power : unsigned(3 DOWNTO 0)"
+st "magnetizing_power : unsigned(3 DOWNTO 0)
+"
 )
 )
 *93 (SaComponent
@@ -3530,7 +3548,8 @@ uid 1131,0
 va (VaSet
 )
 xt "-1000,30400,34300,31600"
-st "SIGNAL target_registered : unsigned(angleBitNb-1 DOWNTO 0)"
+st "SIGNAL target_registered : unsigned(angleBitNb-1 DOWNTO 0)
+"
 )
 )
 *108 (SaComponent
@@ -3868,8 +3887,7 @@ archFileType "UNKNOWN"
 uid 1212,0
 decl (Decl
 n "zeroing_source"
-t "unsigned"
-b "(angleBitNb-1 DOWNTO 0)"
+t "std_ulogic"
 o 16
 suid 24,0
 )
@@ -3877,8 +3895,9 @@ declText (MLText
 uid 1213,0
 va (VaSet
 )
-xt "-1000,34000,34100,35200"
-st "SIGNAL zeroing_source    : unsigned(angleBitNb-1 DOWNTO 0)"
+xt "-1000,34000,20300,35200"
+st "SIGNAL zeroing_source    : std_ulogic
+"
 )
 )
 *120 (Wire
@@ -4820,6 +4839,7 @@ blo "59000,22800"
 tm "WireNameMgr"
 )
 s (Text
+uid 1267,0
 va (VaSet
 font "Verdana,12,0"
 )
@@ -5191,7 +5211,7 @@ tm "BdCompilerDirectivesTextMgr"
 associable 1
 )
 windowSize "-1920,-251,1,797"
-viewArea "-5556,-2626,170744,93177"
+viewArea "-5600,-2600,170754,93233"
 cachedDiagramExtent "-3000,0,167800,89000"
 pageSetupInfo (PageSetupInfo
 ptrCmd ""
@@ -5214,7 +5234,7 @@ boundaryWidth 0
 )
 hasePageBreakOrigin 1
 pageBreakOrigin "-3000,0"
-lastUid 1215,0
+lastUid 1273,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0
@@ -6515,8 +6535,7 @@ port (LogicalPort
 m 4
 decl (Decl
 n "zeroing_source"
-t "unsigned"
-b "(angleBitNb-1 DOWNTO 0)"
+t "std_ulogic"
 o 16
 suid 24,0
 )
