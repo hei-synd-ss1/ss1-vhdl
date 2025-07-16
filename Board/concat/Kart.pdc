@@ -142,9 +142,9 @@ set_io  {leds[4]}         -pinname 85     -fixed yes      -DIRECTION Output
 # PM7_6
 # set_io  PM7_6             -pinname 90     -fixed yes      -DIRECTION Input
 # PM7_7
-# set_io  PM7_7             -pinname 91     -fixed yes      -DIRECTION Input
+set_io  {user_outputs[0]}  -pinname 91     -fixed yes      -DIRECTION Output
 # PM7_8
-# set_io  PM7_8             -pinname 92     -fixed yes      -DIRECTION Input
+set_io  {user_outputs[1]}  -pinname 92     -fixed yes      -DIRECTION Output
 
 # ------------------------------------------------------------------------------
 # PMOD8

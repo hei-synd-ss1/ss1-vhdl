@@ -30,6 +30,6 @@ PACKAGE Kart_Student IS
   constant STD_SERVOS_NUMBER : natural := 4;
 
   -- To easily change user-specific outputs from custom blocks, modify this
-  constant STD_USER_OUTPUTS_NUMBER : natural := 0;
+  constant STD_USER_OUTPUTS_NUMBER : natural := 2;
 
 END Kart_Student;

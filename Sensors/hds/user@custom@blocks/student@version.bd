@@ -101,19 +101,19 @@ value "C:\\dev\\ss1\\ss1-kart\\Prefs\\..\\Sensors\\hds\\userCustomBlocks"
 )
 (vvPair
 variable "date"
-value "14.07.2025"
+value "15.07.2025"
 )
 (vvPair
 variable "day"
-value "lun."
+value "mar."
 )
 (vvPair
 variable "day_long"
-value "lundi"
+value "mardi"
 )
 (vvPair
 variable "dd"
-value "14"
+value "15"
 )
 (vvPair
 variable "entity_name"
@@ -141,7 +141,7 @@ value "Axam"
 )
 (vvPair
 variable "graphical_source_date"
-value "14.07.2025"
+value "15.07.2025"
 )
 (vvPair
 variable "graphical_source_group"
@@ -153,7 +153,7 @@ value "WE10628"
 )
 (vvPair
 variable "graphical_source_time"
-value "18:03:03"
+value "10:35:35"
 )
 (vvPair
 variable "group"
@@ -229,7 +229,7 @@ value "studentVersion"
 )
 (vvPair
 variable "time"
-value "18:03:03"
+value "10:35:35"
 )
 (vvPair
 variable "unit"
@@ -1317,7 +1317,7 @@ tm "BdCompilerDirectivesTextMgr"
 associable 1
 )
 windowSize "-1920,-251,1,797"
-viewArea "-11169,-1084,71939,44078"
+viewArea "-11174,-1084,71973,44099"
 cachedDiagramExtent "-10200,0,74900,43200"
 pageSetupInfo (PageSetupInfo
 ptrCmd ""
@@ -1341,7 +1341,7 @@ exportStdPackageRefs 1
 )
 hasePageBreakOrigin 1
 pageBreakOrigin "-9000,0"
-lastUid 378,0
+lastUid 407,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0

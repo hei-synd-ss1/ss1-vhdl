@@ -105,23 +105,23 @@ VExpander (VariableExpander
 vvMap [
 (vvPair
 variable "HDLDir"
-value "C:\\dev\\did-kart\\Prefs\\..\\ControlRegisters\\hdl"
+value "C:\\dev\\ss1\\ss1-kart\\Prefs\\..\\ControlRegisters\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "C:\\dev\\did-kart\\Prefs\\..\\ControlRegisters\\hds"
+value "C:\\dev\\ss1\\ss1-kart\\Prefs\\..\\ControlRegisters\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "C:\\dev\\did-kart\\Prefs\\..\\ControlRegisters\\hds\\control@registers@registers\\struct.bd.info"
+value "C:\\dev\\ss1\\ss1-kart\\Prefs\\..\\ControlRegisters\\hds\\control@registers@registers\\struct.bd.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "C:\\dev\\did-kart\\Prefs\\..\\ControlRegisters\\hds\\control@registers@registers\\struct.bd.user"
+value "C:\\dev\\ss1\\ss1-kart\\Prefs\\..\\ControlRegisters\\hds\\control@registers@registers\\struct.bd.user"
 )
 (vvPair
 variable "SourceDir"
-value "C:\\dev\\did-kart\\Prefs\\..\\ControlRegisters\\hds"
+value "C:\\dev\\ss1\\ss1-kart\\Prefs\\..\\ControlRegisters\\hds"
 )
 (vvPair
 variable "appl"
@@ -141,15 +141,15 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "C:\\dev\\did-kart\\Prefs\\..\\ControlRegisters\\hds\\control@registers@registers"
+value "C:\\dev\\ss1\\ss1-kart\\Prefs\\..\\ControlRegisters\\hds\\control@registers@registers"
 )
 (vvPair
 variable "d_logical"
-value "C:\\dev\\did-kart\\Prefs\\..\\ControlRegisters\\hds\\controlRegistersRegisters"
+value "C:\\dev\\ss1\\ss1-kart\\Prefs\\..\\ControlRegisters\\hds\\controlRegistersRegisters"
 )
 (vvPair
 variable "date"
-value "27.06.2023"
+value "15.07.2025"
 )
 (vvPair
 variable "day"
@@ -161,7 +161,7 @@ value "mardi"
 )
 (vvPair
 variable "dd"
-value "27"
+value "15"
 )
 (vvPair
 variable "entity_name"
@@ -185,11 +185,11 @@ value "struct"
 )
 (vvPair
 variable "graphical_source_author"
-value "axel.amand"
+value "Axam"
 )
 (vvPair
 variable "graphical_source_date"
-value "27.06.2023"
+value "15.07.2025"
 )
 (vvPair
 variable "graphical_source_group"
@@ -197,11 +197,11 @@ value "UNKNOWN"
 )
 (vvPair
 variable "graphical_source_host"
-value "WE7860"
+value "WE10628"
 )
 (vvPair
 variable "graphical_source_time"
-value "11:47:57"
+value "11:17:23"
 )
 (vvPair
 variable "group"
@@ -209,7 +209,7 @@ value "UNKNOWN"
 )
 (vvPair
 variable "host"
-value "WE7860"
+value "WE10628"
 )
 (vvPair
 variable "language"
@@ -225,7 +225,7 @@ value "$HDS_PROJECT_DIR/../ControlRegisters/work"
 )
 (vvPair
 variable "mm"
-value "06"
+value "07"
 )
 (vvPair
 variable "module_name"
@@ -233,19 +233,19 @@ value "controlRegistersRegisters"
 )
 (vvPair
 variable "month"
-value "juin"
+value "juil."
 )
 (vvPair
 variable "month_long"
-value "juin"
+value "juillet"
 )
 (vvPair
 variable "p"
-value "C:\\dev\\did-kart\\Prefs\\..\\ControlRegisters\\hds\\control@registers@registers\\struct.bd"
+value "C:\\dev\\ss1\\ss1-kart\\Prefs\\..\\ControlRegisters\\hds\\control@registers@registers\\struct.bd"
 )
 (vvPair
 variable "p_logical"
-value "C:\\dev\\did-kart\\Prefs\\..\\ControlRegisters\\hds\\controlRegistersRegisters\\struct.bd"
+value "C:\\dev\\ss1\\ss1-kart\\Prefs\\..\\ControlRegisters\\hds\\controlRegistersRegisters\\struct.bd"
 )
 (vvPair
 variable "package_name"
@@ -273,7 +273,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "11:47:57"
+value "11:17:23"
 )
 (vvPair
 variable "unit"
@@ -281,7 +281,7 @@ value "controlRegistersRegisters"
 )
 (vvPair
 variable "user"
-value "axel.amand"
+value "Axam"
 )
 (vvPair
 variable "version"
@@ -293,11 +293,11 @@ value "struct"
 )
 (vvPair
 variable "year"
-value "2023"
+value "2025"
 )
 (vvPair
 variable "yy"
-value "23"
+value "25"
 )
 ]
 )
@@ -326,7 +326,7 @@ fg "0,0,32768"
 bg "0,0,32768"
 font "Arial,8,0"
 )
-xt "49200,4000,60700,5000"
+xt "49200,4000,60500,5000"
 st "
 by %user on %dd %month %year
 "
@@ -3642,8 +3642,8 @@ tm "BdCompilerDirectivesTextMgr"
 ]
 associable 1
 )
-windowSize "-8,-8,1928,1048"
-viewArea "-2035,-2128,162550,87296"
+windowSize "-1928,-259,8,789"
+viewArea "-2000,-2100,163676,87140"
 cachedDiagramExtent "0,0,141600,85600"
 pageSetupInfo (PageSetupInfo
 ptrCmd ""
@@ -3667,7 +3667,7 @@ exportStdPackageRefs 1
 )
 hasePageBreakOrigin 1
 pageBreakOrigin "0,0"
-lastUid 1310,0
+lastUid 1355,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0
