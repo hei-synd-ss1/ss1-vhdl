@@ -27,3 +27,4 @@ configure wave -timeline 0
 configure wave -timelineunits ms
 update
 WaveRestoreZoom {0 ps} {2730672 ns}
+run -all

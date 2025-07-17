@@ -143,19 +143,19 @@ value "C:\\dev\\ss1\\ss1-kart\\Prefs\\..\\Kart_test\\hds\\kartController_tb"
 )
 (vvPair
 variable "date"
-value "22/10/2024"
+value "17.07.2025"
 )
 (vvPair
 variable "day"
-value "mar."
+value "jeu."
 )
 (vvPair
 variable "day_long"
-value "mardi"
+value "jeudi"
 )
 (vvPair
 variable "dd"
-value "22"
+value "17"
 )
 (vvPair
 variable "entity_name"
@@ -183,7 +183,7 @@ value "Axam"
 )
 (vvPair
 variable "graphical_source_date"
-value "22/10/2024"
+value "17.07.2025"
 )
 (vvPair
 variable "graphical_source_group"
@@ -195,7 +195,7 @@ value "WE10628"
 )
 (vvPair
 variable "graphical_source_time"
-value "14:40:13"
+value "09:18:00"
 )
 (vvPair
 variable "group"
@@ -223,7 +223,7 @@ value "$SCRATCH_DIR/Kart/Kart_test/work"
 )
 (vvPair
 variable "mm"
-value "10"
+value "07"
 )
 (vvPair
 variable "module_name"
@@ -231,11 +231,11 @@ value "kartController_tb"
 )
 (vvPair
 variable "month"
-value "oct."
+value "juil."
 )
 (vvPair
 variable "month_long"
-value "octobre"
+value "juillet"
 )
 (vvPair
 variable "p"
@@ -271,7 +271,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "14:40:13"
+value "09:18:00"
 )
 (vvPair
 variable "unit"
@@ -291,11 +291,11 @@ value "struct"
 )
 (vvPair
 variable "year"
-value "2024"
+value "2025"
 )
 (vvPair
 variable "yy"
-value "24"
+value "25"
 )
 ]
 )
@@ -324,7 +324,7 @@ fg "0,0,32768"
 bg "0,0,32768"
 font "Arial,8,0"
 )
-xt "47200,4000,57000,5000"
+xt "47200,4000,56600,5000"
 st "
 by %user on %dd %month %year
 "
@@ -1918,8 +1918,7 @@ sensorsLog        = \"$SIMULATION_DIR/Kart/UVM/outSensors.txt\"            ( str
 cregLog           = \"$SIMULATION_DIR/Kart/UVM/outCREG.txt\"               ( string   )  
 commandsLogLevel  = 2                                                    ( natural  )  
 outputLogLevel    = 1                                                    ( natural  )  
-uartLogLevel      = 0                                                    ( natural  )  
-"
+uartLogLevel      = 0                                                    ( natural  )  "
 )
 header ""
 )
@@ -3945,7 +3944,7 @@ tm "BdCompilerDirectivesTextMgr"
 associable 1
 )
 windowSize "-1920,-251,1,797"
-viewArea "-2164,75619,85615,121867"
+viewArea "-1720,-1720,212698,114798"
 cachedDiagramExtent "-150,0,96000,112800"
 pageSetupInfo (PageSetupInfo
 ptrCmd ""
@@ -3969,7 +3968,7 @@ exportStdPackageRefs 1
 )
 hasePageBreakOrigin 1
 pageBreakOrigin "-73000,0"
-lastUid 2850,0
+lastUid 2873,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0

@@ -1,15 +1,7 @@
 at               0 ns
 target           Startup
-info             Setting clock frequency to 10MHz
+info             Setting clock frequency @ 10MHz
 clock_frequency  10000000
-info             Setting clock frequency to 11MHz
-clock_frequency  11000000
-info             Setting clock frequency to 12MHz
-clock_frequency  12000000
-info             Setting clock frequency to 13MHz
-clock_frequency  13000000
-info             Setting clock frequency to 14MHz
-clock_frequency  14000000
 
 at               30 ns
 info             Disconnecting ranger
