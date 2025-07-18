@@ -87,7 +87,7 @@ begin
       if i_c4_cnt + 1 = STP_PWM_CNT_TARGET then
         i_c4_cnt <= (others=>'0');
         i_coil4 <= '1'; -- just ensure in case of weird targets
-      elsif (i_c4_cnt + 1 = STP_PWM_CNT_ON) or (i_c1_cnt + 1 = lvec_magnetizingPowerCnt) then
+      elsif (i_c4_cnt + 1 = STP_PWM_CNT_ON) or (i_c4_cnt + 1 = lvec_magnetizingPowerCnt) then
         i_coil4 <= '1';
       elsif i_c4_cnt = 0 then
         i_coil4 <= '0';
