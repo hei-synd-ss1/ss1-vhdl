@@ -393,25 +393,28 @@ BEGIN
     -- send restart
     testInfo <= pad("Restart", testInfo'length);
     write(output,
-      "Setting restart bit high - motor should begin to reset" &
+      "Setting restart bit high - motor should not move since stepper already pressed" &
       " at time " & integer'image(now/1 us) & " us" &
       lf & lf
     );
+    wait until rising_edge(clock);
     hardwareOrientation <= HC_SENSOR_LEFT + HC_RESTART + HC_FORWARDS;
+    wait until rising_edge(clock);
+    hardwareOrientation <= HC_SENSOR_LEFT + HC_FORWARDS;
     wait for testInterval/10;
     wait for 5*testInterval;
-    assert turn1to4 = turnBack
+    assert turn1to4 /= turnBack
       report "Coil direction error"
       severity error;
-    assert turn1to4 /= turnBack
+    assert turn1to4 = turnBack
       report "Coil direction OK"
       severity note;
     write(output, "" & lf);
-    assert magnetizing_power >= "1000"
-      report "Coil magnetization power may be too low"
-      severity error;
     assert magnetizing_power < "1000"
-      report "Coil magnetization power is increased correctly"
+      report "Coil magnetization power is too high"
+      severity error;
+    assert magnetizing_power >= "1000"
+      report "Coil magnetization power is reduced correctly"
       severity note;
     write(output, "" & lf);
     wait for testInterval;
