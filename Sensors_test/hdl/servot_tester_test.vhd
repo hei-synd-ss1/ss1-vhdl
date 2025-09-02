@@ -53,27 +53,26 @@ BEGIN
     wait until reset = '0';
       -- Synchronise on clock
     wait until rising_edge(clock);
-
+    wait for 500 us;
 
 
     -- Your tests here
     testInfo <= pad("My test 1", testInfo'length);
     write(output, "My test 1 at time " & integer'image(now/1 us) & " us" & lf & lf & lf & lf);
-    count_target <= std_ulogic_vector(to_unsigned(0, count_target'length));
-    wait for 5500 * g_clockPeriod; -- wait for 5500 clock cycles
+    count_target <= std_ulogic_vector(to_unsigned(10000, count_target'length));
+    wait for 20 ms; -- wait for 20 ms
 
     
     testInfo <= pad("My test 2", testInfo'length);
     write(output, "My test 2 at time " & integer'image(now/1 us) & " us" & lf & lf & lf & lf);
-    count_target <= std_ulogic_vector(to_unsigned(5678, count_target'length));
-    wait for 3 ms; -- wait for 3 ms
+    count_target <= std_ulogic_vector(to_unsigned(15000, count_target'length));
+    wait for 20 ms; -- wait for 20 ms
 
     
     testInfo <= pad("My test 3", testInfo'length);
     write(output, "My test 3 at time " & integer'image(now/1 us) & " us" & lf & lf & lf & lf);
-    count_target <= std_ulogic_vector(to_unsigned(1234, count_target'length));
-    wait until rising_edge(clock); -- wait for rising edge of clock
-    wait for 3 ms;
+    count_target <= std_ulogic_vector(to_unsigned(20000, count_target'length));
+    wait for 20 ms; -- wait for 20 ms
 
 
 
@@ -90,12 +89,18 @@ BEGIN
 
   process
   begin
+    pulse_20ms <= '0';
+      -- Wait for reset done
+    wait until reset = '0';
+      -- Synchronise on clock
+    wait until rising_edge(clock);
+    wait for 1 ms;
     while true loop
-      pulse_20ms <= '0';
-      wait for 30000.0 * g_clockPeriod;
-      wait for 0.5 * g_clockPeriod;
+      wait until rising_edge(clock);
       pulse_20ms <= '1';
       wait until rising_edge(clock);
+      pulse_20ms <= '0';
+      wait for 20 ms;
     end loop;
   end process;
 
