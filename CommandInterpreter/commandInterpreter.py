@@ -23,6 +23,7 @@ ICON = "ELN_kart.ico"
 NB_LEDS = 8
 NB_ENDSW = 16
 NB_HALL = 2
+NB_USERREG = 8
 WHEEL_DIAMETER_MM = 100
 WHEEL_RATIO = 1.0 / 2.666666666666666
 
@@ -365,16 +366,18 @@ class App(tk.Tk):
             module = 0x80 if isRead else 0xA0
             if register.startswith("LED"):
                 module += int(register[3:]) - 1
+            elif register.startswith("UserReg"):
+                module += NB_LEDS + int(register[7:]) - 1
             elif register == "Voltage":
-                module += NB_LEDS
+                module += NB_LEDS + NB_USERREG
             elif register == "Current":
-                module += NB_LEDS + 1
+                module += NB_LEDS + NB_USERREG + 1
             elif register == "Ranger":
-                module += NB_LEDS + 2
+                module += NB_LEDS + NB_USERREG + 2
             elif register == "EndSW":
-                module += NB_LEDS + 3
+                module += NB_LEDS + NB_USERREG + 3
             elif register.startswith("Hall"):
-                module += NB_LEDS + 3 + int(register[4:])
+                module += NB_LEDS + NB_USERREG + 3 + int(register[4:])
         else:
             module = 0xC0 if isRead else 0xE0
             if register == "HW Control":
@@ -400,6 +403,8 @@ class App(tk.Tk):
         elif self.tx_module.get() == "Sensors":
             for i in range(NB_LEDS):
                 self.tx_register_menu['menu'].add_command(label="LED" + str(i+1), command=lambda i=i: self.tx_register.set("LED" + str(i+1)))
+            for i in range(NB_USERREG):
+                self.tx_register_menu['menu'].add_command(label="UserReg" + str(i+1), command=lambda i=i: self.tx_register.set("UserReg" + str(i+1)))
             self.tx_register_menu['menu'].add_command(label="Voltage", command=lambda: self.tx_register.set("Voltage"))
             self.tx_register_menu['menu'].add_command(label="Current", command=lambda: self.tx_register.set("Current"))
             self.tx_register_menu['menu'].add_command(label="Ranger", command=lambda: self.tx_register.set("Ranger"))
@@ -474,20 +479,22 @@ class App(tk.Tk):
                 t += "Sensors "
                 if r >= 0 and r < NB_LEDS:
                     t += " | Led " + str(r+1) + " | " + ("on" if rxd[2] & 0x80 else "off") + " - period of " + str((rxd[2] & 0x7F) << 8 | rxd[3]) + " ms"
-                elif r == NB_LEDS:
+                elif r >= NB_LEDS and r < NB_LEDS + NB_USERREG:
+                    t += " | UserReg " + str(r - NB_LEDS + 1) + " | " + str(rxd[2] << 8 | rxd[3])
+                elif r == NB_LEDS + NB_USERREG:
                     t += " | Voltage | " + str((rxd[2] << 8 | rxd[3]) * 7.8 * 0.00025) + " V"
-                elif r == NB_LEDS + 1:
+                elif r == NB_LEDS + NB_USERREG + 1:
                     t += " | Current | " + str(((rxd[2] << 8 | rxd[3]) * 0.00025 * 1000)/(100*0.005)) + " mA"
-                elif r == NB_LEDS + 2:
+                elif r == NB_LEDS + NB_USERREG + 2:
                     v = (rxd[2] << 8 | rxd[3])
                     t += " | Distance | " + (str(v * 25.4 / 147) if v > 26 else "indefinite (too low)") + " mm"
-                elif r == NB_LEDS + 3:
+                elif r == NB_LEDS + NB_USERREG + 3:
                     t += " | EndSW | " + str(format((rxd[2] << 8 | rxd[3]), "016b"))
-                elif r >= NB_LEDS + 4 and r <= NB_LEDS + NB_HALL + 3:
+                elif r >= NB_LEDS + NB_USERREG + 4 and r <= NB_LEDS + NB_USERREG + NB_HALL + 3:
                     turns = (rxd[2] & 0xFF) >> 3
                     timems = ((rxd[2] & 0x1F) << 8 | rxd[3]) * 4
-                    t += " | Hall " + str(r - NB_LEDS - 3) + " | half-turns : " + str((rxd[2] << 8) | rxd[3])
-                    #t += " | Hall " + str(r - NB_LEDS - 3) + " | half-turns : " + str(turns) + " in " + str(timems) + " ms" + " - speed of " + ((str(turns * (pi*WHEEL_DIAMETER_MM) * WHEEL_RATIO / (timems / 1000)) + " mm/s") if timems != 0 else "error : time = 0")
+                    t += " | Hall " + str(r - NB_LEDS - NB_USERREG - 3) + " | half-turns : " + str((rxd[2] << 8) | rxd[3])
+                    #t += " | Hall " + str(r - NB_LEDS - NB_USERREG - 3) + " | half-turns : " + str(turns) + " in " + str(timems) + " ms" + " - speed of " + ((str(turns * (pi*WHEEL_DIAMETER_MM) * WHEEL_RATIO / (timems / 1000)) + " mm/s") if timems != 0 else "error : time = 0")
                 else:
                     t += " | Unknown"
             else:
