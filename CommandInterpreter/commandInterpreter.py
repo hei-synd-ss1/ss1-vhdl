@@ -262,20 +262,11 @@ class App(tk.Tk):
         else:
             self.test_buttons_states(True)
             return
-        MsgBox = tk.messagebox.askquestion ('Angles measurement direction','Are angles measured clockwise (test / blue kart : Yes / Yes) ?',icon = 'question')
-        if MsgBox == 'yes':
-            anglesclk = 1
-        elif MsgBox == 'no':
-            anglesclk = 0
-        else:
-            self.test_buttons_states(True)
-            return
-        MsgBox = tk.messagebox.askquestion('Steering end contact', 'Simulate steering end contact (skips steering initialization)?', icon='question')
 
         self.send_n_write(0x20, 31, "Kart Init\n   DC Prescaler to 31")
         self.send_n_write(0xE1, 1, "   BT as connected")
         creg = motfwd
-        self.send_n_write(0xE0, creg, "   CReg to normal mode (0b{0:b})".format(creg))
+        self.send_n_write(0xE0, creg, f"   CReg to {'forward' if creg == 1 else 'reverse'} mode (0b{creg:b})")
         self.send_n_write(text = "Init done\n")
         self.test_buttons_states(True)
 
