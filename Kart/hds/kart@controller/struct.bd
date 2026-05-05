@@ -231,19 +231,19 @@ value "C:\\dev\\ss1\\ss1-kart\\Prefs\\..\\Kart\\hds\\kartController"
 )
 (vvPair
 variable "date"
-value "01.05.2026"
+value "05.05.2026"
 )
 (vvPair
 variable "day"
-value "ven."
+value "mar."
 )
 (vvPair
 variable "day_long"
-value "vendredi"
+value "mardi"
 )
 (vvPair
 variable "dd"
-value "01"
+value "05"
 )
 (vvPair
 variable "entity_name"
@@ -271,7 +271,7 @@ value "Axam"
 )
 (vvPair
 variable "graphical_source_date"
-value "01.05.2026"
+value "05.05.2026"
 )
 (vvPair
 variable "graphical_source_group"
@@ -283,7 +283,7 @@ value "WE10628"
 )
 (vvPair
 variable "graphical_source_time"
-value "10:48:59"
+value "11:54:14"
 )
 (vvPair
 variable "group"
@@ -359,7 +359,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "10:48:59"
+value "11:54:14"
 )
 (vvPair
 variable "unit"
@@ -10780,8 +10780,8 @@ tm "BdCompilerDirectivesTextMgr"
 ]
 associable 1
 )
-windowSize "0,0,1921,1168"
-viewArea "-4325,-4498,297640,176003"
+windowSize "-1928,-259,8,789"
+viewArea "-4300,-4500,300700,154786"
 cachedDiagramExtent "0,0,292000,150400"
 pageSetupInfo (PageSetupInfo
 ptrCmd ""
@@ -10805,7 +10805,7 @@ exportStdPackageRefs 1
 )
 hasePageBreakOrigin 1
 pageBreakOrigin "0,0"
-lastUid 17169,0
+lastUid 17306,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0
