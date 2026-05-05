@@ -1,0 +1,9 @@
+KEY IDE_DES_TOOL "Ide"
+KEY IDE_DES_ADB_PATH "myUserPath\Kart\Board\libero\designer\impl1\Kart_Board.adb"
+LIST SOURCE_FILES
+VALUE "myPath\Board\concat\Kart.pdc;pdc"
+ENDLIST
+LIST OPTIONAL_FILES
+ENDLIST
+LIST VCD_FILES
+ENDLIST

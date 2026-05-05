@@ -1,0 +1,9 @@
+at      	1 us
+info    	setting baud rate
+uart_baud   115200
+
+at      	100 us
+uart_send   Hello
+
+wait    	1 ms
+uart_send   world

@@ -1,0 +1,2 @@
+DEFAULT_FILE atom coilControl_studentVersion_fullStep.vhd
+DEFAULT_ARCHITECTURE atom studentVersion_fullStep

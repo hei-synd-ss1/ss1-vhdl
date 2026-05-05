@@ -1,0 +1,2 @@
+DEFAULT_FILE atom i2cMasterSlave_tester_sim.vhd
+DEFAULT_ARCHITECTURE atom sim
